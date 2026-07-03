@@ -110,6 +110,13 @@
     from { transform: translateY(-26px) scale(0.92); opacity: 0; }
     to   { transform: translateY(0) scale(1); opacity: 1; }
   }
+  /* idle float — on a wrapper so it doesn't fight the img's drop-in;
+     killed under prefers-reduced-motion by the block below */
+  .float-wrap { animation: clara-float 5s ease-in-out infinite alternate; will-change: transform; }
+  @keyframes clara-float {
+    from { transform: translateY(-4px) rotate(-1.5deg); }
+    to   { transform: translateY(4px)  rotate(1.5deg); }
+  }
   main .bubble { margin-bottom: 34px; }
   main h1 {
     font-size: clamp(2.2rem, 6vw, 3.4rem);
@@ -168,7 +175,9 @@
 </nav>
 
 <main>
-  <img class="clara" src="clara.png" alt="Clara — a happy cartoon strawberry with big glossy eyes and blush cheeks">
+  <div class="float-wrap">
+    <img class="clara" src="clara.png" alt="Clara — a happy cartoon strawberry with big glossy eyes and blush cheeks">
+  </div>
   <div class="bubble">I'm still writing this page&nbsp;🍓</div>
   <h1>Support</h1>
   <p class="sub">A proper help center is on its way. Until then, I'd love to hear from you — reach me directly and I'll get back to you.</p>
