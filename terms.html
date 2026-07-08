@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Terms — Clara</title>
-<meta name="description" content="Clara's terms of service — coming soon.">
+<meta name="description" content="Clara's terms of use — what the app does, subscriptions, and the important disclaimer, in plain English.">
 <link rel="icon" type="image/png" href="clara-small.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -138,6 +138,29 @@
   .home-btn:hover { transform: translateY(-2px) scale(1.02); box-shadow: var(--shadow-lift); }
   .home-btn:active { transform: scale(0.97); }
 
+  /* ---------- document ---------- */
+  article.doc {
+    width: 100%; max-width: 700px;
+    text-align: left;
+    margin: 42px auto 40px;
+  }
+  .doc h2 { font-size: 1.3rem; margin: 36px 0 10px; }
+  .doc h2:first-child { margin-top: 0; }
+  .doc p { margin-bottom: 14px; }
+  .doc ul { margin: 0 0 14px; padding-left: 22px; }
+  .doc li { margin-bottom: 8px; }
+  .doc li:last-child { margin-bottom: 0; }
+  .doc a { font-weight: 600; }
+  .doc .callout {
+    background: var(--card);
+    border-radius: 20px;
+    padding: 24px 26px;
+    box-shadow: var(--shadow);
+    margin: 30px 0;
+  }
+  .doc .callout h2 { margin: 0 0 10px; }
+  .doc .callout p:last-child { margin-bottom: 0; }
+
   /* ---------- footer ---------- */
   footer {
     border-top: 1px solid var(--line);
@@ -176,9 +199,49 @@
   <div class="float-wrap">
     <img class="clara" src="clara.png" alt="Clara — a happy cartoon strawberry with big glossy eyes and blush cheeks">
   </div>
-  <div class="bubble">I'm still writing this page&nbsp;🍓</div>
-  <h1>Terms of Service</h1>
-  <p class="sub">Clara's full terms of service are on their way and will be here before launch. In the meantime, if you have any questions, just reach out.</p>
+  <div class="bubble">The fine print, in plain English&nbsp;🍓</div>
+  <h1>Terms of Use</h1>
+  <p class="sub">The rules for using Clara. Effective July 2026.</p>
+
+  <article class="doc">
+    <h2>What Clara is</h2>
+    <p>Clara is an iOS app by Scandihouse Limited (Limassol, Cyprus). It analyzes photos of food labels using AI and gives you informational scores and summaries, personalized to the profile you set up. By using Clara, you agree to these terms.</p>
+
+    <div class="callout">
+      <h2>Clara is not medical advice</h2>
+      <p>Clara is for general informational purposes only. It is <strong>not</strong> medical, dietary, or nutritional advice.</p>
+      <p>AI label reading can make mistakes — it can misread text, miss ingredients, or misinterpret a label. <strong>Always verify the physical product label yourself, especially for allergens.</strong> Never rely on Clara as the sole basis for allergy or other medical safety decisions.</p>
+      <p>To the maximum extent permitted by law, we accept no liability for decisions made in reliance on scan results.</p>
+    </div>
+
+    <h2>Subscriptions</h2>
+    <p>Clara Premium costs $4.99 per week or $59.99 per year. Prices may vary by region. There is no free trial.</p>
+    <ul>
+      <li>Subscriptions auto-renew and are billed through your Apple account.</li>
+      <li>Renewal is charged unless you cancel at least 24 hours before the current period ends.</li>
+      <li>You can cancel anytime in your App Store subscription settings.</li>
+      <li>Refunds are handled by Apple under App Store policy.</li>
+    </ul>
+
+    <h2>Your account</h2>
+    <p>Please provide accurate information when creating your account. You can delete your account in the app at any time.</p>
+
+    <h2>Acceptable use</h2>
+    <p>Don't abuse the service, attempt to reverse engineer the app, or use Clara for anything unlawful.</p>
+
+    <h2>Our content</h2>
+    <p>The Clara app, brand, and content belong to Scandihouse Limited. These terms don't give you any rights to them beyond normal use of the app.</p>
+
+    <h2>No warranty and limitation of liability</h2>
+    <p>Clara is provided "as is", without warranties of any kind. We don't guarantee that scan results are accurate, complete, or suitable for any particular purpose. To the maximum extent permitted by law, Scandihouse Limited is not liable for indirect or consequential loss, or for any decision you make in reliance on the app.</p>
+
+    <h2>Governing law</h2>
+    <p>These terms are governed by the laws of Cyprus.</p>
+
+    <h2>Changes and contact</h2>
+    <p>We may update these terms; material changes will be communicated in the app. This version is effective as of July 2026. Questions? Email <a href="mailto:support@scandihouse.co">support@scandihouse.co</a>.</p>
+  </article>
+
   <a class="home-btn" href="index.html">← Back to home</a>
 </main>
 
