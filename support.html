@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Support — Clara</title>
-<meta name="description" content="Need a hand with Clara? Get in touch — we're here to help.">
+<meta name="description" content="Get help with Clara — how to scan, manage allergies, subscriptions, delete your data, and reach us.">
+<link rel="canonical" href="https://clarascan.app/support">
 <link rel="icon" type="image/png" href="clara-small.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +32,7 @@
     color: var(--ink);
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 17px;
-    line-height: 1.55;
+    line-height: 1.62;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     display: flex;
@@ -43,7 +44,7 @@
     font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: 800;
     letter-spacing: -0.02em;
-    line-height: 1.06;
+    line-height: 1.12;
   }
 
   img { display: block; max-width: 100%; }
@@ -75,69 +76,47 @@
   .nav-cta:hover { transform: scale(1.04); }
   .nav-cta:active { transform: scale(0.97); }
 
-  /* ---------- speech bubble ---------- */
-  .bubble {
-    display: inline-block;
-    background: var(--card);
-    border-radius: var(--r-pill);
-    padding: 11px 22px;
-    font-weight: 700; font-size: 1.02rem;
-    box-shadow: var(--shadow);
-    position: relative;
-  }
-  .bubble::after {
-    content: "";
-    position: absolute; left: 50%; top: -7px;
-    transform: translateX(-50%) rotate(45deg);
-    width: 14px; height: 14px;
-    background: var(--card);
-    border-radius: 3px;
-  }
-
-  /* ---------- placeholder content ---------- */
+  /* ---------- document ---------- */
   main {
     flex: 1;
-    display: flex; flex-direction: column; align-items: center;
-    text-align: center;
-    padding: 80px 24px 96px;
+    width: 100%;
+    max-width: 68ch;
+    margin: 0 auto;
+    padding: 56px 24px 88px;
   }
-  main img.clara {
-    width: min(200px, 46vw);
-    margin: 0 auto 22px;
-    animation: drop-in 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) both;
-  }
-  @keyframes drop-in {
-    from { transform: translateY(-26px) scale(0.92); opacity: 0; }
-    to   { transform: translateY(0) scale(1); opacity: 1; }
-  }
-  /* idle float — on a wrapper so it doesn't fight the img's drop-in;
-     killed under prefers-reduced-motion by the block below */
-  .float-wrap { animation: clara-float 5s ease-in-out infinite alternate; will-change: transform; }
-  @keyframes clara-float {
-    from { transform: translateY(-4px) rotate(-1.5deg); }
-    to   { transform: translateY(4px)  rotate(1.5deg); }
-  }
-  main .bubble { margin-bottom: 34px; }
   main h1 {
-    font-size: clamp(2.2rem, 6vw, 3.4rem);
-    max-width: 640px; margin: 0 auto 16px;
+    font-size: clamp(2rem, 5.4vw, 2.9rem);
+    margin-bottom: 30px;
   }
-  main p.sub {
-    font-size: clamp(1.05rem, 2.4vw, 1.2rem);
-    color: var(--muted); font-weight: 500;
-    max-width: 500px; margin: 0 auto 34px;
+  main h2 {
+    font-size: clamp(1.28rem, 3vw, 1.6rem);
+    margin: 42px 0 14px;
+    scroll-margin-top: 82px;
   }
-  .home-btn {
-    display: inline-flex; align-items: center; gap: 8px;
-    background: var(--btn); color: #FFF; text-decoration: none;
-    font-weight: 700; font-size: 0.98rem;
-    padding: 14px 26px; border-radius: var(--r-pill);
-    box-shadow: var(--shadow);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  main h3 {
+    font-size: 1.12rem;
+    margin: 26px 0 6px;
   }
-  .home-btn:hover { transform: translateY(-2px) scale(1.02); box-shadow: var(--shadow-lift); }
-  .home-btn:active { transform: scale(0.97); }
-  .back-link { margin-top: 18px; color: var(--muted); font-weight: 600; font-size: 0.92rem; text-decoration: none; transition: color 0.15s ease; }
+  main p { margin: 0 0 16px; }
+  main strong { font-weight: 700; }
+  main a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: rgba(46, 42, 38, 0.35);
+    transition: text-decoration-color 0.15s ease;
+  }
+  main a:hover { text-decoration-color: var(--ink); }
+  hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 40px 0 24px;
+  }
+  .back-link {
+    display: inline-block; margin-top: 42px;
+    color: var(--muted); font-weight: 600; font-size: 0.92rem;
+    text-decoration: none; transition: color 0.15s ease;
+  }
   .back-link:hover { color: var(--ink); }
 
   /* ---------- footer ---------- */
@@ -175,13 +154,38 @@
 </nav>
 
 <main>
-  <div class="float-wrap">
-    <img class="clara" src="clara.png" alt="Clara — a happy cartoon strawberry with big glossy eyes and blush cheeks">
-  </div>
-  <div class="bubble">Happy to help&nbsp;🍓</div>
-  <h1>Support</h1>
-  <p class="sub">Questions, feedback, or trouble with Clara? Email us and we'll get back to you. You can also read our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Use</a>.</p>
-  <a class="home-btn" href="mailto:support@scandihouse.co">Email support@scandihouse.co</a>
+  <h1>Support — Clara</h1>
+
+  <h2>Get in touch</h2>
+  <p>Questions, problems, or feedback: <strong><a href="mailto:support@scandihouse.co">support@scandihouse.co</a></strong></p>
+  <p>We read everything and usually reply within a couple of days.</p>
+
+  <h2>Common questions</h2>
+
+  <h3>How do I scan a product?</h3>
+  <p>Point your camera at the product's ingredient list and nutrition table, and take the photo. Clara reads what's printed and shows you what's in it. Good light and a straight-on angle give the best results — if part of a label is blurred or cut off, Clara will tell you a value wasn't readable rather than guess it.</p>
+
+  <h3>Why does Clara say a value isn't readable?</h3>
+  <p>Because it wasn't printed on the label, or the photo didn't capture it clearly. Clara never invents missing numbers. Retake the photo with the panel fully in frame if you think it was there.</p>
+
+  <h3>How do I set my allergies or conditions?</h3>
+  <p>In Settings, under your profile. Clara checks each scanned product against what you've entered. You can add, change or remove them at any time — removing them stops Clara from checking against them.</p>
+
+  <h3>Is Clara medical advice?</h3>
+  <p>No. Clara is an informational tool. It doesn't diagnose, treat, or give medical advice, and its AI can misread a label. Always check the packaging yourself, especially for allergens, and talk to a qualified professional about medical decisions.</p>
+
+  <h3>How do I manage or cancel my subscription?</h3>
+  <p>Subscriptions are handled by Apple. Open the Settings app on your iPhone, tap your name, then Subscriptions.</p>
+
+  <h3>How do I delete my account and my data?</h3>
+  <p>In the app: Settings → Delete Account. This immediately deletes your profile, including any health details, and your scan history. If you can't access the app, email <strong><a href="mailto:support@scandihouse.co">support@scandihouse.co</a></strong> and we'll do it for you.</p>
+
+  <h3>Where can I read your privacy policy?</h3>
+  <p>At <a href="https://clarascan.app/privacy">clarascan.app/privacy</a>.</p>
+
+  <hr>
+  <p><strong>Scandihouse Limited</strong>, Limassol, Cyprus</p>
+
   <a class="back-link" href="index.html">← Back to home</a>
 </main>
 

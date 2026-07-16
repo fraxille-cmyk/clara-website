@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy — Clara</title>
-<meta name="description" content="Clara's privacy policy — what we collect, how label scanning works, and your rights, in plain English.">
+<title>Privacy Policy — Clara</title>
+<meta name="description" content="How Clara handles your data: what we collect, why, who processes it, and how to access or delete it.">
+<link rel="canonical" href="https://clarascan.app/privacy">
 <link rel="icon" type="image/png" href="clara-small.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +32,7 @@
     color: var(--ink);
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 17px;
-    line-height: 1.55;
+    line-height: 1.62;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     display: flex;
@@ -43,7 +44,7 @@
     font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: 800;
     letter-spacing: -0.02em;
-    line-height: 1.06;
+    line-height: 1.12;
   }
 
   img { display: block; max-width: 100%; }
@@ -75,91 +76,52 @@
   .nav-cta:hover { transform: scale(1.04); }
   .nav-cta:active { transform: scale(0.97); }
 
-  /* ---------- speech bubble ---------- */
-  .bubble {
-    display: inline-block;
-    background: var(--card);
-    border-radius: var(--r-pill);
-    padding: 11px 22px;
-    font-weight: 700; font-size: 1.02rem;
-    box-shadow: var(--shadow);
-    position: relative;
-  }
-  .bubble::after {
-    content: "";
-    position: absolute; left: 50%; top: -7px;
-    transform: translateX(-50%) rotate(45deg);
-    width: 14px; height: 14px;
-    background: var(--card);
-    border-radius: 3px;
-  }
-
-  /* ---------- placeholder content ---------- */
+  /* ---------- document ---------- */
   main {
     flex: 1;
-    display: flex; flex-direction: column; align-items: center;
-    text-align: center;
-    padding: 80px 24px 96px;
+    width: 100%;
+    max-width: 68ch;
+    margin: 0 auto;
+    padding: 56px 24px 88px;
   }
-  main img.clara {
-    width: min(200px, 46vw);
-    margin: 0 auto 22px;
-    animation: drop-in 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) both;
-  }
-  @keyframes drop-in {
-    from { transform: translateY(-26px) scale(0.92); opacity: 0; }
-    to   { transform: translateY(0) scale(1); opacity: 1; }
-  }
-  /* idle float — on a wrapper so it doesn't fight the img's drop-in;
-     killed under prefers-reduced-motion by the block below */
-  .float-wrap { animation: clara-float 5s ease-in-out infinite alternate; will-change: transform; }
-  @keyframes clara-float {
-    from { transform: translateY(-4px) rotate(-1.5deg); }
-    to   { transform: translateY(4px)  rotate(1.5deg); }
-  }
-  main .bubble { margin-bottom: 34px; }
   main h1 {
-    font-size: clamp(2.2rem, 6vw, 3.4rem);
-    max-width: 640px; margin: 0 auto 16px;
+    font-size: clamp(2rem, 5.4vw, 2.9rem);
+    margin-bottom: 6px;
   }
-  main p.sub {
-    font-size: clamp(1.05rem, 2.4vw, 1.2rem);
-    color: var(--muted); font-weight: 500;
-    max-width: 500px; margin: 0 auto 34px;
+  .doc-meta {
+    color: var(--muted); font-weight: 600; font-size: 0.95rem;
+    margin: 4px 0 30px;
   }
-  .home-btn {
-    display: inline-flex; align-items: center; gap: 8px;
-    background: var(--btn); color: #FFF; text-decoration: none;
-    font-weight: 700; font-size: 0.98rem;
-    padding: 14px 26px; border-radius: var(--r-pill);
-    box-shadow: var(--shadow);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  main h2 {
+    font-size: clamp(1.28rem, 3vw, 1.6rem);
+    margin: 42px 0 12px;
+    scroll-margin-top: 82px;
   }
-  .home-btn:hover { transform: translateY(-2px) scale(1.02); box-shadow: var(--shadow-lift); }
-  .home-btn:active { transform: scale(0.97); }
-
-  /* ---------- document ---------- */
-  article.doc {
-    width: 100%; max-width: 700px;
-    text-align: left;
-    margin: 42px auto 40px;
+  main p { margin: 0 0 16px; }
+  main ul { margin: 0 0 18px; padding-left: 1.35em; }
+  main li { margin: 0 0 9px; }
+  main li::marker { color: var(--muted); }
+  main strong { font-weight: 700; }
+  main a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: rgba(46, 42, 38, 0.35);
+    transition: text-decoration-color 0.15s ease;
   }
-  .doc h2 { font-size: 1.3rem; margin: 36px 0 10px; }
-  .doc h2:first-child { margin-top: 0; }
-  .doc p { margin-bottom: 14px; }
-  .doc ul { margin: 0 0 14px; padding-left: 22px; }
-  .doc li { margin-bottom: 8px; }
-  .doc li:last-child { margin-bottom: 0; }
-  .doc a { font-weight: 600; }
-  .doc .callout {
-    background: var(--card);
-    border-radius: 20px;
-    padding: 24px 26px;
-    box-shadow: var(--shadow);
-    margin: 30px 0;
+  main a:hover { text-decoration-color: var(--ink); }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.9em;
+    background: var(--cream-deep);
+    padding: 1px 6px; border-radius: 6px;
   }
-  .doc .callout h2 { margin: 0 0 10px; }
-  .doc .callout p:last-child { margin-bottom: 0; }
+  .back-link {
+    display: inline-block; margin-top: 42px;
+    color: var(--muted); font-weight: 600; font-size: 0.92rem;
+    text-decoration: none; transition: color 0.15s ease;
+  }
+  .back-link:hover { color: var(--ink); }
 
   /* ---------- footer ---------- */
   footer {
@@ -196,71 +158,85 @@
 </nav>
 
 <main>
-  <div class="float-wrap">
-    <img class="clara" src="clara.png" alt="Clara — a happy cartoon strawberry with big glossy eyes and blush cheeks">
-  </div>
-  <div class="bubble">Your data, explained plainly&nbsp;🍓</div>
-  <h1>Privacy Policy</h1>
-  <p class="sub">How Clara handles your data — in plain English. Effective July 2026.</p>
+  <h1>Privacy Policy — Clara</h1>
+  <p class="doc-meta"><strong>Last updated: 16 July 2026</strong></p>
 
-  <article class="doc">
-    <h2>Who we are</h2>
-    <p>Clara is made by Scandihouse Limited, based in Limassol, Cyprus. We are the data controller for the personal data described in this policy. You can reach us anytime at <a href="mailto:support@scandihouse.co">support@scandihouse.co</a>.</p>
+  <h2 id="section-1">1. Who we are</h2>
+  <p>Clara is a mobile app operated by <strong>Scandihouse Limited</strong> (registration number HE 493114), a company registered in Limassol, Cyprus. Scandihouse Limited is the data controller for the personal data described in this policy.</p>
+  <p>Contact: <strong><a href="mailto:support@scandihouse.co">support@scandihouse.co</a></strong></p>
 
-    <h2>What we collect</h2>
-    <ul>
-      <li>Your account email address.</li>
-      <li>The health profile you choose to provide: allergies, medical conditions, ingredients you want to avoid, and your dietary goal.</li>
-      <li>Photos of food labels you take for scanning.</li>
-      <li>Your scan results and scan history.</li>
-      <li>Your subscription status.</li>
-      <li>Usage analytics — which features are used, so we can improve the app.</li>
-      <li>Crash reports, if the app malfunctions.</li>
-    </ul>
+  <h2 id="section-2">2. What Clara does</h2>
+  <p>Clara lets you photograph a food label. The photo is analysed to read the product's ingredients and nutrition information, which Clara then presents to you along with scores and, if you have chosen to share health details, checks against those details.</p>
 
-    <h2>What happens to your label photos</h2>
-    <p>When you scan a label, the photo is sent securely to our server and to Google's Gemini API, which reads the text on the label. The photo itself is processed and not stored. Only the extracted text results are saved to your scan history.</p>
+  <h2 id="section-3">3. What we collect, and why</h2>
+  <p><strong>Account information.</strong> Your email address, used to create and sign in to your account.</p>
+  <p><strong>Profile information you choose to enter.</strong> Your name, age, gender, country and region, and your dietary goal. This is used to personalise what Clara shows you.</p>
+  <p><strong>Health information you choose to enter.</strong> Your allergies, medical conditions, and ingredients you wish to avoid. This is used for one purpose only: to check scanned products against those details and tell you when a product may be relevant to you. This is special-category data under the GDPR, and we process it <strong>only with your explicit consent</strong>, which you give during setup and can withdraw at any time (see <a href="#section-7">section 7</a>).</p>
+  <p><strong>Photographs of labels.</strong> When you scan a product, the photograph is transmitted for analysis (see <a href="#section-4">section 4</a>) and the extracted result is saved to your scan history. The photograph may be stored with your scan history, privately and accessible only to your account, and is deleted along with your scan history when you delete your account.</p>
+  <p><strong>Scan history.</strong> The products you have scanned and their results, so you can review them in the app.</p>
+  <p><strong>Usage and diagnostic information.</strong> We collect events describing how the app is used (for example, that a scan was completed or a screen was viewed), linked to your account identifier, to understand and improve the app. If the app crashes or encounters an error, a technical report is sent to our crash-reporting service. We do not include your allergies, conditions or avoided ingredients in analytics events.</p>
+  <p><strong>Subscription status.</strong> Whether you hold an active subscription. Payments are processed by Apple; we never receive or store your payment card details.</p>
+  <p>We do not sell your data. We do not use your data for advertising. We do not share your health information with anyone except the processors listed below, who act on our instructions.</p>
 
-    <div class="callout">
-      <h2>A note on your health data</h2>
-      <p>Your allergies, conditions, and dietary preferences are used for one thing only: personalizing your scan results. We never sell this data or share it for marketing. You provide it voluntarily, and you can edit or delete it in the app at any time.</p>
-    </div>
+  <h2 id="section-4">4. Who processes your data on our behalf</h2>
+  <ul>
+    <li><strong>Google (Gemini API)</strong> — label photographs and, where relevant to the check you have requested, your health details are sent to Google's Gemini service to extract and classify the label's contents. Google processes this data as our processor and does not use it to train its models.</li>
+    <li><strong>Supabase</strong> — hosts our database and authentication. Your account, profile, health details and scan history are stored here, in <strong>Ireland (eu-west-1)</strong>.</li>
+    <li><strong>Adapty</strong> — manages subscription status.</li>
+    <li><strong>Mixpanel</strong> — processes usage analytics events, hosted on Mixpanel's EU servers.</li>
+    <li><strong>Sentry</strong> — receives crash and error reports, hosted in Germany.</li>
+    <li><strong>Apple</strong> — processes payments and, if you enable it, delivers the app and updates.</li>
+  </ul>
 
-    <h2>Who processes data for us</h2>
-    <p>We use a small number of service providers to run Clara:</p>
-    <ul>
-      <li><strong>Supabase</strong> — database and authentication. Data is hosted in the EU (eu-west-1).</li>
-      <li><strong>Google Gemini API</strong> — reads the text on label photos. We use Google's paid API terms, under which your data is not used to train Google's models.</li>
-      <li><strong>Adapty</strong> — subscription management.</li>
-      <li><strong>Mixpanel</strong> — usage analytics, with EU data residency.</li>
-      <li><strong>Sentry</strong> — crash reporting, hosted in the EU (Germany).</li>
-    </ul>
+  <h2 id="section-5">5. Legal bases</h2>
+  <ul>
+    <li><strong>Explicit consent</strong> (GDPR Article 9(2)(a)) — for your allergies, conditions and avoided ingredients.</li>
+    <li><strong>Performance of a contract</strong> (Article 6(1)(b)) — for your account, scans and subscription, which are needed to provide the app.</li>
+    <li><strong>Legitimate interests</strong> (Article 6(1)(f)) — for keeping the service secure and working, for diagnosing faults and crashes, and for understanding how the app is used so we can improve it.</li>
+  </ul>
 
-    <h2>Legal bases</h2>
-    <p>Under the GDPR, we process your data on these bases:</p>
-    <ul>
-      <li><strong>Performance of a contract</strong> — providing the Clara service: your account, scanning, history, and subscription.</li>
-      <li><strong>Consent</strong> — your health profile.</li>
-      <li><strong>Legitimate interest</strong> — usage analytics and crash reporting, to keep the app working and improving.</li>
-    </ul>
+  <h2 id="section-6">6. How long we keep it</h2>
+  <p>Your account, profile, health details and scan history are kept until you delete your account or ask us to delete them. When you delete your account, this data is deleted immediately.</p>
+  <p>Clara also keeps a cache of <strong>product</strong> information — for example, that a particular ingredient carries a particular additive number. This information describes food products, contains nothing about you, and cannot be linked back to you or any other person. It is not deleted when an account is deleted.</p>
+  <p>Usage analytics and crash reports are retained by the processors above under their own retention schedules, and are deleted or de-identified when your account is deleted or on request.</p>
+  <p>Records of your purchases are held independently by Apple and by our subscription provider under their own policies and retention obligations; we cannot delete those on your behalf.</p>
 
-    <h2>Your rights</h2>
-    <p>You can access, correct, or delete your data. Deleting your account in the app removes your profile and scan history. You can also email <a href="mailto:support@scandihouse.co">support@scandihouse.co</a> to exercise any of these rights. If you're unhappy with how we handle your data, you have the right to complain to your data protection supervisory authority.</p>
+  <h2 id="section-7">7. Your rights</h2>
+  <p>Under the GDPR you have the right to:</p>
+  <ul>
+    <li><strong>access</strong> the personal data we hold about you;</li>
+    <li><strong>correct</strong> it if it is wrong;</li>
+    <li><strong>delete</strong> it (see <a href="#section-8">section 8</a>);</li>
+    <li><strong>withdraw your consent</strong> to health-data processing at any time — you can remove your allergies, conditions and avoided ingredients in the app at any time, and Clara will stop checking products against them. Withdrawing consent does not affect processing carried out before you withdrew it;</li>
+    <li><strong>object to or restrict</strong> processing;</li>
+    <li><strong>receive a copy</strong> of your data in a portable format;</li>
+    <li><strong>complain</strong> to a supervisory authority. In Cyprus this is the Office of the Commissioner for Personal Data Protection (<a href="https://www.dataprotection.gov.cy"><code>www.dataprotection.gov.cy</code></a>). You may also complain to the authority in your own country.</li>
+  </ul>
+  <p>To exercise any of these, email <strong><a href="mailto:support@scandihouse.co">support@scandihouse.co</a></strong>.</p>
 
-    <h2>How long we keep data</h2>
-    <p>Account data is kept until you delete your account. Scan history is kept until you delete it, or until you delete your account.</p>
+  <h2 id="section-8">8. Deleting your data</h2>
+  <p>You can delete your account from within the app, in Settings. This immediately deletes your profile — including all health details — and your scan history.</p>
+  <p>If you cannot access the app, email <strong><a href="mailto:support@scandihouse.co">support@scandihouse.co</a></strong> and we will delete your account on request.</p>
 
-    <h2>Children</h2>
-    <p>Clara is not directed at children under 16.</p>
+  <h2 id="section-9">9. International transfers</h2>
+  <p>Our processors may process data outside the European Economic Area. Where they do, transfers are covered by the European Commission's Standard Contractual Clauses or another lawful transfer mechanism.</p>
 
-    <h2>Changes to this policy</h2>
-    <p>We may update this policy from time to time. If we make material changes, we'll let you know in the app. This version is effective as of July 2026.</p>
+  <h2 id="section-10">10. Children</h2>
+  <p>Clara is not intended for children under 16, and we do not knowingly collect data from them. If you believe a child has given us personal data, contact <strong><a href="mailto:support@scandihouse.co">support@scandihouse.co</a></strong> and we will delete it.</p>
 
-    <h2>Contact</h2>
-    <p>Questions about privacy? Email <a href="mailto:support@scandihouse.co">support@scandihouse.co</a>.</p>
-  </article>
+  <h2 id="section-11">11. Security</h2>
+  <p>Access to your data requires authentication, and database rules restrict each account to its own records. Data is encrypted in transit. No system is perfectly secure, but we take reasonable measures to protect your information.</p>
 
-  <a class="home-btn" href="index.html">← Back to home</a>
+  <h2 id="section-12">12. Clara is not medical advice</h2>
+  <p>Clara is an informational tool. It is not a medical device, and it does not diagnose, treat, or provide medical advice. Clara reads labels using AI, which can misread or miss information. <strong>Always check the physical packaging yourself, particularly for allergens, and consult a qualified professional for medical decisions.</strong></p>
+
+  <h2 id="section-13">13. Changes to this policy</h2>
+  <p>If we change this policy we will update the date at the top and, where the change is significant, tell you in the app.</p>
+
+  <h2 id="section-14">14. Contact</h2>
+  <p><strong>Scandihouse Limited</strong>, Limassol, Cyprus — <strong><a href="mailto:support@scandihouse.co">support@scandihouse.co</a></strong></p>
+
+  <a class="back-link" href="index.html">← Back to home</a>
 </main>
 
 <footer>
