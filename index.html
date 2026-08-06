@@ -93,6 +93,47 @@
   .nav-cta:hover { transform: scale(1.04); }
   .nav-cta:active { transform: scale(0.97); }
 
+  /* ---------- in-app browser nudge ----------
+     TikTok / Instagram / Facebook webviews refuse to open App Store links, so
+     those visitors — and only those, see the UA check at the top of <body> —
+     get a small Clara-shaped hint. Hidden for everyone else. */
+  .iab-nudge { display: none; }
+  .in-app-browser .iab-nudge {
+    display: flex; align-items: center; gap: 13px;
+    width: min(560px, calc(100% - 32px));
+    margin: 16px auto 0;
+    padding: 12px 14px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--r-card);
+    box-shadow: var(--shadow);
+  }
+  .iab-nudge img { width: 44px; height: 44px; flex-shrink: 0; }
+  .iab-nudge p {
+    flex: 1;
+    font-size: 0.95rem; font-weight: 600; line-height: 1.35;
+  }
+  .iab-dots {
+    display: inline-block;
+    background: var(--cream-deep);
+    border-radius: var(--r-pill);
+    padding: 0 8px;
+    font-weight: 800; letter-spacing: 0.05em;
+  }
+  .iab-close {
+    flex-shrink: 0; align-self: flex-start;
+    width: 26px; height: 26px;
+    display: grid; place-items: center;
+    background: var(--cream-deep); color: var(--muted);
+    border: 0; border-radius: 50%;
+    font-family: inherit; font-size: 1.05rem; line-height: 1;
+    cursor: pointer;
+    transition: color 0.15s ease, transform 0.15s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .iab-close:hover { color: var(--ink); }
+  .iab-close:active { transform: scale(0.92); }
+
   /* ---------- speech bubble ---------- */
   .bubble {
     display: inline-block;
@@ -374,11 +415,13 @@
      prefers-reduced-motion by the existing media block below. */
   .float-wrap,
   .clara-says img,
-  .final img {
+  .final img,
+  .iab-nudge img {
     animation: clara-float 5s ease-in-out infinite alternate;
     will-change: transform;
   }
   .final img { animation-duration: 5.2s; animation-delay: -3s; }
+  .iab-nudge img { animation-duration: 4.4s; animation-delay: -1.5s; }
   @keyframes clara-float {
     from { transform: translateY(-4px) rotate(-1.5deg); }
     to   { transform: translateY(4px)  rotate(1.5deg); }
@@ -429,6 +472,12 @@
     section { padding: 64px 20px; }
   }
 
+  @media (max-width: 420px) {
+    .in-app-browser .iab-nudge { gap: 10px; padding: 11px 12px; }
+    .iab-nudge img { width: 38px; height: 38px; }
+    .iab-nudge p { font-size: 0.88rem; }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition-duration: 0.01s !important; }
     .marquee-track { animation: none !important; flex-wrap: wrap; width: auto; justify-content: center; }
@@ -437,6 +486,23 @@
 </style>
 </head>
 <body>
+
+<script>
+  // Flag in-app browsers (TikTok, Instagram, Facebook, LINE, Snapchat) before
+  // paint — Apple blocks App Store links inside those webviews, so they get the
+  // .iab-nudge below. Any other browser never matches and never sees it.
+  (function () {
+    var tokens = ['musical_ly', 'tiktok', 'bytedancewebview', 'instagram',
+                  'fban', 'fbav', 'fb_iab', 'line', 'snapchat'];
+    var ua = (navigator.userAgent || '').toLowerCase();
+    for (var i = 0; i < tokens.length; i++) {
+      if (ua.indexOf(tokens[i]) !== -1) {
+        document.body.classList.add('in-app-browser');
+        break;
+      }
+    }
+  })();
+</script>
 
 <nav>
   <div class="nav-inner">
@@ -447,6 +513,12 @@
     <a class="nav-cta" href="#get">Get the app</a>
   </div>
 </nav>
+
+<div class="iab-nudge" id="iab-nudge" role="note">
+  <img src="clara-small.png" alt="" aria-hidden="true">
+  <p>Psst — tap the <span class="iab-dots">•••</span> up top and hit “Open in browser” to grab me from the App&nbsp;Store 🍓</p>
+  <button class="iab-close" id="iab-close" type="button" aria-label="Dismiss this tip">×</button>
+</div>
 
 <!-- ================= HERO ================= -->
 <header class="hero" id="top">
@@ -761,6 +833,11 @@
     clara.classList.add('boop');
     bubble.textContent = lines[li % lines.length];
     li++;
+  });
+
+  // In-app browser nudge — dismiss for this page view only, no storage
+  document.getElementById('iab-close').addEventListener('click', () => {
+    document.getElementById('iab-nudge').remove();
   });
 
   // Duplicate marquee content for a seamless loop
