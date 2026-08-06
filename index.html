@@ -488,12 +488,12 @@
 <body>
 
 <script>
-  // Flag in-app browsers (TikTok, Instagram, Facebook, LINE, Snapchat) before
-  // paint — Apple blocks App Store links inside those webviews, so they get the
+  // Flag in-app browsers (TikTok, Instagram, Facebook, Snapchat) before paint —
+  // Apple blocks App Store links inside those webviews, so they get the
   // .iab-nudge below. Any other browser never matches and never sees it.
   (function () {
     var tokens = ['musical_ly', 'tiktok', 'bytedancewebview', 'instagram',
-                  'fban', 'fbav', 'fb_iab', 'line', 'snapchat'];
+                  'fban', 'fbav', 'fb_iab', 'snapchat'];
     var ua = (navigator.userAgent || '').toLowerCase();
     for (var i = 0; i < tokens.length; i++) {
       if (ua.indexOf(tokens[i]) !== -1) {
