@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agar (E406) — Clara ingredient library</title>
+<meta name="description" content="Agar is a natural gelling agent made from red seaweed, used to thicken and stabilise food, and is considered a benign additive by Clara.">
+<link rel="canonical" href="https://clarascan.app/ingredients/e406/">
+<meta property="og:title" content="Agar (E406) — Clara ingredient library">
+<meta property="og:description" content="Agar is a natural gelling agent made from red seaweed, used to thicken and stabilise food, and is considered a benign additive by Clara.">
+<meta property="og:url" content="https://clarascan.app/ingredients/e406/">
+<meta property="og:image" content="https://clarascan.app/clara.png">
+<link rel="icon" type="image/png" href="/clara-small.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --cream: #F5F1E7; --cream-deep: #EFE9DB; --card: #FFFFFF; --ink: #2E2A26; --btn: #2A2724;
+          --red: #D93C47; --red-soft: #F6DCDD; --green: #679D48; --green-soft: #E4EDDC; --gold: #C68908; --gold-soft: #FAEBC8;
+          --muted: #8A8478; --line: #E7E0D2; --shadow: 0 10px 28px rgba(58, 50, 40, 0.09); --r-pill: 999px; --r-card: 22px; }
+  body { background: var(--cream); color: var(--ink); font-family: 'Hanken Grotesk', sans-serif; font-size: 17px; line-height: 1.62;
+         overflow-x: hidden; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; min-height: 100vh; }
+  h1, h2, h3 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; }
+  img { display: block; max-width: 100%; } a { color: inherit; }
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(245, 241, 231, 0.88); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(231, 224, 210, 0.6); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 24px; max-width: 1060px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; } .brand img { width: 34px; height: 34px; }
+  .brand span { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: -0.02em; }
+  .nav-cta { background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; font-size: 0.92rem; padding: 10px 20px; border-radius: var(--r-pill); }
+  main { flex: 1; width: 100%; max-width: 68ch; margin: 0 auto; padding: 48px 24px 88px; }
+  main h1 { font-size: clamp(2rem, 5.4vw, 2.9rem); margin-bottom: 12px; }
+  main h2 { font-size: clamp(1.28rem, 3vw, 1.6rem); margin: 34px 0 12px; scroll-margin-top: 82px; }
+  .crumbs { font-size: 0.9rem; color: var(--muted); margin-bottom: 18px; } .crumbs a { text-decoration: none; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 20px; }
+  .chip { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.02em; padding: 6px 12px; border-radius: var(--r-pill); background: var(--cream-deep); color: var(--muted); }
+  .chip.good { background: var(--green-soft); color: var(--green); } .chip.avoid { background: var(--red-soft); color: var(--red); }
+  .chip.neutral { background: var(--cream-deep); color: var(--ink); } .chip.e { background: var(--card); border: 1px solid var(--line); }
+  .tldr { font-size: 1.15rem; font-weight: 600; line-height: 1.5; margin-bottom: 8px; }
+  .section { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; box-shadow: var(--shadow); }
+  .section h2 { margin: 0 0 8px; font-size: 1.2rem; }
+  .sources { font-size: 0.85rem; color: var(--muted); margin-top: 26px; } .sources li { margin-left: 18px; }
+  .cta { margin-top: 40px; background: var(--card); border-radius: var(--r-card); padding: 26px; text-align: center; box-shadow: var(--shadow); }
+  .cta p { color: var(--muted); margin: 6px 0 16px; }
+  .store-btn { display: inline-block; background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; padding: 13px 24px; border-radius: var(--r-pill); }
+  .stub { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; color: var(--muted); }
+  .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
+  .letters a { text-decoration: none; font-weight: 700; font-size: 0.85rem; padding: 4px 9px; border-radius: var(--r-pill); background: var(--cream-deep); }
+  .list { list-style: none; } .list li { padding: 9px 0; border-bottom: 1px solid var(--line); display: flex; gap: 10px; align-items: baseline; }
+  .list a { text-decoration: none; font-weight: 600; } .list .e { font-size: 0.8rem; color: var(--muted); } .list .nr { font-size: 0.78rem; color: var(--muted); margin-left: auto; }
+  footer { border-top: 1px solid var(--line); padding: 26px 24px; font-size: 0.85rem; color: var(--muted); }
+  .foot-inner { max-width: 1060px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; }
+  .foot-links a { margin-left: 16px; text-decoration: none; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/"><img src="/clara-small.png" alt="Clara the strawberry"><span>Clara</span></a>
+    <a class="nav-cta" href="https://apps.apple.com/app/id6788532185">Get the app</a>
+  </div>
+</nav>
+<main>
+<p class="crumbs"><a href="/">Clara</a> › <a href="/ingredients/">Ingredients</a> › Agar</p>
+<h1>Agar (E406)</h1>
+<div class="chips"><span class="chip e">E406</span><span class="chip">Additive</span><span class="chip neutral">Neutral · benign</span></div><p class="tldr">Agar is a natural gelling agent made from red seaweed, used to thicken and stabilise food, and is considered a benign additive by Clara.</p><section class="section"><h2>What it is</h2><p>Agar, also known as agar-agar, is a natural substance obtained from the cell walls of certain species of red algae. It is a mixture of two main carbohydrates, agarose and agaropectin, which give it its remarkable gelling properties. For centuries, people in coastal communities have harvested these seaweeds to set desserts and soups. It behaves much like animal gelatin but is entirely plant-based, making it a popular alternative for vegetarian and vegan cooking. In the kitchen, it dissolves in hot liquid and cools into a firm, clear jelly.</p></section><section class="section"><h2>How it's made</h2><p>The journey of agar begins with the harvesting of red seaweed, primarily from the genera Gelidium and Gracilaria, which grow in cold coastal waters. Once gathered, the seaweed is washed thoroughly to remove sand and salt, then boiled in water for several hours to extract the soluble gelling compounds. The resulting hot liquid is filtered to remove the solid plant matter. As the liquid cools, it forms a thick gel, which is then frozen and thawed, or mechanically pressed, to squeeze out the water. The remaining pure agar is dried and ground into a fine, off-white powder.</p></section><section class="section"><h2>Why manufacturers use it</h2><p>Food manufacturers choose agar because it is an exceptionally strong gelling agent that remains stable at much higher temperatures than animal gelatin. Once an agar gel sets, it does not melt back into a liquid until it reaches nearly eighty-five degrees Celsius, which helps products maintain their structure during transport and storage in warm climates. It also provides a clean, firm texture and releases flavours beautifully without leaving a greasy mouthfeel. Because it works in very low concentrations, it is a highly cost-effective way to stabilise emulsions and keep ingredients from separating.</p></section><section class="section"><h2>Is it harmful</h2><p>Clara rates this NEUTRAL, a benign additive. This seaweed-derived gelling agent has a long history of traditional food use and presents no credible safety concerns at the levels typically found in our food. Because it is a soluble fibre, it passes through our digestive system largely unchanged, without being absorbed by the body. The European Union authorises its use in a wide variety of foods, and no upper limit is established for its daily intake because it is considered so well-tolerated. It is a straightforward, plant-based ingredient that helps structure food without disrupting our internal systems.</p></section><section class="section"><h2>What the science says</h2><p>Scientific bodies have thoroughly evaluated agar and found no reason for concern. The Joint FAO/WHO Expert Committee on Food Additives first assessed agar decades ago and established that no numerical limit on daily intake was necessary. More recently, the European Food Safety Authority re-evaluated agar as part of its systematic review of food additives, confirming that the substance is not absorbed in the intestine but is instead fermented by gut microbes into harmless compounds. The evaluation concluded that agar is non-genotoxic and does not interfere with nutrient absorption at normal dietary levels.</p></section><section class="section"><h2>Where you'll find it</h2><p>You will find agar in a wide range of products that require a firm, stable texture, such as vegetarian jellies, gummy sweets, ice creams, yoghurts, canned meats, and bakery glazes. On ingredient lists, it is easy to spot. It is typically declared simply as agar, agar-agar, or by its European code, E406. Because it is a plant-derived ingredient, it is also frequently highlighted on packaging as a vegan alternative to gelatin in dairy-free desserts, marshmallow fillings, and fruit preserves.</p></section><div class="sources"><strong>Sources</strong><ul><li>EFSA Journal, Scientific Opinion on the re-evaluation of agar (E 406) as a food additive, 2016</li><li>JECFA, Evaluation of certain food additives (Thirty-fifth report of the Joint FAO/WHO Expert Committee on Food Additives), WHO Technical Report Series No. 789, 1990</li><li>Regulation (EC) No 1333/2008 of the European Parliament and of the Council on food additives, 2008</li></ul></div><div class="cta">
+  <h2>Scan the whole label</h2>
+  <p>Clara reads every ingredient on a pack and tells you what's really inside — in seconds.</p>
+  <a class="store-btn" href="https://apps.apple.com/app/id6788532185">Get Clara on the App Store</a>
+</div>
+</main>
+<footer>
+  <div class="foot-inner">
+    <span>© 2026 Scandihouse Limited · Limassol, Cyprus</span>
+    <span class="foot-links"><a href="/ingredients/">Ingredients</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/support.html">Support</a></span>
+  </div>
+</footer>
+</body>
+</html>

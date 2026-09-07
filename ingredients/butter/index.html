@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Butter — Clara ingredient library</title>
+<meta name="description" content="Butter is a traditional dairy fat made by churning cream, used to add rich flavour and texture to foods, and rated neutral by Clara.">
+<link rel="canonical" href="https://clarascan.app/ingredients/butter/">
+<meta property="og:title" content="Butter — Clara ingredient library">
+<meta property="og:description" content="Butter is a traditional dairy fat made by churning cream, used to add rich flavour and texture to foods, and rated neutral by Clara.">
+<meta property="og:url" content="https://clarascan.app/ingredients/butter/">
+<meta property="og:image" content="https://clarascan.app/clara.png">
+<link rel="icon" type="image/png" href="/clara-small.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --cream: #F5F1E7; --cream-deep: #EFE9DB; --card: #FFFFFF; --ink: #2E2A26; --btn: #2A2724;
+          --red: #D93C47; --red-soft: #F6DCDD; --green: #679D48; --green-soft: #E4EDDC; --gold: #C68908; --gold-soft: #FAEBC8;
+          --muted: #8A8478; --line: #E7E0D2; --shadow: 0 10px 28px rgba(58, 50, 40, 0.09); --r-pill: 999px; --r-card: 22px; }
+  body { background: var(--cream); color: var(--ink); font-family: 'Hanken Grotesk', sans-serif; font-size: 17px; line-height: 1.62;
+         overflow-x: hidden; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; min-height: 100vh; }
+  h1, h2, h3 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; }
+  img { display: block; max-width: 100%; } a { color: inherit; }
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(245, 241, 231, 0.88); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(231, 224, 210, 0.6); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 24px; max-width: 1060px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; } .brand img { width: 34px; height: 34px; }
+  .brand span { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: -0.02em; }
+  .nav-cta { background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; font-size: 0.92rem; padding: 10px 20px; border-radius: var(--r-pill); }
+  main { flex: 1; width: 100%; max-width: 68ch; margin: 0 auto; padding: 48px 24px 88px; }
+  main h1 { font-size: clamp(2rem, 5.4vw, 2.9rem); margin-bottom: 12px; }
+  main h2 { font-size: clamp(1.28rem, 3vw, 1.6rem); margin: 34px 0 12px; scroll-margin-top: 82px; }
+  .crumbs { font-size: 0.9rem; color: var(--muted); margin-bottom: 18px; } .crumbs a { text-decoration: none; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 20px; }
+  .chip { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.02em; padding: 6px 12px; border-radius: var(--r-pill); background: var(--cream-deep); color: var(--muted); }
+  .chip.good { background: var(--green-soft); color: var(--green); } .chip.avoid { background: var(--red-soft); color: var(--red); }
+  .chip.neutral { background: var(--cream-deep); color: var(--ink); } .chip.e { background: var(--card); border: 1px solid var(--line); }
+  .tldr { font-size: 1.15rem; font-weight: 600; line-height: 1.5; margin-bottom: 8px; }
+  .section { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; box-shadow: var(--shadow); }
+  .section h2 { margin: 0 0 8px; font-size: 1.2rem; }
+  .sources { font-size: 0.85rem; color: var(--muted); margin-top: 26px; } .sources li { margin-left: 18px; }
+  .cta { margin-top: 40px; background: var(--card); border-radius: var(--r-card); padding: 26px; text-align: center; box-shadow: var(--shadow); }
+  .cta p { color: var(--muted); margin: 6px 0 16px; }
+  .store-btn { display: inline-block; background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; padding: 13px 24px; border-radius: var(--r-pill); }
+  .stub { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; color: var(--muted); }
+  .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
+  .letters a { text-decoration: none; font-weight: 700; font-size: 0.85rem; padding: 4px 9px; border-radius: var(--r-pill); background: var(--cream-deep); }
+  .list { list-style: none; } .list li { padding: 9px 0; border-bottom: 1px solid var(--line); display: flex; gap: 10px; align-items: baseline; }
+  .list a { text-decoration: none; font-weight: 600; } .list .e { font-size: 0.8rem; color: var(--muted); } .list .nr { font-size: 0.78rem; color: var(--muted); margin-left: auto; }
+  footer { border-top: 1px solid var(--line); padding: 26px 24px; font-size: 0.85rem; color: var(--muted); }
+  .foot-inner { max-width: 1060px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; }
+  .foot-links a { margin-left: 16px; text-decoration: none; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/"><img src="/clara-small.png" alt="Clara the strawberry"><span>Clara</span></a>
+    <a class="nav-cta" href="https://apps.apple.com/app/id6788532185">Get the app</a>
+  </div>
+</nav>
+<main>
+<p class="crumbs"><a href="/">Clara</a> › <a href="/ingredients/">Ingredients</a> › Butter</p>
+<h1>Butter</h1>
+<div class="chips"><span class="chip">Processed ingredient</span><span class="chip neutral">Neutral</span></div><p class="tldr">Butter is a traditional dairy fat made by churning cream, used to add rich flavour and texture to foods, and rated neutral by Clara.</p><section class="section"><h2>What it is</h2><p>Butter is a familiar kitchen staple made almost entirely of milk fat, water, and milk solids. It is a natural emulsion that has been part of the human diet for thousands of years, long before the advent of modern food processing. Unlike highly refined vegetable oils, butter retains its natural structure and contains small amounts of fat-soluble vitamins. It is prized for its rich, creamy mouthfeel and its distinctively pleasant aroma, which comes from natural compounds produced during the ripening of cream.</p></section><section class="section"><h2>How it's made</h2><p>The journey of butter begins with fresh cow milk, which is spun in a centrifuge to separate the lighter cream from the heavier skimmed milk. This cream is then pasteurised to ensure it is clean and stable. Next, the cream is aged and cooled to allow the fat crystals to form. The crucial step is churning, a mechanical shaking process that breaks the fat globule membranes, causing the tiny droplets of fat to clump together into butter grains. The liquid buttermilk is drained away, and the remaining butter grains are worked and kneaded together into a smooth, cohesive block.</p></section><section class="section"><h2>Why manufacturers use it</h2><p>Food manufacturers choose butter because it delivers an unmatched depth of flavour and a melt-in-the-mouth texture that artificial fats struggle to replicate. In baking, butter plays a vital structural role by shortening gluten strands, which creates a tender crumb in cakes and a delicate, flaky structure in pastries. It also acts as an excellent carrier for other flavours and helps to brown foods beautifully during cooking through natural caramelisation. While vegetable fats are often cheaper, butter remains the premium choice for high-quality biscuits, pastries, and sauces.</p></section><section class="section"><h2>Is it harmful</h2><p>Clara rates this NEUTRAL. Butter is a traditional food ingredient rather than a chemical additive, so it does not carry a risk tier or an artificial additive classification. It is a concentrated source of saturated fats, which means it is best enjoyed in moderation as part of a balanced diet. No regulatory upper limit is established for butter itself, as it is treated as a standard food ingredient rather than a controlled substance. It is a wholesome, minimally processed option for those who prefer simple, traditional ingredients over highly refined alternatives.</p></section><section class="section"><h2>What the science says</h2><p>Because butter is a traditional agricultural product, it is regulated as a standard food rather than an additive. Major food safety authorities, including the FDA and the European Commission, recognise butter as a standard dairy product with a long history of safe consumption. Scientific evaluations focus primarily on its fat profile, noting that while it is high in saturated fatty acids, it also contains short-chain and medium-chain fatty acids which the body metabolises differently. There are no active safety re-evaluations or chemical exposure limits associated with its normal culinary use.</p></section><section class="section"><h2>Where you'll find it</h2><p>You will find butter listed simply as butter on food labels, occasionally specified as salted butter or unsalted butter depending on the recipe. It is a key ingredient in premium baked goods, shortbread, croissants, ready meals, rich sauces, and confectionery. Because it is a whole food ingredient rather than a food additive, it does not have an E-number. It is often highlighted on packaging to signal quality, as manufacturers know shoppers appreciate seeing real butter instead of processed vegetable fats.</p></section><div class="sources"><strong>Sources</strong><ul><li>FDA Regulation 21 CFR Section 101.4 for food labeling</li><li>Regulation (EC) No 1308/2013 on the common organisation of the markets in agricultural products</li></ul></div><div class="cta">
+  <h2>Scan the whole label</h2>
+  <p>Clara reads every ingredient on a pack and tells you what's really inside — in seconds.</p>
+  <a class="store-btn" href="https://apps.apple.com/app/id6788532185">Get Clara on the App Store</a>
+</div>
+</main>
+<footer>
+  <div class="foot-inner">
+    <span>© 2026 Scandihouse Limited · Limassol, Cyprus</span>
+    <span class="foot-links"><a href="/ingredients/">Ingredients</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/support.html">Support</a></span>
+  </div>
+</footer>
+</body>
+</html>

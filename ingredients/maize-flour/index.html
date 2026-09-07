@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maize flour — Clara ingredient library</title>
+<meta name="description" content="Maize flour is a simple, gluten-free flour made from ground dried corn kernels, used to thicken sauces and give structure to baked goods.">
+<link rel="canonical" href="https://clarascan.app/ingredients/maize-flour/">
+<meta property="og:title" content="Maize flour — Clara ingredient library">
+<meta property="og:description" content="Maize flour is a simple, gluten-free flour made from ground dried corn kernels, used to thicken sauces and give structure to baked goods.">
+<meta property="og:url" content="https://clarascan.app/ingredients/maize-flour/">
+<meta property="og:image" content="https://clarascan.app/clara.png">
+<link rel="icon" type="image/png" href="/clara-small.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --cream: #F5F1E7; --cream-deep: #EFE9DB; --card: #FFFFFF; --ink: #2E2A26; --btn: #2A2724;
+          --red: #D93C47; --red-soft: #F6DCDD; --green: #679D48; --green-soft: #E4EDDC; --gold: #C68908; --gold-soft: #FAEBC8;
+          --muted: #8A8478; --line: #E7E0D2; --shadow: 0 10px 28px rgba(58, 50, 40, 0.09); --r-pill: 999px; --r-card: 22px; }
+  body { background: var(--cream); color: var(--ink); font-family: 'Hanken Grotesk', sans-serif; font-size: 17px; line-height: 1.62;
+         overflow-x: hidden; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; min-height: 100vh; }
+  h1, h2, h3 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; }
+  img { display: block; max-width: 100%; } a { color: inherit; }
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(245, 241, 231, 0.88); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(231, 224, 210, 0.6); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 24px; max-width: 1060px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; } .brand img { width: 34px; height: 34px; }
+  .brand span { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: -0.02em; }
+  .nav-cta { background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; font-size: 0.92rem; padding: 10px 20px; border-radius: var(--r-pill); }
+  main { flex: 1; width: 100%; max-width: 68ch; margin: 0 auto; padding: 48px 24px 88px; }
+  main h1 { font-size: clamp(2rem, 5.4vw, 2.9rem); margin-bottom: 12px; }
+  main h2 { font-size: clamp(1.28rem, 3vw, 1.6rem); margin: 34px 0 12px; scroll-margin-top: 82px; }
+  .crumbs { font-size: 0.9rem; color: var(--muted); margin-bottom: 18px; } .crumbs a { text-decoration: none; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 20px; }
+  .chip { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.02em; padding: 6px 12px; border-radius: var(--r-pill); background: var(--cream-deep); color: var(--muted); }
+  .chip.good { background: var(--green-soft); color: var(--green); } .chip.avoid { background: var(--red-soft); color: var(--red); }
+  .chip.neutral { background: var(--cream-deep); color: var(--ink); } .chip.e { background: var(--card); border: 1px solid var(--line); }
+  .tldr { font-size: 1.15rem; font-weight: 600; line-height: 1.5; margin-bottom: 8px; }
+  .section { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; box-shadow: var(--shadow); }
+  .section h2 { margin: 0 0 8px; font-size: 1.2rem; }
+  .sources { font-size: 0.85rem; color: var(--muted); margin-top: 26px; } .sources li { margin-left: 18px; }
+  .cta { margin-top: 40px; background: var(--card); border-radius: var(--r-card); padding: 26px; text-align: center; box-shadow: var(--shadow); }
+  .cta p { color: var(--muted); margin: 6px 0 16px; }
+  .store-btn { display: inline-block; background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; padding: 13px 24px; border-radius: var(--r-pill); }
+  .stub { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; color: var(--muted); }
+  .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
+  .letters a { text-decoration: none; font-weight: 700; font-size: 0.85rem; padding: 4px 9px; border-radius: var(--r-pill); background: var(--cream-deep); }
+  .list { list-style: none; } .list li { padding: 9px 0; border-bottom: 1px solid var(--line); display: flex; gap: 10px; align-items: baseline; }
+  .list a { text-decoration: none; font-weight: 600; } .list .e { font-size: 0.8rem; color: var(--muted); } .list .nr { font-size: 0.78rem; color: var(--muted); margin-left: auto; }
+  footer { border-top: 1px solid var(--line); padding: 26px 24px; font-size: 0.85rem; color: var(--muted); }
+  .foot-inner { max-width: 1060px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; }
+  .foot-links a { margin-left: 16px; text-decoration: none; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/"><img src="/clara-small.png" alt="Clara the strawberry"><span>Clara</span></a>
+    <a class="nav-cta" href="https://apps.apple.com/app/id6788532185">Get the app</a>
+  </div>
+</nav>
+<main>
+<p class="crumbs"><a href="/">Clara</a> › <a href="/ingredients/">Ingredients</a> › Maize flour</p>
+<h1>Maize flour</h1>
+<div class="chips"><span class="chip">Processed ingredient</span><span class="chip neutral">Neutral</span></div><p class="tldr">Maize flour is a simple, gluten-free flour made from ground dried corn kernels, used to thicken sauces and give structure to baked goods.</p><section class="section"><h2>What it is</h2><p>Maize flour is a fine powder made by milling whole dried corn kernels. It is a staple food across the globe, known for its bright yellow or pale white colour depending on the variety of corn used. Unlike cornstarch, which is just the isolated starch of the grain, maize flour contains the protein, fibre, and nutrients of the whole kernel. It is naturally free from gluten, making it a popular alternative to wheat flour for people who prefer to avoid gluten in their daily diet.</p></section><section class="section"><h2>How it's made</h2><p>The journey of maize flour begins in the fields where corn is grown and allowed to dry on the stalk. Once harvested, the kernels are cleaned to remove any debris and then milled. In traditional milling, large stones grind the whole kernel. In modern industrial milling, rollers break down the kernel, sometimes removing the tough outer hull and the oily germ to extend the shelf life of the flour, before grinding the remaining portion into a uniform, fine powder that is ready for packaging.</p></section><section class="section"><h2>Why manufacturers use it</h2><p>Food makers choose maize flour because it provides structure, bulk, and a pleasant golden colour to baked goods. Since it does not contain gluten, it behaves differently to wheat flour, helping to create a tender, crumbly texture in biscuits and cakes rather than a chewy one. It is also an excellent thickener for soups, sauces, and gravies because it absorbs liquid efficiently when heated, and it serves as a cost-effective, neutral-tasting base for many extruded breakfast cereals and snacks.</p></section><section class="section"><h2>Is it harmful</h2><p>Clara rates this NEUTRAL. As a whole-food ingredient rather than a chemical additive, it is digested by the body just like any other complex carbohydrate. It provides energy through starches and contains small amounts of dietary fibre and protein. There are no known safety concerns or negative health effects associated with consuming maize flour as part of a balanced diet, and no daily intake limit is established by food safety authorities.</p></section><section class="section"><h2>What the science says</h2><p>Because maize flour is a traditional food ingredient rather than an additive, it does not undergo the same chemical safety evaluations as preservatives or artificial colours. Major food authorities view it as a standard dietary component. The European Food Safety Authority and the US Food and Drug Administration recognise it as a safe source of carbohydrates. Scientific assessments focus primarily on its nutritional profile, confirming that it is easily metabolised by the human digestive system to provide energy.</p></section><section class="section"><h2>Where you'll find it</h2><p>You will find maize flour in a wide variety of supermarket items, including gluten-free breads, tortillas, corn chips, crackers, and breakfast cereals. It is also frequently used as a coating for fried foods to create a crispy texture. On ingredient lists, it is usually declared simply as maize flour or corn flour, and because it is a standard food ingredient rather than a regulated additive, it does not have an E-number.</p></section><div class="sources"><strong>Sources</strong><ul><li>FDA Regulation 21 CFR Section 137.250, 2023, Corn Flour</li><li>Regulation (EC) No 178/2002 of the European Parliament and of the Council, 2002, General Food Law</li></ul></div><div class="cta">
+  <h2>Scan the whole label</h2>
+  <p>Clara reads every ingredient on a pack and tells you what's really inside — in seconds.</p>
+  <a class="store-btn" href="https://apps.apple.com/app/id6788532185">Get Clara on the App Store</a>
+</div>
+</main>
+<footer>
+  <div class="foot-inner">
+    <span>© 2026 Scandihouse Limited · Limassol, Cyprus</span>
+    <span class="foot-links"><a href="/ingredients/">Ingredients</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/support.html">Support</a></span>
+  </div>
+</footer>
+</body>
+</html>

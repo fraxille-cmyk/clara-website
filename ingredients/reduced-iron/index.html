@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reduced iron — Clara ingredient library</title>
+<meta name="description" content="Reduced iron is elemental iron added to foods to boost their nutritional value, which is harmless at the levels found on food labels.">
+<link rel="canonical" href="https://clarascan.app/ingredients/reduced-iron/">
+<meta property="og:title" content="Reduced iron — Clara ingredient library">
+<meta property="og:description" content="Reduced iron is elemental iron added to foods to boost their nutritional value, which is harmless at the levels found on food labels.">
+<meta property="og:url" content="https://clarascan.app/ingredients/reduced-iron/">
+<meta property="og:image" content="https://clarascan.app/clara.png">
+<link rel="icon" type="image/png" href="/clara-small.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --cream: #F5F1E7; --cream-deep: #EFE9DB; --card: #FFFFFF; --ink: #2E2A26; --btn: #2A2724;
+          --red: #D93C47; --red-soft: #F6DCDD; --green: #679D48; --green-soft: #E4EDDC; --gold: #C68908; --gold-soft: #FAEBC8;
+          --muted: #8A8478; --line: #E7E0D2; --shadow: 0 10px 28px rgba(58, 50, 40, 0.09); --r-pill: 999px; --r-card: 22px; }
+  body { background: var(--cream); color: var(--ink); font-family: 'Hanken Grotesk', sans-serif; font-size: 17px; line-height: 1.62;
+         overflow-x: hidden; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; min-height: 100vh; }
+  h1, h2, h3 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; }
+  img { display: block; max-width: 100%; } a { color: inherit; }
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(245, 241, 231, 0.88); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(231, 224, 210, 0.6); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 24px; max-width: 1060px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; } .brand img { width: 34px; height: 34px; }
+  .brand span { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: -0.02em; }
+  .nav-cta { background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; font-size: 0.92rem; padding: 10px 20px; border-radius: var(--r-pill); }
+  main { flex: 1; width: 100%; max-width: 68ch; margin: 0 auto; padding: 48px 24px 88px; }
+  main h1 { font-size: clamp(2rem, 5.4vw, 2.9rem); margin-bottom: 12px; }
+  main h2 { font-size: clamp(1.28rem, 3vw, 1.6rem); margin: 34px 0 12px; scroll-margin-top: 82px; }
+  .crumbs { font-size: 0.9rem; color: var(--muted); margin-bottom: 18px; } .crumbs a { text-decoration: none; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 20px; }
+  .chip { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.02em; padding: 6px 12px; border-radius: var(--r-pill); background: var(--cream-deep); color: var(--muted); }
+  .chip.good { background: var(--green-soft); color: var(--green); } .chip.avoid { background: var(--red-soft); color: var(--red); }
+  .chip.neutral { background: var(--cream-deep); color: var(--ink); } .chip.e { background: var(--card); border: 1px solid var(--line); }
+  .tldr { font-size: 1.15rem; font-weight: 600; line-height: 1.5; margin-bottom: 8px; }
+  .section { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; box-shadow: var(--shadow); }
+  .section h2 { margin: 0 0 8px; font-size: 1.2rem; }
+  .sources { font-size: 0.85rem; color: var(--muted); margin-top: 26px; } .sources li { margin-left: 18px; }
+  .cta { margin-top: 40px; background: var(--card); border-radius: var(--r-card); padding: 26px; text-align: center; box-shadow: var(--shadow); }
+  .cta p { color: var(--muted); margin: 6px 0 16px; }
+  .store-btn { display: inline-block; background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; padding: 13px 24px; border-radius: var(--r-pill); }
+  .stub { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; color: var(--muted); }
+  .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
+  .letters a { text-decoration: none; font-weight: 700; font-size: 0.85rem; padding: 4px 9px; border-radius: var(--r-pill); background: var(--cream-deep); }
+  .list { list-style: none; } .list li { padding: 9px 0; border-bottom: 1px solid var(--line); display: flex; gap: 10px; align-items: baseline; }
+  .list a { text-decoration: none; font-weight: 600; } .list .e { font-size: 0.8rem; color: var(--muted); } .list .nr { font-size: 0.78rem; color: var(--muted); margin-left: auto; }
+  footer { border-top: 1px solid var(--line); padding: 26px 24px; font-size: 0.85rem; color: var(--muted); }
+  .foot-inner { max-width: 1060px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; }
+  .foot-links a { margin-left: 16px; text-decoration: none; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/"><img src="/clara-small.png" alt="Clara the strawberry"><span>Clara</span></a>
+    <a class="nav-cta" href="https://apps.apple.com/app/id6788532185">Get the app</a>
+  </div>
+</nav>
+<main>
+<p class="crumbs"><a href="/">Clara</a> › <a href="/ingredients/">Ingredients</a> › Reduced iron</p>
+<h1>Reduced iron</h1>
+<div class="chips"><span class="chip">Fortificant</span><span class="chip neutral">Neutral · benign</span></div><p class="tldr">Reduced iron is elemental iron added to foods to boost their nutritional value, which is harmless at the levels found on food labels.</p><section class="section"><h2>What it is</h2><p>Reduced iron is elemental iron, the very same mineral found naturally in the earth and in our bodies. It is a fine, dark powder that manufacturers add to foods to restore or boost their iron content. Unlike some iron compounds that are bound to other molecules, reduced iron is pure metallic iron that has been processed so our bodies can absorb it during digestion. It is a vital nutrient that helps carry oxygen through our bloodstream, keeping us energised and healthy.</p></section><section class="section"><h2>How it's made</h2><p>To make reduced iron, manufacturers start with high-purity iron ore or iron oxide. This raw material is heated to an extremely high temperature in a furnace and exposed to a reducing gas, usually hydrogen or carbon monoxide. This gas strips away the oxygen atoms, leaving behind pure elemental iron. The resulting metallic sponge is then cooled and ground into an incredibly fine powder, which is sometimes further refined using an electric current to create electrolytic iron.</p></section><section class="section"><h2>Why manufacturers use it</h2><p>Food manufacturers use reduced iron primarily for nutritional fortification. When grains are milled to make white flour, much of their natural mineral content is lost, so manufacturers add this powder to enrich the final product. It is highly favoured over other iron sources because it is chemically stable and does not easily react with fats or oils. This means it will not cause the food to go rancid prematurely or alter its flavour, colour, or shelf life.</p></section><section class="section"><h2>Is it harmful</h2><p>Clara rates this NEUTRAL, a benign additive. It is a nutrient that is harmless at the amounts typically found on food labels. The body regulates how much iron it absorbs from food, taking what it needs and discarding the rest. While consuming massive quantities of pure iron can overwhelm the digestive system, the tiny amounts used to fortify everyday foods are entirely safe for the general population. No upper limit is established for its use as a fortificant in standard food portions.</p></section><section class="section"><h2>What the science says</h2><p>Regulators worldwide have thoroughly evaluated elemental iron as a food fortificant. The JECFA and the FDA have assessed its safety and bioavailability, confirming that it is an effective way to deliver dietary iron without adverse effects. Because it dissolves slowly in stomach acid, it is absorbed gradually by the body, which reduces the likelihood of the digestive discomfort sometimes associated with highly soluble iron supplements. It remains a widely accepted tool for public health nutrition.</p></section><section class="section"><h2>Where you'll find it</h2><p>You will most commonly find this ingredient in grain-based foods like breakfast cereals, wheat flour, white bread, pasta, and infant formulas. On packaging, it might be listed under its main name or one of its aliases, appearing as reduced iron, electrolytic iron, or elemental iron. Because it is classified as a nutrient fortificant rather than a technological food additive, it does not carry an E-number on European ingredient lists.</p></section><div class="sources"><strong>Sources</strong><ul><li>FDA GRAS Notice No. GRN 000565, 2015, Elemental Iron</li><li>JECFA Monograph 1, 2006, Iron compounds</li></ul></div><div class="cta">
+  <h2>Scan the whole label</h2>
+  <p>Clara reads every ingredient on a pack and tells you what's really inside — in seconds.</p>
+  <a class="store-btn" href="https://apps.apple.com/app/id6788532185">Get Clara on the App Store</a>
+</div>
+</main>
+<footer>
+  <div class="foot-inner">
+    <span>© 2026 Scandihouse Limited · Limassol, Cyprus</span>
+    <span class="foot-links"><a href="/ingredients/">Ingredients</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/support.html">Support</a></span>
+  </div>
+</footer>
+</body>
+</html>

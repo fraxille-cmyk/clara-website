@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Annatto (E160b) — Clara ingredient library</title>
+<meta name="description" content="Annatto is a natural yellow-to-orange food colour extracted from the seeds of the achiote tree, used to give cheese, butter, and snacks a warm hue.">
+<link rel="canonical" href="https://clarascan.app/ingredients/e160b/">
+<meta property="og:title" content="Annatto (E160b) — Clara ingredient library">
+<meta property="og:description" content="Annatto is a natural yellow-to-orange food colour extracted from the seeds of the achiote tree, used to give cheese, butter, and snacks a warm hue.">
+<meta property="og:url" content="https://clarascan.app/ingredients/e160b/">
+<meta property="og:image" content="https://clarascan.app/clara.png">
+<link rel="icon" type="image/png" href="/clara-small.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --cream: #F5F1E7; --cream-deep: #EFE9DB; --card: #FFFFFF; --ink: #2E2A26; --btn: #2A2724;
+          --red: #D93C47; --red-soft: #F6DCDD; --green: #679D48; --green-soft: #E4EDDC; --gold: #C68908; --gold-soft: #FAEBC8;
+          --muted: #8A8478; --line: #E7E0D2; --shadow: 0 10px 28px rgba(58, 50, 40, 0.09); --r-pill: 999px; --r-card: 22px; }
+  body { background: var(--cream); color: var(--ink); font-family: 'Hanken Grotesk', sans-serif; font-size: 17px; line-height: 1.62;
+         overflow-x: hidden; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; min-height: 100vh; }
+  h1, h2, h3 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; }
+  img { display: block; max-width: 100%; } a { color: inherit; }
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(245, 241, 231, 0.88); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(231, 224, 210, 0.6); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 24px; max-width: 1060px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; } .brand img { width: 34px; height: 34px; }
+  .brand span { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: -0.02em; }
+  .nav-cta { background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; font-size: 0.92rem; padding: 10px 20px; border-radius: var(--r-pill); }
+  main { flex: 1; width: 100%; max-width: 68ch; margin: 0 auto; padding: 48px 24px 88px; }
+  main h1 { font-size: clamp(2rem, 5.4vw, 2.9rem); margin-bottom: 12px; }
+  main h2 { font-size: clamp(1.28rem, 3vw, 1.6rem); margin: 34px 0 12px; scroll-margin-top: 82px; }
+  .crumbs { font-size: 0.9rem; color: var(--muted); margin-bottom: 18px; } .crumbs a { text-decoration: none; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 20px; }
+  .chip { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.02em; padding: 6px 12px; border-radius: var(--r-pill); background: var(--cream-deep); color: var(--muted); }
+  .chip.good { background: var(--green-soft); color: var(--green); } .chip.avoid { background: var(--red-soft); color: var(--red); }
+  .chip.neutral { background: var(--cream-deep); color: var(--ink); } .chip.e { background: var(--card); border: 1px solid var(--line); }
+  .tldr { font-size: 1.15rem; font-weight: 600; line-height: 1.5; margin-bottom: 8px; }
+  .section { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; box-shadow: var(--shadow); }
+  .section h2 { margin: 0 0 8px; font-size: 1.2rem; }
+  .sources { font-size: 0.85rem; color: var(--muted); margin-top: 26px; } .sources li { margin-left: 18px; }
+  .cta { margin-top: 40px; background: var(--card); border-radius: var(--r-card); padding: 26px; text-align: center; box-shadow: var(--shadow); }
+  .cta p { color: var(--muted); margin: 6px 0 16px; }
+  .store-btn { display: inline-block; background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; padding: 13px 24px; border-radius: var(--r-pill); }
+  .stub { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; color: var(--muted); }
+  .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
+  .letters a { text-decoration: none; font-weight: 700; font-size: 0.85rem; padding: 4px 9px; border-radius: var(--r-pill); background: var(--cream-deep); }
+  .list { list-style: none; } .list li { padding: 9px 0; border-bottom: 1px solid var(--line); display: flex; gap: 10px; align-items: baseline; }
+  .list a { text-decoration: none; font-weight: 600; } .list .e { font-size: 0.8rem; color: var(--muted); } .list .nr { font-size: 0.78rem; color: var(--muted); margin-left: auto; }
+  footer { border-top: 1px solid var(--line); padding: 26px 24px; font-size: 0.85rem; color: var(--muted); }
+  .foot-inner { max-width: 1060px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; }
+  .foot-links a { margin-left: 16px; text-decoration: none; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/"><img src="/clara-small.png" alt="Clara the strawberry"><span>Clara</span></a>
+    <a class="nav-cta" href="https://apps.apple.com/app/id6788532185">Get the app</a>
+  </div>
+</nav>
+<main>
+<p class="crumbs"><a href="/">Clara</a> › <a href="/ingredients/">Ingredients</a> › Annatto</p>
+<h1>Annatto (E160b)</h1>
+<div class="chips"><span class="chip e">E160b</span><span class="chip">Additive</span><span class="chip good">Good · limited concern</span></div><p class="tldr">Annatto is a natural yellow-to-orange food colour extracted from the seeds of the achiote tree, used to give cheese, butter, and snacks a warm hue.</p><section class="section"><h2>What it is</h2><p>Annatto is a natural plant extract that provides a warm yellow, orange, or peach hue to food. It comes from the outer coat of the seeds of the achiote shrub, which is native to tropical regions of the Americas. People have used these seeds for centuries as both a spice and a dye. In modern food labelling, you might see it listed by its name or as its European code, which represents the natural pigments bixin and norbixin found within the seeds.</p></section><section class="section"><h2>How it's made</h2><p>The journey starts with the harvest of the heart-shaped, spiky seed pods of the achiote tree. Once the pods dry and open, the small red seeds are extracted. To make the food colour, manufacturers wash the seeds in an alkaline water solution or a vegetable oil to dissolve the pigment coating. This liquid is then filtered, purified, and concentrated. Depending on the extraction method, the result is either an oil-soluble version rich in bixin or a water-soluble version rich in norbixin.</p></section><section class="section"><h2>Why manufacturers use it</h2><p>Food makers choose annatto because it delivers a rich, stable colour that mimics the natural hues of dairy fats. Historically, cows eating fresh summer grass produced milk with a yellow tint, which carried over into butter and cheese. Today, manufacturers use this extract to standardise the colour of cheddar, red leicester, and spreads year-round. It is a highly efficient, plant-based alternative to synthetic dyes, resisting heat and light well during processing and storage on supermarket shelves.</p></section><section class="section"><h2>Is it harmful</h2><p>Clara rates this GOOD, a limited-concern additive. Because it is a natural plant extract, it is generally processed by the body without issue. EFSA has established an acceptable daily intake of six milligrams of bixin per kilogram of body weight, and three-tenths of a milligram of norbixin per kilogram of body weight. While some individuals with sensitive systems report mild skin or breathing reactions after consuming it, these occurrences are rare, and the substance is widely accepted as a gentle option.</p></section><section class="section"><h2>What the science says</h2><p>The safety of this botanical colour has been thoroughly evaluated by international food safety authorities. JECFA and EFSA have both reviewed the toxicological data on the individual pigment components, bixin and norbixin. Their assessments confirmed that the extract does not accumulate in the body and is metabolised safely. Current research focuses on refining the precise daily limits for the different extraction types to ensure that even heavy consumers of coloured foods remain well within the established safety margins.</p></section><section class="section"><h2>Where you'll find it</h2><p>You will find this colour in a wide variety of yellow and orange foods. It is a classic ingredient in traditional cheeses like red leicester, double gloucester, and cheddar, as well as in margarines, spreads, custards, and ice creams. It also appears in savoury snacks, crisps, and breakfast cereals. On the ingredient list, it is typically declared as annatto, annatto extracts, bixin, norbixin, or simply under its European designation, E160b.</p></section><div class="sources"><strong>Sources</strong><ul><li>EFSA Journal, Scientific Opinion on the safety of annatto extracts (E 160b), 2016</li><li>JECFA, Evaluation of certain food additives: Eighty-second report, 2016</li><li>Regulation (EC) No 1333/2008 of the European Parliament and of the Council on food additives, 2008</li></ul></div><div class="cta">
+  <h2>Scan the whole label</h2>
+  <p>Clara reads every ingredient on a pack and tells you what's really inside — in seconds.</p>
+  <a class="store-btn" href="https://apps.apple.com/app/id6788532185">Get Clara on the App Store</a>
+</div>
+</main>
+<footer>
+  <div class="foot-inner">
+    <span>© 2026 Scandihouse Limited · Limassol, Cyprus</span>
+    <span class="foot-links"><a href="/ingredients/">Ingredients</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/support.html">Support</a></span>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whey powder — Clara ingredient library</title>
+<meta name="description" content="Whey powder is a natural dairy ingredient made from the liquid left over during cheesemaking, used to boost protein and improve texture.">
+<link rel="canonical" href="https://clarascan.app/ingredients/whey-powder/">
+<meta property="og:title" content="Whey powder — Clara ingredient library">
+<meta property="og:description" content="Whey powder is a natural dairy ingredient made from the liquid left over during cheesemaking, used to boost protein and improve texture.">
+<meta property="og:url" content="https://clarascan.app/ingredients/whey-powder/">
+<meta property="og:image" content="https://clarascan.app/clara.png">
+<link rel="icon" type="image/png" href="/clara-small.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --cream: #F5F1E7; --cream-deep: #EFE9DB; --card: #FFFFFF; --ink: #2E2A26; --btn: #2A2724;
+          --red: #D93C47; --red-soft: #F6DCDD; --green: #679D48; --green-soft: #E4EDDC; --gold: #C68908; --gold-soft: #FAEBC8;
+          --muted: #8A8478; --line: #E7E0D2; --shadow: 0 10px 28px rgba(58, 50, 40, 0.09); --r-pill: 999px; --r-card: 22px; }
+  body { background: var(--cream); color: var(--ink); font-family: 'Hanken Grotesk', sans-serif; font-size: 17px; line-height: 1.62;
+         overflow-x: hidden; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; min-height: 100vh; }
+  h1, h2, h3 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; }
+  img { display: block; max-width: 100%; } a { color: inherit; }
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(245, 241, 231, 0.88); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(231, 224, 210, 0.6); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 24px; max-width: 1060px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; } .brand img { width: 34px; height: 34px; }
+  .brand span { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: -0.02em; }
+  .nav-cta { background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; font-size: 0.92rem; padding: 10px 20px; border-radius: var(--r-pill); }
+  main { flex: 1; width: 100%; max-width: 68ch; margin: 0 auto; padding: 48px 24px 88px; }
+  main h1 { font-size: clamp(2rem, 5.4vw, 2.9rem); margin-bottom: 12px; }
+  main h2 { font-size: clamp(1.28rem, 3vw, 1.6rem); margin: 34px 0 12px; scroll-margin-top: 82px; }
+  .crumbs { font-size: 0.9rem; color: var(--muted); margin-bottom: 18px; } .crumbs a { text-decoration: none; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 20px; }
+  .chip { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.02em; padding: 6px 12px; border-radius: var(--r-pill); background: var(--cream-deep); color: var(--muted); }
+  .chip.good { background: var(--green-soft); color: var(--green); } .chip.avoid { background: var(--red-soft); color: var(--red); }
+  .chip.neutral { background: var(--cream-deep); color: var(--ink); } .chip.e { background: var(--card); border: 1px solid var(--line); }
+  .tldr { font-size: 1.15rem; font-weight: 600; line-height: 1.5; margin-bottom: 8px; }
+  .section { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; box-shadow: var(--shadow); }
+  .section h2 { margin: 0 0 8px; font-size: 1.2rem; }
+  .sources { font-size: 0.85rem; color: var(--muted); margin-top: 26px; } .sources li { margin-left: 18px; }
+  .cta { margin-top: 40px; background: var(--card); border-radius: var(--r-card); padding: 26px; text-align: center; box-shadow: var(--shadow); }
+  .cta p { color: var(--muted); margin: 6px 0 16px; }
+  .store-btn { display: inline-block; background: var(--btn); color: #FFF; text-decoration: none; font-weight: 700; padding: 13px 24px; border-radius: var(--r-pill); }
+  .stub { background: var(--card); border-radius: var(--r-card); padding: 20px 22px; margin-top: 14px; color: var(--muted); }
+  .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
+  .letters a { text-decoration: none; font-weight: 700; font-size: 0.85rem; padding: 4px 9px; border-radius: var(--r-pill); background: var(--cream-deep); }
+  .list { list-style: none; } .list li { padding: 9px 0; border-bottom: 1px solid var(--line); display: flex; gap: 10px; align-items: baseline; }
+  .list a { text-decoration: none; font-weight: 600; } .list .e { font-size: 0.8rem; color: var(--muted); } .list .nr { font-size: 0.78rem; color: var(--muted); margin-left: auto; }
+  footer { border-top: 1px solid var(--line); padding: 26px 24px; font-size: 0.85rem; color: var(--muted); }
+  .foot-inner { max-width: 1060px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; }
+  .foot-links a { margin-left: 16px; text-decoration: none; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/"><img src="/clara-small.png" alt="Clara the strawberry"><span>Clara</span></a>
+    <a class="nav-cta" href="https://apps.apple.com/app/id6788532185">Get the app</a>
+  </div>
+</nav>
+<main>
+<p class="crumbs"><a href="/">Clara</a> › <a href="/ingredients/">Ingredients</a> › Whey powder</p>
+<h1>Whey powder</h1>
+<div class="chips"><span class="chip">Processed ingredient</span><span class="chip good">Good</span></div><p class="tldr">Whey powder is a natural dairy ingredient made from the liquid left over during cheesemaking, used to boost protein and improve texture.</p><section class="section"><h2>What it is</h2><p>Whey powder is a familiar dairy ingredient that comes from milk. When cheesemakers curdle milk to make cheese, the liquid that separates from the solid curds is called whey. This liquid is packed with soluble proteins, milk sugars, and minerals. By drying this liquid into a fine powder, producers create a highly versatile ingredient that is easy to store and blend into other foods. It is a natural source of high-quality protein, containing all the essential amino acids that our bodies need to build and repair tissues.</p></section><section class="section"><h2>How it's made</h2><p>The journey of whey powder begins at the dairy. Fresh milk is pasteurised and curdled using enzymes or acids to separate the curds from the liquid whey. This liquid is then filtered to remove any remaining fat and solid particles. To turn it into a powder, the liquid is concentrated by evaporating most of the water under a vacuum, which protects the delicate proteins from high heat. Finally, the concentrated liquid is sprayed into a drying chamber where hot air instantly turns it into a fine, dry powder ready for packaging.</p></section><section class="section"><h2>Why manufacturers use it</h2><p>Food manufacturers value whey powder because it is an excellent multi-tasker that is more cost-effective than using fresh milk. It helps to bind water and fat, which improves the texture and creaminess of baked goods, sauces, and soups. In bread and pastries, the natural milk sugars in the powder caramelise beautifully during baking, giving products an appealing golden-brown colour and a rich, toasted flavour. It also acts as a natural emulsifier, keeping ingredients blended smoothly together without separating on the shelf.</p></section><section class="section"><h2>Is it harmful</h2><p>Clara rates this GOOD. Because it is a simple dairy derivative, it is treated as a standard food ingredient rather than a chemical additive. It is a nutritious source of protein and minerals that the body metabolises just like fresh milk. The only consideration is for individuals who are sensitive to dairy proteins or milk sugars, as it naturally contains lactose and whey proteins. For everyone else, it is a wholesome and straightforward ingredient that poses no safety concerns.</p></section><section class="section"><h2>What the science says</h2><p>Regulators worldwide view whey powder as a standard, safe food ingredient. The FDA classifies whey products as Generally Recognised as Safe, meaning they have a long history of common use in food without safety issues. Because it is a whole food ingredient rather than a purified additive, no daily intake limit is established. Scientific assessments focus on its nutritional value, confirming that its proteins are highly digestible and efficiently utilised by the human body to support muscle maintenance and general cellular repair.</p></section><section class="section"><h2>Where you'll find it</h2><p>You will find this ingredient in a wide variety of supermarket foods, including biscuits, cakes, breads, processed cheeses, creamy sauces, and powdered beverage mixes. On food labels, it is typically listed simply as whey powder, sweet whey powder, or by its French name, lactosérum en poudre. Because it is a dairy product, it is always clearly highlighted in the ingredient list to assist those with dairy sensitivities.</p></section><div class="sources"><strong>Sources</strong><ul><li>FDA GRAS Notice Inventory, 21 CFR 184.1979 (Whey), 1981</li><li>EU Regulation (EC) No 1333/2008 on food additives</li></ul></div><div class="cta">
+  <h2>Scan the whole label</h2>
+  <p>Clara reads every ingredient on a pack and tells you what's really inside — in seconds.</p>
+  <a class="store-btn" href="https://apps.apple.com/app/id6788532185">Get Clara on the App Store</a>
+</div>
+</main>
+<footer>
+  <div class="foot-inner">
+    <span>© 2026 Scandihouse Limited · Limassol, Cyprus</span>
+    <span class="foot-links"><a href="/ingredients/">Ingredients</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/support.html">Support</a></span>
+  </div>
+</footer>
+</body>
+</html>
