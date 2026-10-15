@@ -12,6 +12,7 @@ no npm. Just open the HTML files in a browser.
 | `privacy.html`  | Privacy policy — placeholder until App Store submission |
 | `terms.html`    | Terms of service — placeholder until App Store submission |
 | `support.html`  | Support page with `mailto:` to support@scandihouse.co |
+| `licences.html` | The data, recipes, photos and software Clara uses, and their licences |
 | `404.html`      | Not-found page (served automatically by GitHub Pages) |
 
 ## Assets
@@ -30,6 +31,14 @@ no npm. Just open the HTML files in a browser.
   bg.convert('RGB').resize((180, 180), Image.LANCZOS).save('apple-touch-icon.png', 'PNG')
   "
   ```
+
+## Recipe photos
+
+`recipes/img/<slug>.jpg` — USDA MyPlate Kitchen's recipe photos (public domain) for the app's Discover
+recipes, at most 640 px wide, JPEG quality 70. Written by the app repo's `scripts/recipes/images.ts` from
+the Internet Archive's copies and pruned to the recipes the pool keeps; the attribution is on
+`licences.html`. GitHub Pages serves them with its own ten-minute cache headers, so the app keeps each
+photo on the phone once it has it.
 
 ## Local preview
 
