@@ -34,11 +34,12 @@ no npm. Just open the HTML files in a browser.
 
 ## Recipe photos
 
-`recipes/img/<slug>.jpg` — USDA MyPlate Kitchen's recipe photos (public domain) for the app's Discover
-recipes, at most 640 px wide, JPEG quality 70. Written by the app repo's `scripts/recipes/images.ts` from
-the Internet Archive's copies and pruned to the recipes the pool keeps; the attribution is on
-`licences.html`. GitHub Pages serves them with its own ten-minute cache headers, so the app keeps each
-photo on the phone once it has it.
+`recipes/img/<slug>.jpg` (the cover, 900 × 900) and `recipes/img/<slug>/step-<nn>.jpg` (one per cooking step,
+1200 × 800) — the photos of Clara's fifty recipes, the owner's own renders, JPEG quality 82 without metadata.
+Saved here by the app repo's image studio (`scripts/recipes/image_studio`, `npm run image-studio`); the app's
+pool points at each one that is here when it is built. GitHub Pages serves them with its own ten-minute cache
+headers, so the app keeps each photo on the phone once it has it. (The USDA MyPlate Kitchen photos that lived
+here until 2026-10-22 are gone with those recipes.)
 
 ## Local preview
 
