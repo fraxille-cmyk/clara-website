@@ -1,7 +1,7 @@
 {
-  "version": 7,
-  "builtAt": "2026-10-30T02:26:26.340Z",
-  "sha256": "f388ead5414677ca83dec63565bb908f53376386c0734b97ff67960fc1659fb7",
+  "version": 8,
+  "builtAt": "2026-10-30T03:06:09.289Z",
+  "sha256": "b6a307fe61c9021fe586b94230ebb56dcb534f9cc6d2517308b821449b00ec4b",
   "minAppBuild": 9,
   "schemaVersion": 2
 }
