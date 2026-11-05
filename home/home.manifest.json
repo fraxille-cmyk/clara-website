@@ -1,7 +1,28 @@
 {
-  "version": 1,
-  "builtAt": "2026-11-05T03:49:06.208Z",
+  "version": 6,
+  "builtAt": "2026-11-05T22:19:52.491Z",
   "minAppBuild": 9,
   "schemaVersion": 1,
-  "cards": {}
+  "cards": {
+    "cooking": {
+      "file": "cooking.jpg",
+      "sha256": "8a9415ed6c0db7c640c3648a0516e45cae1a2a71beecbbd0608e7d64a28b67b2"
+    },
+    "plan": {
+      "file": "plan.jpg",
+      "sha256": "184ffb2e39912ff8d0567454f5184185d6e14376af5326fc691c721a1d98e4c6"
+    },
+    "list": {
+      "file": "list.jpg",
+      "sha256": "0cd0eb2ee7e7818f52943a9a63947c127a6bdf7fa27a7d1d27e77ad92940e903"
+    },
+    "nutrition": {
+      "file": "nutrition.jpg",
+      "sha256": "75e5abd2a7ad194eda2b3088426a69aa4d1061c9220d018d63705543b26d0ac0"
+    },
+    "ingredients": {
+      "file": "ingredients.jpg",
+      "sha256": "16f85ef3f55e833f3454408e0790f24ae61b4e6adc7432a0412186d0bf6002a9"
+    }
+  }
 }
