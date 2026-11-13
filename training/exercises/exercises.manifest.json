@@ -1,8 +1,569 @@
 {
-  "version": 0,
-  "builtAt": "",
+  "version": 63,
+  "builtAt": "2026-11-13T20:02:59.804Z",
   "minAppBuild": 9,
   "schemaVersion": 1,
-  "exercises": {},
+  "exercises": {
+    "goblet-squat": {
+      "file": "goblet-squat.jpg",
+      "sha256": "69229cd42f6d2c09f23de87fd0932253a9ddd608625f884c9e097967fff8f4a6"
+    },
+    "bodyweight-squat": {
+      "file": "bodyweight-squat.jpg",
+      "sha256": "6f6bcbc30f08bbd1d283882c1f304aae676214a55b3b6d2d9187e8f1bce8bf9b"
+    },
+    "barbell-back-squat": {
+      "file": "barbell-back-squat.jpg",
+      "sha256": "7423316eb5e16cd475c1d08c363e2a78539d4ce101bf9fd6cd2fadc3fb8c94c2"
+    },
+    "romanian-deadlift": {
+      "file": "romanian-deadlift.jpg",
+      "sha256": "23bc60eb7f9274cec611107250ff77b3e9cf23e88f7bb432e7f480cb63642558"
+    },
+    "trap-bar-deadlift": {
+      "file": "trap-bar-deadlift.jpg",
+      "sha256": "b238cf08e961c04abf20819277c525dc36becb18009846df2f624756c7473d82"
+    },
+    "reverse-lunge": {
+      "file": "reverse-lunge.jpg",
+      "sha256": "1927839e7fa22b5113e773f4888c1ea7beae34a3cac04748e70ef77f1455924c"
+    },
+    "bulgarian-split-squat": {
+      "file": "bulgarian-split-squat.jpg",
+      "sha256": "7bdb0fe6ab7c7478d1840c9f69fc5955541bc7b397428e33d3780b7237d1a212"
+    },
+    "step-up": {
+      "file": "step-up.jpg",
+      "sha256": "a21a24946d8de10d2966f3376c45330562fc92c23ce5a9430a90b8d9052d5603"
+    },
+    "glute-bridge": {
+      "file": "glute-bridge.jpg",
+      "sha256": "729a1fbc8ebee01ba6290b119eae095c50dd79ac232894b498c277d550271f9d"
+    },
+    "hip-thrust": {
+      "file": "hip-thrust.jpg",
+      "sha256": "306dfc43908f1161751557a7a621e41f4bf8f47674d623dad058751e22e5fa6c"
+    },
+    "leg-press": {
+      "file": "leg-press.jpg",
+      "sha256": "0af2b63db92e705df5f706c972bf712e39a7aa69655f81567434d3a5718a6842"
+    },
+    "calf-raise": {
+      "file": "calf-raise.jpg",
+      "sha256": "e13d1898245514f43134b205c7437949c2994e1752d62ceb1f08aff4c8a927d5"
+    },
+    "kettlebell-swing": {
+      "file": "kettlebell-swing.jpg",
+      "sha256": "c3de9033583f1184bb32ed32ccaaa1567847c0511d767be9d74e65a663d75bc9"
+    },
+    "push-up": {
+      "file": "push-up.jpg",
+      "sha256": "b1ed8bc43f034fa8b744fc961d8264c0f27ad8d27d492b7a5d4909305dc29898"
+    },
+    "incline-push-up": {
+      "file": "incline-push-up.jpg",
+      "sha256": "75e2f069bf6e38d2fdd020a0d4e0562303f58923d351328beb67c682aed7ae4f"
+    },
+    "dumbbell-bench-press": {
+      "file": "dumbbell-bench-press.jpg",
+      "sha256": "af9202f2d5caef18f9dd22159cc755b1c633f6c71e00e7b450f7206cd52d0b14"
+    },
+    "barbell-bench-press": {
+      "file": "barbell-bench-press.jpg",
+      "sha256": "09eaada4c53a7d3a70d434461bc0b5c6a116d4c376fe3d63cf9649a1abfbb16f"
+    },
+    "dumbbell-overhead-press": {
+      "file": "dumbbell-overhead-press.jpg",
+      "sha256": "0790e34b33c37421b2d66bf461f97b2dd4c23f5b1a43c1dcd9ea0025a01717e3"
+    },
+    "lateral-raise": {
+      "file": "lateral-raise.jpg",
+      "sha256": "a494e80bcde0a069ab7e0409c8ef2387e05342c0072af739b74f71baf0ea2bda"
+    },
+    "triceps-extension": {
+      "file": "triceps-extension.jpg",
+      "sha256": "fae59b64f16cc606e814e6236176a14681aca807315d98556a5ea2022c3748ad"
+    },
+    "one-arm-dumbbell-row": {
+      "file": "one-arm-dumbbell-row.jpg",
+      "sha256": "19c5dd1a928f6a5a026469945ead19a5027104bb7190be6c33b5ad13903a1975"
+    },
+    "bent-over-barbell-row": {
+      "file": "bent-over-barbell-row.jpg",
+      "sha256": "5b4ad11ee23965288376d431d8e6d0f55f41adf9788456e2e2d3bb41fb49454d"
+    },
+    "lat-pulldown": {
+      "file": "lat-pulldown.jpg",
+      "sha256": "e754a23c7f52f976e961a323d2887e48940ffda59e85a8acffea823cd2867e89"
+    },
+    "assisted-pull-up": {
+      "file": "assisted-pull-up.jpg",
+      "sha256": "9845f4495c10d184c9b74d600019db2461e2f496c28fed10b2944cc7d7317617"
+    },
+    "pull-up": {
+      "file": "pull-up.jpg",
+      "sha256": "82deff309cf68fb5ec45d34ff93e192e737696f310c9a65768e0479efba9b0b1"
+    },
+    "seated-cable-row": {
+      "file": "seated-cable-row.jpg",
+      "sha256": "4fc53bd98df26cbf8f4bceb8185722430d8c64f283bdc3d244fe5ec0a54f5dc6"
+    },
+    "face-pull": {
+      "file": "face-pull.jpg",
+      "sha256": "f9e8c03b7572002ecde9e7f4a2ccab27a7d70f0a8631c07c25343d288aa76779"
+    },
+    "biceps-curl": {
+      "file": "biceps-curl.jpg",
+      "sha256": "37891863328cb3ca3cb240d1c5e214d364d5586a5dbee9d94d90bcb44b884d0c"
+    },
+    "plank": {
+      "file": "plank.jpg",
+      "sha256": "f0c3b0fac7396b328c13ced3ca94b4c332579c69edbbe8d662689727236be435"
+    },
+    "side-plank": {
+      "file": "side-plank.jpg",
+      "sha256": "7be9b570f0964bdfdfd4b2bfc7178a6b545113126cd8aaecacd480d6f2a92089"
+    },
+    "dead-bug": {
+      "file": "dead-bug.jpg",
+      "sha256": "513dbb1c6f8f3d052746955c3e31f658ce37f600751f8e74f973b251dd6b7260"
+    },
+    "bird-dog": {
+      "file": "bird-dog.jpg",
+      "sha256": "ee0c4a68329c7ba45c24355d29821e0be0f03187472cb2b3accc74ec7e169e3b"
+    },
+    "hanging-knee-raise": {
+      "file": "hanging-knee-raise.jpg",
+      "sha256": "97566162e54761df4c307ec3ccf70e4ea000b25d48900120ccdca5f6e5c53fe9"
+    },
+    "farmers-carry": {
+      "file": "farmers-carry.jpg",
+      "sha256": "2699744ba89090a7eb8737a42e7b5559378c2ab0f06325b84dd55d84d4281348"
+    },
+    "mountain-climber": {
+      "file": "mountain-climber.jpg",
+      "sha256": "201c80de67da91ddddabf9b08a926007862a48560ba855d5d3c00926c7888378"
+    },
+    "burpee": {
+      "file": "burpee.jpg",
+      "sha256": "bdd196c5ae074f47e4f0e895a6e0c7bfc596cb12a26fbf16ec680911c144fe06"
+    },
+    "jumping-jack": {
+      "file": "jumping-jack.jpg",
+      "sha256": "4c10604f0236922807cce6edc03bbc79cb2bf72d9016ab4b3d64f4a8d9ab4e02"
+    },
+    "high-knees": {
+      "file": "high-knees.jpg",
+      "sha256": "9b3dc57b1293a436e3f74078d01bbcb82b1a59747fe1bda8f613ee077b921765"
+    },
+    "squat-jump": {
+      "file": "squat-jump.jpg",
+      "sha256": "cf3b5e436f482bddcb93032677f35f6976987ee12e77bdc3e4eeb006e65722e5"
+    },
+    "cat-cow": {
+      "file": "cat-cow.jpg",
+      "sha256": "b22103ee5fe7c520fb459f3c39d7ea526ed7365138a3a5bbf3ca6c4423571ab8"
+    },
+    "hip-flexor-stretch": {
+      "file": "hip-flexor-stretch.jpg",
+      "sha256": "02b8c8f8d725765a6270813b16a8e3118ebdaa5f6fcb6508e13132c054669711"
+    },
+    "hamstring-stretch": {
+      "file": "hamstring-stretch.jpg",
+      "sha256": "aa7dccf0e980341981659efab67ff169c83a09f6199afbdeb9de4fe1a0ab848d"
+    },
+    "figure-four-stretch": {
+      "file": "figure-four-stretch.jpg",
+      "sha256": "e41970289ec57250ee06c7ca3964b0fd0db26461382ab6d72fefa1ce2d73067a"
+    },
+    "childs-pose": {
+      "file": "childs-pose.jpg",
+      "sha256": "7122b009de2a1ba414770c6de4d5394c688866570ccc63d6f4b5b6118603354b"
+    },
+    "downward-dog": {
+      "file": "downward-dog.jpg",
+      "sha256": "8adf49e48d626194ec05f0ea4f03aa70765afc73187bb3cf836f9a69f8fc7378"
+    },
+    "worlds-greatest-stretch": {
+      "file": "worlds-greatest-stretch.jpg",
+      "sha256": "8c1023b45adff3feefdf394b41c33a01bcebffd5d337ed77bf7349ad88829859"
+    },
+    "open-book": {
+      "file": "open-book.jpg",
+      "sha256": "46970249ba61c657ed1cd29f90888ae1bc6bc5828a7c0e27328a476684e9c79a"
+    },
+    "warrior-two": {
+      "file": "warrior-two.jpg",
+      "sha256": "b67cd24ce93509a53bb7cf7685a1a7b5304cb64c51bf6910f4a53c8f22bf1ec1"
+    },
+    "incline-dumbbell-press": {
+      "file": "incline-dumbbell-press.jpg",
+      "sha256": "6fa1c3f9bd461ca55d5561d23df4d63ebb01d9b37ee078b5b5fea920a3ec8ff0"
+    },
+    "incline-barbell-bench-press": {
+      "file": "incline-barbell-bench-press.jpg",
+      "sha256": "3e6074540aae01dfd48bc9b58673e242134e3fcf8b124c1f0517c22ae2c5f007"
+    },
+    "dumbbell-fly": {
+      "file": "dumbbell-fly.jpg",
+      "sha256": "629dafaa929d7c29228bcf5e1161bd6ff14cd9dc9739291e4db93f38d7608e17"
+    },
+    "cable-crossover": {
+      "file": "cable-crossover.jpg",
+      "sha256": "a52b3ecc7fe0f909176d3b683ed787f205ecb0b977fd3dcbe220f6c8136fd32c"
+    },
+    "machine-chest-press": {
+      "file": "machine-chest-press.jpg",
+      "sha256": "defb2c13b3d1173b175265d4af142b217c4900c97b99b5f9fc72600f1d1670d2"
+    },
+    "chest-dip": {
+      "file": "chest-dip.jpg",
+      "sha256": "521a19e5194330e7e4f6627fde0a5c0a24e0bf7822aa371c6167126c28bedd5f"
+    },
+    "pec-deck": {
+      "file": "pec-deck.jpg",
+      "sha256": "153a8420c742c4010f49e70c9f7999590c60f0f89d44958797d28d2df5b300d4"
+    },
+    "decline-push-up": {
+      "file": "decline-push-up.jpg",
+      "sha256": "1d8fcea4deb142f5e442c9937bc82008a4cabff1cd0c5140dfebba62e4cb2ca5"
+    },
+    "chin-up": {
+      "file": "chin-up.jpg",
+      "sha256": "7aac9f793d66041bb6db6212d063de01fac9ab8d9a620ea63e290b93903b737d"
+    },
+    "inverted-row": {
+      "file": "inverted-row.jpg",
+      "sha256": "d5e57a7dbc671c62cde8202a5e2bf3fbb09b1a062da4cb45df77c332a40db372"
+    },
+    "chest-supported-dumbbell-row": {
+      "file": "chest-supported-dumbbell-row.jpg",
+      "sha256": "1630d39d120046d90b6a847c286aae46c59f5340cbf30f01d38e137b09c2a1df"
+    },
+    "t-bar-row": {
+      "file": "t-bar-row.jpg",
+      "sha256": "c3006aaae79f39ceef01becaa76a28034b2dec7bc28132c14dc7af73fe035527"
+    },
+    "straight-arm-pulldown": {
+      "file": "straight-arm-pulldown.jpg",
+      "sha256": "8a18a3fe7f7c72fe3edc9f0b7659b6e1b7eab3619b4546d4addfe00e74b6e376"
+    },
+    "back-extension": {
+      "file": "back-extension.jpg",
+      "sha256": "dc2c16d01e5e39b78965dbb4d57bd775c85c27730536421fc831dc30f5777b5c"
+    },
+    "barbell-deadlift": {
+      "file": "barbell-deadlift.jpg",
+      "sha256": "22c4c5755fad3c6faddaf72c45f9b1fe73999d511a315c0192f0f2a9ec4afaee"
+    },
+    "barbell-overhead-press": {
+      "file": "barbell-overhead-press.jpg",
+      "sha256": "48be30c920a3a06bfda60bee7ff16016c987929230dd21cfd1653ca990306c79"
+    },
+    "arnold-press": {
+      "file": "arnold-press.jpg",
+      "sha256": "a94071746f4cd60fe3b68d941b240ee50ad3826bfbc9d19699117f49c833c4da"
+    },
+    "machine-shoulder-press": {
+      "file": "machine-shoulder-press.jpg",
+      "sha256": "10ebc608a1f0488d2e63b2a7c9bd835defbe789a25ef7e0a1e6723e6e547e15d"
+    },
+    "front-raise": {
+      "file": "front-raise.jpg",
+      "sha256": "2ddb5fbd17dd491e314a1e0b469d386944a592fad8ad57e387c66c832aefc478"
+    },
+    "reverse-dumbbell-fly": {
+      "file": "reverse-dumbbell-fly.jpg",
+      "sha256": "ddc470f1ab983e38ecd78078484733a2be16cd40696f95ab0b992bbb612aac19"
+    },
+    "cable-lateral-raise": {
+      "file": "cable-lateral-raise.jpg",
+      "sha256": "3172567f2a366da9b04aa7d0ff3909d489d45d368791e5128f156101874eb0a9"
+    },
+    "pike-push-up": {
+      "file": "pike-push-up.jpg",
+      "sha256": "48889627617a44d6aa00d4d691388b5286973621f0e151461084cac438914a44"
+    },
+    "dumbbell-shrug": {
+      "file": "dumbbell-shrug.jpg",
+      "sha256": "52caf7e246184d57b09a050c1b7b1d9765c75bdd5e0c9e766e8b115fe319e8c6"
+    },
+    "hammer-curl": {
+      "file": "hammer-curl.jpg",
+      "sha256": "a76343adfd1b14f7f9181851a897611a33e496604d72f3e6ac4f2cfe2ee454ee"
+    },
+    "barbell-curl": {
+      "file": "barbell-curl.jpg",
+      "sha256": "054de142a4765e074e1013b7c87abe60e46027a439bc6aea2264aaa10165fb1c"
+    },
+    "incline-dumbbell-curl": {
+      "file": "incline-dumbbell-curl.jpg",
+      "sha256": "9f220cc709810a6bcbb49b707fdecde04d20974e891cb1d5a256998a2e754adf"
+    },
+    "preacher-curl": {
+      "file": "preacher-curl.jpg",
+      "sha256": "aac5f4d6c76b8d9c1ad91ffb1156b9f40135c601f20c089c24c8bbffc324bcb0"
+    },
+    "cable-curl": {
+      "file": "cable-curl.jpg",
+      "sha256": "8eee976b89ba3ce2a0063ea3d1c933b9afb2cd172cb442a635b585b4ee644ecb"
+    },
+    "concentration-curl": {
+      "file": "concentration-curl.jpg",
+      "sha256": "35aad4db7828bc2235bbd7cf6e54ddaab1bcbee7f49129a530331e9ca55fee40"
+    },
+    "triceps-pushdown": {
+      "file": "triceps-pushdown.jpg",
+      "sha256": "d286486cc3da22b7cfad140619203a52c107d074aec28652c3349260c8aa9d01"
+    },
+    "overhead-cable-triceps-extension": {
+      "file": "overhead-cable-triceps-extension.jpg",
+      "sha256": "64a0fd25052d03bb9be09acce071cbc1ff6c14e94583e1f3675ed51e66ebfd05"
+    },
+    "skull-crusher": {
+      "file": "skull-crusher.jpg",
+      "sha256": "94405ab876fc7f6ddfb6236a46def02830a9c01690b83884f801a35b8867bc3e"
+    },
+    "close-grip-bench-press": {
+      "file": "close-grip-bench-press.jpg",
+      "sha256": "9683adc80f8fb05123bea350cda157578c97f44269f60f32ae63c9cdd2bc605d"
+    },
+    "bench-dip": {
+      "file": "bench-dip.jpg",
+      "sha256": "f1749b7fddc9783964d1ea3d8108a07ec33c000a16e342ba6c86f849ba040b7a"
+    },
+    "diamond-push-up": {
+      "file": "diamond-push-up.jpg",
+      "sha256": "7205362ad5d85b99a3be245c2b4ba57866dfa531f67023204f846cd9c8ed782a"
+    },
+    "triceps-kickback": {
+      "file": "triceps-kickback.jpg",
+      "sha256": "2b9c67200fbf227ab7cd45171c56c1cffc5d82ded495d919202b60850fb92c1a"
+    },
+    "front-squat": {
+      "file": "front-squat.jpg",
+      "sha256": "0fb02ab2db9f855c42f38f25ce9215eba8153b3bc68c955b27c5c00194ee0d8e"
+    },
+    "walking-lunge": {
+      "file": "walking-lunge.jpg",
+      "sha256": "dab0bffb3e4fbeb4f9579bfdb4ef51334c61705037d52eb153ac624fabaa2a44"
+    },
+    "leg-extension": {
+      "file": "leg-extension.jpg",
+      "sha256": "4b4b4551c17cc28a8821bbc1e5924f30df8c43e524c713d9bdfe695612aa2b06"
+    },
+    "hack-squat": {
+      "file": "hack-squat.jpg",
+      "sha256": "ab49995e3ffd5ca8a8e23b0f97470a9c0375f578320b95442bae1da5e69e6020"
+    },
+    "split-squat": {
+      "file": "split-squat.jpg",
+      "sha256": "59f723870549d4e82d4d12974afda2c54afe4360676a2f9aeef7a4be13b053db"
+    },
+    "wall-sit": {
+      "file": "wall-sit.jpg",
+      "sha256": "b89b7d0d31bc0d7c6ff3eab043fe76b00ef9ce00c02722c16d9e67048c4b0051"
+    },
+    "lying-leg-curl": {
+      "file": "lying-leg-curl.jpg",
+      "sha256": "52d55862f2f403328bb110dbba5225010a2f95e910ae131a8f921fe325e6f250"
+    },
+    "seated-leg-curl": {
+      "file": "seated-leg-curl.jpg",
+      "sha256": "18070e4b57cd7a9a011e389fb8d15e7948596945811145ae32e3599af288d41d"
+    },
+    "nordic-curl": {
+      "file": "nordic-curl.jpg",
+      "sha256": "7c06850e29ca96c10af9333165cbbf3cd8b06ee8e36b0a74306027f9bdfa96ad"
+    },
+    "good-morning": {
+      "file": "good-morning.jpg",
+      "sha256": "c62c1ce3adf4cfd5bfdb45c140fe55f78c5e6df5858ecf118a0113cec7d4c39e"
+    },
+    "single-leg-romanian-deadlift": {
+      "file": "single-leg-romanian-deadlift.jpg",
+      "sha256": "2bb573d26ea4d61ff3dc9aaea62f381f602684bbeefa149cca0149e687eed4e3"
+    },
+    "cable-pull-through": {
+      "file": "cable-pull-through.jpg",
+      "sha256": "742e302b9da2d4ec5b7503b25422159d08d1af97e4a7ac14368c9dba23856cb0"
+    },
+    "cable-kickback": {
+      "file": "cable-kickback.jpg",
+      "sha256": "3ef23db0794d8be0132a8c0e846f5d9f4e08970170a58a865e91572ede5713f4"
+    },
+    "single-leg-glute-bridge": {
+      "file": "single-leg-glute-bridge.jpg",
+      "sha256": "d53f5a9ca4700d6c1e6759e3d8cb05929af58a2e6e244bc2358a027a49d726e1"
+    },
+    "hip-abduction-machine": {
+      "file": "hip-abduction-machine.jpg",
+      "sha256": "f7eec2152b3358f16700bc39e9faec3ce45ada5e6255e116d69a6dfd60a25474"
+    },
+    "sumo-deadlift": {
+      "file": "sumo-deadlift.jpg",
+      "sha256": "4815af51cc28919a627e351493598e9b5450ebc274e2172a51776c31627d8986"
+    },
+    "curtsy-lunge": {
+      "file": "curtsy-lunge.jpg",
+      "sha256": "c01c4328557937f2b6ad8c09acb9323cb4689d60e94fe08cfe0ded01c8c9fa93"
+    },
+    "seated-calf-raise": {
+      "file": "seated-calf-raise.jpg",
+      "sha256": "8965162466c8936fdea6209131c273167661a7a785c1131c6b88045924be65d5"
+    },
+    "single-leg-calf-raise": {
+      "file": "single-leg-calf-raise.jpg",
+      "sha256": "143b8d3c71f01069227f2b07a736ff33704d1d418479dc3a888616e4d479b8dc"
+    },
+    "machine-calf-raise": {
+      "file": "machine-calf-raise.jpg",
+      "sha256": "e97b462a02d7a4dbe4945c4c1874a280cbf985c3fd5189475b7ec6111749236e"
+    },
+    "crunch": {
+      "file": "crunch.jpg",
+      "sha256": "0da3d1df2d6c4f4bcc5c91a14ae62f3a17d4de055ae5680b00534968beb248e8"
+    },
+    "bicycle-crunch": {
+      "file": "bicycle-crunch.jpg",
+      "sha256": "5aeea90af5b791ca3457124678e94df00bdfc1dfbfbcbbf18b6af8850aaef8ea"
+    },
+    "russian-twist": {
+      "file": "russian-twist.jpg",
+      "sha256": "6fd649232a1443eeac0f8ac5f43589700aa1a53742587b6e61971d34ebd3bb39"
+    },
+    "hanging-leg-raise": {
+      "file": "hanging-leg-raise.jpg",
+      "sha256": "f51f7a8c58b669112cc36eda95e7d3f378a17333f56a76fca77a8d1617af5578"
+    },
+    "cable-crunch": {
+      "file": "cable-crunch.jpg",
+      "sha256": "be110c45d39ebde5381c1e5176b6482db7152233eac806352f62665feafb496b"
+    },
+    "ab-wheel-rollout": {
+      "file": "ab-wheel-rollout.jpg",
+      "sha256": "8c7496b3ad163305010a847649b1cfc7b72e9eefc10b136454f057cc3e3980d5"
+    },
+    "pallof-press": {
+      "file": "pallof-press.jpg",
+      "sha256": "971a50a52ef78112fb7ea2f3c2e6746b823101ae17b99e7f507849830b15f16e"
+    },
+    "hollow-hold": {
+      "file": "hollow-hold.jpg",
+      "sha256": "28427768d81e22156fe4f5d7148c9522ae7342da348102fd4ad3f82c160de780"
+    },
+    "cable-woodchop": {
+      "file": "cable-woodchop.jpg",
+      "sha256": "8163e13420709cefe37d851a6190466dd622f921f49bf5d2a9d45eac3fd5158b"
+    },
+    "dumbbell-thruster": {
+      "file": "dumbbell-thruster.jpg",
+      "sha256": "28ecc9b9c1bf148cc21bfeda1bdc20a5b089bc3307bf079ebeb7e53e3fb6025d"
+    },
+    "turkish-get-up": {
+      "file": "turkish-get-up.jpg",
+      "sha256": "6678ee22ae0d4907f3c0d07c70c3a4fc2d9cab071e32ef3fdb3afd0a6d77e9d3"
+    },
+    "bear-crawl": {
+      "file": "bear-crawl.jpg",
+      "sha256": "6540cc96fd77a7ea1f89a275930bcc9b3550156aefef292b2600e3d6db68f10f"
+    },
+    "dumbbell-snatch": {
+      "file": "dumbbell-snatch.jpg",
+      "sha256": "b721ee17cb07f1466f0f0b0ee84037b92a30d172b26b2cd90ec8412768d2e8bb"
+    },
+    "kettlebell-clean-and-press": {
+      "file": "kettlebell-clean-and-press.jpg",
+      "sha256": "75904154dd1cc70a4c0511048330902385cb47f87433063d69f2bc6aab0ee5a0"
+    },
+    "wall-push-up": {
+      "file": "wall-push-up.jpg",
+      "sha256": "70ab1ee67ce20a73f5b829cecfcf0e76483b87017eddd769d3de6df99bc1e8f1"
+    },
+    "knee-push-up": {
+      "file": "knee-push-up.jpg",
+      "sha256": "3f43cd71ae2b8888d218902ce9af12172575a6f88f5ae2f31210a920491501bb"
+    },
+    "dumbbell-floor-press": {
+      "file": "dumbbell-floor-press.jpg",
+      "sha256": "5b87a048ea707d0ae5a70eb8c5d023f73494bbee667a3027644213a1a1866a34"
+    },
+    "band-chest-press": {
+      "file": "band-chest-press.jpg",
+      "sha256": "c78ab9430e3a14d6dccd9be14b2785ebf90cc74b2c9f4bc7ee3173c8d6a6a48b"
+    },
+    "band-row": {
+      "file": "band-row.jpg",
+      "sha256": "d1acc000a46d20ce8a67b5b7dc8dcd98c2f25a7b78fa34971468aa5e0f9bb4d7"
+    },
+    "backpack-row": {
+      "file": "backpack-row.jpg",
+      "sha256": "7bf014a1271e8db898f3a0a0484aa7dd6c0d9111fca09de54f41c6bcbc03e01b"
+    },
+    "bent-over-dumbbell-row": {
+      "file": "bent-over-dumbbell-row.jpg",
+      "sha256": "44174b6ce0443c1dde2b3adc807dd4bbb9b531da9827c721deee2d5a174995ae"
+    },
+    "band-pull-apart": {
+      "file": "band-pull-apart.jpg",
+      "sha256": "dcec729342e7320c07486cbdb7a7627edf3d7754f13c761f11ab15e4a36c4483"
+    },
+    "superman": {
+      "file": "superman.jpg",
+      "sha256": "426ad5a48c30c0131fcd1726acf0c0bc100c0e99acf438e1bc1aacc7b0b36414"
+    },
+    "band-lat-pulldown": {
+      "file": "band-lat-pulldown.jpg",
+      "sha256": "fdc358ff9e659c4a0dfda4247e08b521cae3582b9d6da5281ae79e87c9130486"
+    },
+    "band-biceps-curl": {
+      "file": "band-biceps-curl.jpg",
+      "sha256": "4388710d28c181aa0490c19a1f46e1fe62c5a7e3e4933cc1d0b13a2bcfade961"
+    },
+    "band-triceps-pushdown": {
+      "file": "band-triceps-pushdown.jpg",
+      "sha256": "14851149b4d73558b993cf1470dea42c6679c46456291f3d6aa5228de3ec3958"
+    },
+    "sliding-leg-curl": {
+      "file": "sliding-leg-curl.jpg",
+      "sha256": "ee06c77166a84189aaf2b1c9a440201ae2b07fd36898db3f5a5a769d4e204966"
+    },
+    "bodyweight-good-morning": {
+      "file": "bodyweight-good-morning.jpg",
+      "sha256": "9f6adc2ed74910d59a46d9b7c0bc06ea9fe4ca96c4646c69d4a2e8b3df4c934c"
+    },
+    "hamstring-walkout": {
+      "file": "hamstring-walkout.jpg",
+      "sha256": "9fdd46768047313009f2894d2c66d5f7830767de175c21ff34b28eec6ac7450b"
+    },
+    "kettlebell-deadlift": {
+      "file": "kettlebell-deadlift.jpg",
+      "sha256": "f5e5c9c468c5bb1891daade8f7128b8a385fbc74855701450ea6d39c55aefde3"
+    },
+    "band-lateral-walk": {
+      "file": "band-lateral-walk.jpg",
+      "sha256": "12f5ed1d17e5654f8487992d8a2193aa14e124615eadfa8a63dc66c1e86ed1d3"
+    },
+    "donkey-kick": {
+      "file": "donkey-kick.jpg",
+      "sha256": "3ad68c99e91d099412d8a4729db397de64995a0b574e5c5dac656303c30efc62"
+    },
+    "dumbbell-calf-raise": {
+      "file": "dumbbell-calf-raise.jpg",
+      "sha256": "366428a52a9a4bc28b7e5b0a207d05f1215323ce5b26fa4795037b0ea00bc0ce"
+    },
+    "seated-dumbbell-calf-raise": {
+      "file": "seated-dumbbell-calf-raise.jpg",
+      "sha256": "1aed9991b7b2e819435d583f8e1085ab81d9a4ee90a4609202f176b5a1fa9c46"
+    },
+    "pogo-hop": {
+      "file": "pogo-hop.jpg",
+      "sha256": "ee88be5e4341c2f804e3e71e5df82079e24f3640ed5d7b5f075fe54e092048f6"
+    },
+    "tiptoe-farmers-walk": {
+      "file": "tiptoe-farmers-walk.jpg",
+      "sha256": "ce5392aad3c30e09d3ccda6fe1eaa7b40c7aac8104e3a863fd11f4f554993d90"
+    }
+  },
   "sessions": {}
 }
