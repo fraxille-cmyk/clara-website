@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "builtAt": "2026-11-05T22:19:52.491Z",
+  "version": 11,
+  "builtAt": "2026-11-13T20:02:59.220Z",
   "minAppBuild": 9,
   "schemaVersion": 1,
   "cards": {
@@ -23,6 +23,26 @@
     "ingredients": {
       "file": "ingredients.jpg",
       "sha256": "16f85ef3f55e833f3454408e0790f24ae61b4e6adc7432a0412186d0bf6002a9"
+    },
+    "tracker.food": {
+      "file": "tracker-food.jpg",
+      "sha256": "cac03d2998d2b3f07b65a29a67884aebab5df173a4b10fc691b8582bb41db631"
+    },
+    "tracker.training": {
+      "file": "tracker-training.jpg",
+      "sha256": "37f4c0f8d581ad59317a0eb54321e8c592b8fd4e17e913f5b4945c3cfed513cc"
+    },
+    "workout.strength": {
+      "file": "workout-strength.jpg",
+      "sha256": "9fdd7327531ce1a76c47cbff20770a7e7276cdf2fdd8db60238fbab7dd19198e"
+    },
+    "workout.cardio": {
+      "file": "workout-cardio.jpg",
+      "sha256": "4b726a054520d09ec29988a6c4daf57fa4c485ef1d48e2e8c6c76fc7d9fb09cc"
+    },
+    "workout.sports": {
+      "file": "workout-sports.jpg",
+      "sha256": "a6d40ee5b78f58c0567bdca029300250a151d9f06fea478eaae4fd5965c67f0a"
     }
   }
 }
