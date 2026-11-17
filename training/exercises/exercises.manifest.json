@@ -1,6 +1,6 @@
 {
-  "version": 63,
-  "builtAt": "2026-11-13T20:02:59.804Z",
+  "version": 78,
+  "builtAt": "2026-11-16T11:04:49.752Z",
   "minAppBuild": 9,
   "schemaVersion": 1,
   "exercises": {
@@ -565,5 +565,66 @@
       "sha256": "ce5392aad3c30e09d3ccda6fe1eaa7b40c7aac8104e3a863fd11f4f554993d90"
     }
   },
-  "sessions": {}
+  "sessions": {
+    "full_body_a": {
+      "file": "session-full_body_a.jpg",
+      "sha256": "1614b6c5d92d282f0683c5b392f1a01e36af1d743f1f53cd0faaaaad2c302fb0"
+    },
+    "full_body_b": {
+      "file": "session-full_body_b.jpg",
+      "sha256": "22586adeeee5488c7fa2ab55e4ca9969c1095c17c961028a12efca20ed19c6b6"
+    },
+    "upper": {
+      "file": "session-upper.jpg",
+      "sha256": "0920db553ac4daf0937f3fdd6da4c1fdf8c084739df7771e3e541495e35a8882"
+    },
+    "lower": {
+      "file": "session-lower.jpg",
+      "sha256": "fe48dc86c7fc9e66571016c0695b79ceec08634f2000f487c4e0dfb053930532"
+    },
+    "push": {
+      "file": "session-push.jpg",
+      "sha256": "78701568b2cef59a1a7685afd82da60e5108dc3cd01ac7e5e761ef249bae1b0c"
+    },
+    "pull": {
+      "file": "session-pull.jpg",
+      "sha256": "db23f51f8e28f5c35c5788a6051b21f243ba133fb21699b0daa529edbc76d02d"
+    },
+    "legs": {
+      "file": "session-legs.jpg",
+      "sha256": "88bae679b9af0247bee53f9f4f126affc6520a178d3eeacfde0b983d5951dfc8"
+    },
+    "core": {
+      "file": "session-core.jpg",
+      "sha256": "9893c4a720a472dbb1cd159c2318b9d0dfe916341dd6e6c0959b2ae2e2ffa803"
+    },
+    "bodyweight_20": {
+      "file": "session-bodyweight_20.jpg",
+      "sha256": "088a39ad366853606adc2c583b818ae2a825df69145e71740b50e6a59a47443e"
+    },
+    "home_full_body_30": {
+      "file": "session-home_full_body_30.jpg",
+      "sha256": "30f2ad7a0382ed5da375222ed6bf74ffb185be75879020c299fbc09719513662"
+    },
+    "home_legs_glutes": {
+      "file": "session-home_legs_glutes.jpg",
+      "sha256": "ab5b73f0bd11086428ee91583b4e1eeb2d8d9833c1516e939ae8168fcfa08a0c"
+    },
+    "home_upper_dumbbells": {
+      "file": "session-home_upper_dumbbells.jpg",
+      "sha256": "e0c2386423614a4d5b971d9d304b5430301f1f1d2b715ab65d5fa037b0b8cbeb"
+    },
+    "home_core_10": {
+      "file": "session-home_core_10.jpg",
+      "sha256": "99f73167650fd49866b596b77425db637605f7b5aa6737709e726e923fdbd0c6"
+    },
+    "pushup_progression": {
+      "file": "session-pushup_progression.jpg",
+      "sha256": "6ba6baa8b6c168b34ab5178b81d8e3c601eaf4c1b5b623bd823db4bea55ecf87"
+    },
+    "home_stretch_15": {
+      "file": "session-home_stretch_15.jpg",
+      "sha256": "251008b1c79f52f5006b085b71129ed452855e8e7d5e947858ae188d626f5d9a"
+    }
+  }
 }
