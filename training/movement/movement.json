@@ -1,7 +1,7 @@
 {
  "format": 1,
  "schemaVersion": 1,
- "version": 2,
+ "version": 3,
  "safety": "Move gently and stop if anything hurts. If you're pregnant, injured or managing a condition, ask your doctor first.",
  "moves": [
   {
@@ -19,6 +19,11 @@
     "easy": 10,
     "medium": 15,
     "hard": 25
+   },
+   "timed": {
+    "easy": 30,
+    "medium": 45,
+    "hard": 60
    },
    "dose": "{n} squats",
    "noun": "squats",
@@ -42,6 +47,11 @@
     "medium": 12,
     "hard": 20
    },
+   "timed": {
+    "easy": 30,
+    "medium": 45,
+    "hard": 60
+   },
    "dose": "{n} chair squats",
    "noun": "chair squats",
    "cue": "Lean forward, press through your heels to stand, then sit back down slowly.",
@@ -63,6 +73,11 @@
     "easy": 5,
     "medium": 10,
     "hard": 15
+   },
+   "timed": {
+    "easy": 30,
+    "medium": 45,
+    "hard": 60
    },
    "dose": "{n} push-ups",
    "noun": "push-ups",
@@ -107,6 +122,11 @@
     "easy": 10,
     "medium": 15,
     "hard": 25
+   },
+   "timed": {
+    "easy": 30,
+    "medium": 45,
+    "hard": 60
    },
    "dose": "{n} sit-ups",
    "noun": "sit-ups",
@@ -173,6 +193,11 @@
     "medium": 8,
     "hard": 12
    },
+   "timed": {
+    "easy": 30,
+    "medium": 45,
+    "hard": 60
+   },
    "dose": "{n} lunges a side",
    "noun": "lunges",
    "cue": "Step back and lower your back knee toward the floor, then push up through your front heel.",
@@ -217,6 +242,11 @@
     "medium": 20,
     "hard": 30
    },
+   "timed": {
+    "easy": 30,
+    "medium": 45,
+    "hard": 60
+   },
    "dose": "{n} calf raises",
    "noun": "calf raises",
    "cue": "Rise high onto your toes, hold for a beat, then lower your heels slowly.",
@@ -239,6 +269,11 @@
     "easy": 20,
     "medium": 30,
     "hard": 50
+   },
+   "timed": {
+    "easy": 30,
+    "medium": 45,
+    "hard": 60
    },
    "dose": "{n} jumping jacks",
    "noun": "jumping jacks",
@@ -1330,6 +1365,7 @@
   {
    "id": "owner-sit-ups",
    "text": "I challenge you to {n} sit-ups!",
+   "timed": "I challenge you to sit-ups against the clock!",
    "kinds": [
     "strength"
    ],
@@ -1375,6 +1411,7 @@
   {
    "id": "owner-squats",
    "text": "Don't sit your day away — time for {n} squats.",
+   "timed": "Don't sit your day away — time for squats.",
    "kinds": [
     "strength"
    ],
@@ -1390,6 +1427,7 @@
   {
    "id": "tiny-job",
    "text": "I have a tiny job for you: {dose}.",
+   "timed": "I have a tiny job for you, and I'm holding the stopwatch.",
    "kinds": [
     "strength",
     "stretch",
@@ -1405,6 +1443,7 @@
   {
    "id": "quick-one",
    "text": "Quick one from me: {dose}, then back to your day.",
+   "timed": "Quick one from me, then back to your day.",
    "kinds": [
     "strength",
     "stretch",
@@ -1420,6 +1459,7 @@
   {
    "id": "ready",
    "text": "Ready when you are: {dose}.",
+   "timed": "Ready when you are. The clock starts when you do.",
    "kinds": [
     "strength",
     "stretch",
@@ -1435,6 +1475,7 @@
   {
    "id": "picked",
    "text": "I picked this one just for you: {dose}.",
+   "timed": "I picked this one just for you.",
    "kinds": [
     "strength",
     "stretch",
@@ -1450,6 +1491,7 @@
   {
    "id": "small-win",
    "text": "Small break, big win: {dose}.",
+   "timed": "Small break, big win. Ready, set, go!",
    "kinds": [
     "strength",
     "stretch",
@@ -1465,6 +1507,7 @@
   {
    "id": "time-to-move",
    "text": "Time to move! I've got {dose} for you.",
+   "timed": "Time to move! I've got the clock, you've got the moves.",
    "kinds": [
     "strength",
     "stretch",
@@ -1480,6 +1523,7 @@
   {
    "id": "surprise",
    "text": "Here's your surprise: {dose}.",
+   "timed": "Here's your surprise, timer included.",
    "kinds": [
     "strength",
     "stretch",
@@ -1495,6 +1539,7 @@
   {
    "id": "tap-done",
    "text": "I'll keep it short: {dose}, then tap Done.",
+   "timed": "I'll keep it short. The timer says when you're done.",
    "kinds": [
     "strength",
     "stretch",
@@ -1510,6 +1555,7 @@
   {
    "id": "your-turn",
    "text": "Your turn. I've lined up {dose}.",
+   "timed": "Your turn. I've set the timer.",
    "kinds": [
     "strength",
     "stretch",
@@ -1525,6 +1571,7 @@
   {
    "id": "bet",
    "text": "I bet you can do {dose} right now.",
+   "timed": "I bet you can keep going until the timer stops.",
    "kinds": [
     "strength"
    ],
@@ -1538,6 +1585,7 @@
   {
    "id": "stand-up",
    "text": "Up you get. I'd like {dose}, please.",
+   "timed": "Up you get. I'd like you moving until time's up, please.",
    "kinds": [
     "strength"
    ],
@@ -1551,6 +1599,7 @@
   {
    "id": "pop-quiz",
    "text": "Pop quiz: can you do {dose}? I think you can.",
+   "timed": "Pop quiz: can you keep going to the very end? I think you can.",
    "kinds": [
     "strength"
    ],
@@ -1564,6 +1613,7 @@
   {
    "id": "promise",
    "text": "This one's quick, I promise: {dose}.",
+   "timed": "This one's quick, I promise. I'm timing it.",
    "kinds": [
     "strength",
     "stretch"
@@ -1578,6 +1628,7 @@
   {
    "id": "cheering",
    "text": "I'm cheering already. Go on: {dose}.",
+   "timed": "I'm cheering already. Go on, I'll watch the clock.",
    "kinds": [
     "strength"
    ],
@@ -1757,6 +1808,7 @@
   {
    "id": "good-morning",
    "text": "Good morning! I'd like to start with {dose}.",
+   "timed": "Good morning! I'd like to start with a timed one.",
    "kinds": [
     "strength",
     "stretch",
@@ -1769,6 +1821,7 @@
   {
    "id": "morning-wiggle",
    "text": "Morning wiggle time: I've got {dose} for you.",
+   "timed": "Morning wiggle time: I've got the timer ready.",
    "kinds": [
     "strength",
     "stretch",
@@ -1781,6 +1834,7 @@
   {
    "id": "coffee",
    "text": "Coffee brewing? Squeeze in {dose} while you wait.",
+   "timed": "Coffee brewing? Keep moving until the timer goes off.",
    "kinds": [
     "strength",
     "stretch"
@@ -1792,6 +1846,7 @@
   {
    "id": "first-thing",
    "text": "First thing on my list for you this morning: {dose}.",
+   "timed": "First thing on my list this morning: you, me and a timer.",
    "kinds": [
     "strength",
     "stretch",
@@ -1804,6 +1859,7 @@
   {
    "id": "rise-shine",
    "text": "Rise and shine: {dose}, and you're officially awake.",
+   "timed": "Rise and shine: move until time's up, and you're officially awake.",
    "kinds": [
     "strength",
     "stretch",
@@ -1816,6 +1872,7 @@
   {
    "id": "lunch-bonus",
    "text": "Lunch break bonus round: {dose}.",
+   "timed": "Lunch break bonus round, on the clock.",
    "kinds": [
     "strength",
     "stretch",
@@ -1828,6 +1885,7 @@
   {
    "id": "before-lunch",
    "text": "Before lunch, I've got one for you: {dose}.",
+   "timed": "Before lunch, I've got a timed one for you.",
    "kinds": [
     "strength",
     "stretch",
@@ -1840,6 +1898,7 @@
   {
    "id": "midday-check",
    "text": "Midday check-in from me: {dose}.",
+   "timed": "Midday check-in from me. The timer's ready when you are.",
    "kinds": [
     "strength",
     "stretch",
@@ -1852,6 +1911,7 @@
   {
    "id": "halfway",
    "text": "Halfway through the day! I'd mark it with {dose}.",
+   "timed": "Halfway through the day! I'd mark it with a timed round.",
    "kinds": [
     "strength",
     "stretch",
@@ -1864,6 +1924,7 @@
   {
    "id": "slump-fix",
    "text": "Afternoon slump? I've got just the thing: {dose}.",
+   "timed": "Afternoon slump? I've got just the thing, timer and all.",
    "kinds": [
     "strength",
     "stretch",
@@ -1876,6 +1937,7 @@
   {
    "id": "beat-slump",
    "text": "Let's shake off the slump with {dose}.",
+   "timed": "Let's shake off the slump against the clock.",
    "kinds": [
     "strength",
     "stretch",
@@ -1888,6 +1950,7 @@
   {
    "id": "afternoon-perfect",
    "text": "It's the afternoon, my favorite time for {dose}.",
+   "timed": "It's the afternoon, my favorite time for a timed round.",
    "kinds": [
     "strength",
     "stretch",
@@ -1910,6 +1973,7 @@
   {
    "id": "afternoon-stand",
    "text": "This afternoon's surprise from me: {dose}.",
+   "timed": "This afternoon's surprise from me comes with a timer.",
    "kinds": [
     "strength",
     "stretch",
@@ -1922,6 +1986,7 @@
   {
    "id": "evening-you",
    "text": "Evening, you! One more before dinner: {dose}.",
+   "timed": "Evening, you! One more before dinner, on the clock.",
    "kinds": [
     "strength",
     "stretch",
@@ -1934,6 +1999,7 @@
   {
    "id": "end-of-day",
    "text": "End of the day? I saved a good one: {dose}.",
+   "timed": "End of the day? I saved a good one, with a timer.",
    "kinds": [
     "strength",
     "stretch",
@@ -1957,6 +2023,7 @@
   {
    "id": "before-dinner",
    "text": "Before dinner, I'd love {dose} from you.",
+   "timed": "Before dinner, I'd love a timed round from you.",
    "kinds": [
     "strength",
     "stretch",
@@ -1969,6 +2036,7 @@
   {
    "id": "last-call",
    "text": "My last idea this evening: {dose}.",
+   "timed": "My last idea this evening: move until the timer stops.",
    "kinds": [
     "strength",
     "stretch",
@@ -1981,6 +2049,7 @@
   {
    "id": "squats-stop",
    "text": "{n} squats, and I'll stop bugging you. For now.",
+   "timed": "Squat until the timer's done, and I'll stop bugging you. For now.",
    "kinds": [
     "strength"
    ],
@@ -1997,6 +2066,7 @@
   {
    "id": "up-down",
    "text": "Up, down, repeat: {dose}.",
+   "timed": "Up, down, repeat until the timer says stop.",
    "kinds": [
     "strength"
    ],
@@ -2014,6 +2084,7 @@
   {
    "id": "chair-gym",
    "text": "Your chair is now gym equipment: {dose}.",
+   "timed": "Your chair is now gym equipment. I'll keep the time.",
    "kinds": [
     "strength"
    ],
@@ -2030,6 +2101,7 @@
   {
    "id": "drop-give",
    "text": "Drop and give me {n} push-ups. Nicely, of course.",
+   "timed": "Drop and give me push-ups. Nicely, of course.",
    "kinds": [
     "strength"
    ],
@@ -2046,6 +2118,7 @@
   {
    "id": "push-floor",
    "text": "Push the floor away {n} times. I'm counting.",
+   "timed": "Push the floor away. I've got the clock.",
    "kinds": [
     "strength"
    ],
@@ -2110,6 +2183,7 @@
   {
    "id": "star",
    "text": "Be a star for a minute: {dose}.",
+   "timed": "Be a star, again and again, until time's up.",
    "kinds": [
     "strength"
    ],
@@ -2126,6 +2200,7 @@
   {
    "id": "tiptoes",
    "text": "Up on your toes: {dose}, nice and slow.",
+   "timed": "Up on your toes, nice and slow, until the timer's done.",
    "kinds": [
     "strength"
    ],
@@ -2142,6 +2217,7 @@
   {
    "id": "step-back",
    "text": "Step back, sink, stand: {dose}.",
+   "timed": "Step back, sink, stand, switch. Repeat until time's up.",
    "kinds": [
     "strength"
    ],
@@ -2238,6 +2314,7 @@
   {
    "id": "curl-up",
    "text": "Curl up, roll down: {dose}. I'll wait.",
+   "timed": "Curl up, roll down, again and again. I'll wait.",
    "kinds": [
     "strength"
    ],

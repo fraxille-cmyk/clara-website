@@ -1,0 +1,2350 @@
+{
+ "format": 1,
+ "schemaVersion": 1,
+ "version": 2,
+ "safety": "Move gently and stop if anything hurts. If you're pregnant, injured or managing a condition, ask your doctor first.",
+ "moves": [
+  {
+   "id": "squats",
+   "exercise": "bodyweight-squat",
+   "name": "Squats",
+   "kind": "strength",
+   "floor": false,
+   "place": "standing",
+   "muscle": "quads",
+   "measure": "reps",
+   "secondsPerRep": 3,
+   "effort": 2,
+   "levels": {
+    "easy": 10,
+    "medium": 15,
+    "hard": 25
+   },
+   "dose": "{n} squats",
+   "noun": "squats",
+   "cue": "Sit your hips back and down with your chest up, then stand tall.",
+   "howTo": "Stand with your feet just wider than your hips and your arms out in front at shoulder height. Sit your hips back and down until your thighs are level with the floor, keeping your chest up and heels down, then push the floor away to stand.",
+   "tip": "If your heels lift, take your feet slightly wider and sit back more, as if onto a low chair."
+  },
+  {
+   "id": "chair-squats",
+   "exercise": "chair-squat",
+   "name": "Chair squats",
+   "kind": "strength",
+   "floor": false,
+   "place": "standing",
+   "muscle": "quads",
+   "measure": "reps",
+   "secondsPerRep": 4,
+   "effort": 2,
+   "levels": {
+    "easy": 8,
+    "medium": 12,
+    "hard": 20
+   },
+   "dose": "{n} chair squats",
+   "noun": "chair squats",
+   "cue": "Lean forward, press through your heels to stand, then sit back down slowly.",
+   "howTo": "Sit tall near the front of a sturdy chair with your feet flat and hip-width apart, arms crossed over your chest. Lean forward, press through your heels to stand all the way up, then sit back down slowly with control.",
+   "tip": "Pushing off with your hands takes the work from your legs; keep your arms crossed and stand through your heels."
+  },
+  {
+   "id": "push-ups",
+   "exercise": "push-up",
+   "name": "Push-ups",
+   "kind": "strength",
+   "floor": true,
+   "place": "floor",
+   "muscle": "chest",
+   "measure": "reps",
+   "secondsPerRep": 3,
+   "effort": 3,
+   "levels": {
+    "easy": 5,
+    "medium": 10,
+    "hard": 15
+   },
+   "dose": "{n} push-ups",
+   "noun": "push-ups",
+   "cue": "Body in one straight line, lower your chest toward the floor, then push it away.",
+   "howTo": "Set your hands just wider than your shoulders and step your feet back until your body makes a straight line from head to heels. Lower your chest to a fist's height above the floor with your elbows at 45° to your body, then push the floor away.",
+   "tip": "If your hips sag or you can't reach a fist's height, do incline push-ups until you can manage 10 in a straight line."
+  },
+  {
+   "id": "desk-push-ups",
+   "exercise": "desk-push-up",
+   "name": "Desk push-ups",
+   "kind": "strength",
+   "floor": false,
+   "place": "desk",
+   "muscle": "chest",
+   "measure": "reps",
+   "secondsPerRep": 3,
+   "effort": 2,
+   "levels": {
+    "easy": 8,
+    "medium": 12,
+    "hard": 20
+   },
+   "dose": "{n} desk push-ups",
+   "noun": "desk push-ups",
+   "cue": "Hands on the desk's edge, bring your chest to it, then push the desk away.",
+   "howTo": "Put your hands on the edge of a sturdy desk just wider than your shoulders and walk your feet back until your body is a straight line. Bend your elbows to bring your chest to the edge, then push the desk away to straighten your arms.",
+   "tip": "Check the desk can't slide or tip before you start; one braced against a wall is safest."
+  },
+  {
+   "id": "sit-ups",
+   "exercise": "sit-up",
+   "name": "Sit-ups",
+   "kind": "strength",
+   "floor": true,
+   "place": "floor",
+   "muscle": "core",
+   "measure": "reps",
+   "secondsPerRep": 3,
+   "effort": 3,
+   "levels": {
+    "easy": 10,
+    "medium": 15,
+    "hard": 25
+   },
+   "dose": "{n} sit-ups",
+   "noun": "sit-ups",
+   "cue": "Curl up off the floor until you're sitting, then roll back down slowly.",
+   "howTo": "Lie on your back with your knees bent, feet flat on the floor and your fingertips lightly behind your ears. Curl your head, shoulders and back up off the floor until you're sitting up, then lower yourself back down one segment at a time.",
+   "tip": "Pulling on your head strains your neck; keep your fingertips light and lead with your chest."
+  },
+  {
+   "id": "plank",
+   "exercise": "plank",
+   "name": "Plank",
+   "kind": "strength",
+   "floor": true,
+   "place": "floor",
+   "muscle": "core",
+   "measure": "seconds",
+   "effort": 3,
+   "levels": {
+    "easy": 20,
+    "medium": 30,
+    "hard": 45
+   },
+   "dose": "a {n}-second plank",
+   "noun": "planks",
+   "cue": "On your forearms, body in one straight line, squeeze your bottom and breathe.",
+   "howTo": "Rest on your forearms with your elbows under your shoulders and step your feet back until your body is a straight line from head to heels. Squeeze your bottom, brace your stomach as if about to cough, and look at the floor just ahead of your hands while you breathe steadily.",
+   "tip": "When your hips sag, the set is over; rest, or drop to your knees and keep a straight line from knees to head."
+  },
+  {
+   "id": "wall-sit",
+   "exercise": "wall-sit",
+   "name": "Wall sit",
+   "kind": "strength",
+   "floor": false,
+   "place": "wall",
+   "muscle": "quads",
+   "measure": "seconds",
+   "effort": 3,
+   "levels": {
+    "easy": 20,
+    "medium": 30,
+    "hard": 45
+   },
+   "dose": "a {n}-second wall sit",
+   "noun": "wall sits",
+   "cue": "Back flat on the wall, slide down until your thighs are level, then hold.",
+   "howTo": "Lean your back flat against a wall, feet hip-width apart and about two foot-lengths out, and slide down until your thighs are level with the floor. Hold there with your knees over your ankles, your back on the wall and your hands off your thighs, breathing steadily.",
+   "tip": "Pressing your hands on your thighs takes the work away; cross your arms on your chest and sit higher on the wall instead."
+  },
+  {
+   "id": "lunges",
+   "exercise": "reverse-lunge",
+   "name": "Lunges",
+   "kind": "strength",
+   "floor": false,
+   "place": "standing",
+   "muscle": "glutes",
+   "measure": "reps",
+   "perSide": true,
+   "secondsPerRep": 3,
+   "effort": 2,
+   "levels": {
+    "easy": 6,
+    "medium": 8,
+    "hard": 12
+   },
+   "dose": "{n} lunges a side",
+   "noun": "lunges",
+   "cue": "Step back and lower your back knee toward the floor, then push up through your front heel.",
+   "howTo": "Stand tall with your feet hip-width apart, holding a dumbbell in each hand if you use them. Take a long step back and lower until your back knee hovers 2–3 cm above the floor and your front shin is upright, then push through your front heel to step back up.",
+   "tip": "Stepping back in a straight line makes you wobble; keep your feet hip-width apart, as if on two train tracks."
+  },
+  {
+   "id": "glute-bridges",
+   "exercise": "glute-bridge",
+   "name": "Glute bridges",
+   "kind": "strength",
+   "floor": true,
+   "place": "floor",
+   "muscle": "glutes",
+   "measure": "reps",
+   "secondsPerRep": 3,
+   "effort": 2,
+   "levels": {
+    "easy": 10,
+    "medium": 15,
+    "hard": 20
+   },
+   "dose": "{n} glute bridges",
+   "noun": "glute bridges",
+   "cue": "Press your heels down and lift your hips until knees, hips and shoulders line up.",
+   "howTo": "Lie on your back with your knees bent, feet flat and hip-width apart, heels about a hand's length from your bottom. Press your heels into the floor and squeeze your bottom to lift your hips until your knees, hips and shoulders form a straight line, hold for a count of two, then lower.",
+   "tip": "Arching your lower back to lift higher is the usual slip; stop at the straight line and squeeze your bottom harder."
+  },
+  {
+   "id": "calf-raises",
+   "exercise": "calf-raise",
+   "name": "Calf raises",
+   "kind": "strength",
+   "floor": false,
+   "place": "standing",
+   "muscle": "calves",
+   "measure": "reps",
+   "secondsPerRep": 2,
+   "effort": 1,
+   "levels": {
+    "easy": 15,
+    "medium": 20,
+    "hard": 30
+   },
+   "dose": "{n} calf raises",
+   "noun": "calf raises",
+   "cue": "Rise high onto your toes, hold for a beat, then lower your heels slowly.",
+   "howTo": "Stand with the balls of your feet on the edge of a step, heels hanging off, holding a rail or wall for balance. Rise as high as you can onto your toes, hold for a count of one, then lower for a count of three until your heels dip below the step.",
+   "tip": "Bouncing at the bottom skips the work; pause for a count of one with your heels low before each rise."
+  },
+  {
+   "id": "jumping-jacks",
+   "exercise": "jumping-jack",
+   "name": "Jumping jacks",
+   "kind": "strength",
+   "floor": false,
+   "place": "standing",
+   "jumping": true,
+   "muscle": "full_body",
+   "measure": "reps",
+   "secondsPerRep": 1,
+   "effort": 3,
+   "levels": {
+    "easy": 20,
+    "medium": 30,
+    "hard": 50
+   },
+   "dose": "{n} jumping jacks",
+   "noun": "jumping jacks",
+   "cue": "Jump your feet out as your arms swing overhead, then jump back together.",
+   "howTo": "Stand tall with your feet together and your arms by your sides. Jump your feet out to just wider than your shoulders while swinging your arms out and up overhead, then jump back to the start, landing on the balls of your feet.",
+   "tip": "Landing flat-footed jars your knees; stay on the balls of your feet with your knees slightly bent."
+  },
+  {
+   "id": "high-knees",
+   "exercise": "high-knees",
+   "name": "High knees",
+   "kind": "strength",
+   "floor": false,
+   "place": "standing",
+   "jumping": true,
+   "muscle": "full_body",
+   "measure": "seconds",
+   "effort": 3,
+   "levels": {
+    "easy": 20,
+    "medium": 30,
+    "hard": 45
+   },
+   "dose": "{n} seconds of high knees",
+   "noun": "high knees",
+   "cue": "Run on the spot, driving each knee up to hip height, light on your feet.",
+   "howTo": "Stand tall with your feet hip-width apart and run on the spot, driving each knee up to hip height. Land on the balls of your feet and pump your arms in time, elbows bent at 90°, with your chest upright.",
+   "tip": "Leaning back to lift your knees higher loads your lower back; stay upright and lift them only as high as you can."
+  },
+  {
+   "id": "standing-march",
+   "exercise": "standing-march",
+   "name": "March in place",
+   "kind": "strength",
+   "floor": false,
+   "place": "standing",
+   "muscle": "hips",
+   "measure": "seconds",
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 45,
+    "hard": 60
+   },
+   "dose": "{n} seconds of marching in place",
+   "noun": "marches",
+   "cue": "March in place, lifting each knee to hip height and swinging your arms.",
+   "howTo": "Stand tall with your feet hip-width apart and march in place, lifting each knee to about hip height. Swing your arms in time with your legs and keep your chest upright as you go.",
+   "tip": "Stomping jars your joints; set each foot down softly, ball of the foot first."
+  },
+  {
+   "id": "bird-dogs",
+   "exercise": "bird-dog",
+   "name": "Bird dogs",
+   "kind": "strength",
+   "floor": true,
+   "place": "floor",
+   "muscle": "back",
+   "measure": "reps",
+   "perSide": true,
+   "secondsPerRep": 4,
+   "effort": 2,
+   "levels": {
+    "easy": 6,
+    "medium": 8,
+    "hard": 12
+   },
+   "dose": "{n} bird dogs a side",
+   "noun": "bird dogs",
+   "cue": "On all fours, reach one arm forward and the other leg back, hold, then switch.",
+   "howTo": "Kneel on all fours with your hands under your shoulders and your knees under your hips, back flat like a table. Reach your right arm forward and your left leg back until both are level with your back, hold for a count of two, then switch sides.",
+   "tip": "Lifting the leg too high arches your back; imagine a tray balanced on your lower back and keep it level."
+  },
+  {
+   "id": "supermans",
+   "exercise": "superman",
+   "name": "Supermans",
+   "kind": "strength",
+   "floor": true,
+   "place": "floor",
+   "muscle": "back",
+   "measure": "reps",
+   "secondsPerRep": 3,
+   "effort": 2,
+   "levels": {
+    "easy": 8,
+    "medium": 12,
+    "hard": 15
+   },
+   "dose": "{n} supermans",
+   "noun": "supermans",
+   "cue": "Face down, lift your arms, chest and legs a hand's height, hold, then lower slowly.",
+   "howTo": "Lie face down with your arms stretched out past your head and your legs straight, forehead resting just off the floor. Lift your arms, chest and legs a hand's height off the floor together, hold for two seconds, then lower them slowly.",
+   "tip": "Throwing your head back strains your neck; keep your gaze on the floor just ahead of your hands."
+  },
+  {
+   "id": "neck-stretch",
+   "exercise": "neck-stretch",
+   "name": "Neck stretch",
+   "kind": "stretch",
+   "floor": false,
+   "place": "sit-or-stand",
+   "muscle": "neck",
+   "measure": "seconds",
+   "perSide": true,
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "a neck stretch, {n} seconds a side",
+   "noun": "neck stretches",
+   "cue": "Tip one ear toward its shoulder and breathe there, then switch sides.",
+   "howTo": "Sit or stand tall with your shoulders relaxed and slowly tip your right ear toward your right shoulder. Rest your right hand lightly on your head and breathe there, then come back to the middle and switch sides.",
+   "tip": "Lifting your shoulder to meet your ear undoes the stretch; let the opposite shoulder sink down."
+  },
+  {
+   "id": "shoulder-rolls",
+   "exercise": "shoulder-rolls",
+   "name": "Shoulder rolls",
+   "kind": "stretch",
+   "floor": false,
+   "place": "sit-or-stand",
+   "muscle": "shoulders",
+   "measure": "seconds",
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "{n} seconds of shoulder rolls",
+   "noun": "shoulder rolls",
+   "cue": "Lift your shoulders to your ears, then roll them back and down in slow circles.",
+   "howTo": "Stand or sit tall with your arms hanging loosely by your sides. Lift your shoulders up toward your ears, roll them back and down in a slow circle, and switch direction halfway through.",
+   "tip": "Small, rushed circles do little; make each one as big and slow as your shoulders allow."
+  },
+  {
+   "id": "doorway-chest-opener",
+   "exercise": "doorway-chest-opener",
+   "name": "Doorway chest opener",
+   "kind": "stretch",
+   "floor": false,
+   "place": "doorway",
+   "muscle": "chest",
+   "measure": "seconds",
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "a {n}-second doorway chest opener",
+   "noun": "chest openers",
+   "cue": "Forearms on the door frame, step forward and lean through until your chest opens.",
+   "howTo": "Stand in a doorway and rest your forearms on the frame at each side, elbows bent at shoulder height. Step one foot forward and lean through gently until you feel a stretch across your chest, keeping your chest lifted.",
+   "tip": "Elbows above your shoulders can pinch; keep them at shoulder height or a hand's width lower."
+  },
+  {
+   "id": "overhead-side-bend",
+   "exercise": "overhead-side-bend",
+   "name": "Overhead side bend",
+   "kind": "stretch",
+   "floor": false,
+   "place": "standing",
+   "muscle": "core",
+   "measure": "seconds",
+   "perSide": true,
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "a side bend, {n} seconds a side",
+   "noun": "side bends",
+   "cue": "Reach one arm up beside your ear and lean the other way in a long curve.",
+   "howTo": "Stand with your feet hip-width apart and reach your right arm straight up beside your ear. Lean your upper body to the left in a long curve, keeping both feet planted, then come back up and switch sides.",
+   "tip": "Tipping forward shortens the stretch; keep your chest square, as if standing between two panes of glass."
+  },
+  {
+   "id": "standing-forward-fold",
+   "exercise": "standing-forward-fold",
+   "name": "Forward fold",
+   "kind": "stretch",
+   "floor": false,
+   "place": "standing",
+   "muscle": "hamstrings",
+   "measure": "seconds",
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "a {n}-second forward fold",
+   "noun": "forward folds",
+   "cue": "Soft knees, hinge forward and hang heavy, then roll up slowly.",
+   "howTo": "Stand with your feet hip-width apart and your knees softly bent. Hinge at your hips and let your upper body hang toward the floor, arms and head heavy, then roll up slowly one segment at a time.",
+   "tip": "Forcing straight legs pulls on your lower back; bend your knees as much as you need."
+  },
+  {
+   "id": "hip-flexor-stretch",
+   "exercise": "hip-flexor-stretch",
+   "name": "Hip flexor stretch",
+   "kind": "stretch",
+   "floor": true,
+   "place": "floor",
+   "muscle": "hips",
+   "measure": "seconds",
+   "perSide": true,
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "a hip flexor stretch, {n} seconds a side",
+   "noun": "hip stretches",
+   "cue": "Kneel on one knee, tuck your tailbone under and feel the front of your hip open.",
+   "howTo": "Kneel on your right knee on a folded towel or mat with your left foot flat in front, both knees at about 90°. Squeeze your bottom and tuck your tailbone under until you feel a stretch at the front of your right hip, then hold and breathe before switching sides.",
+   "tip": "Leaning forward into the front knee loses the stretch; stay upright and tuck your tailbone under instead of going deeper."
+  },
+  {
+   "id": "seated-figure-four",
+   "exercise": "seated-figure-four",
+   "name": "Seated figure-four",
+   "kind": "stretch",
+   "floor": false,
+   "place": "chair",
+   "muscle": "glutes",
+   "measure": "seconds",
+   "perSide": true,
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "a seated figure-four, {n} seconds a side",
+   "noun": "figure-fours",
+   "cue": "Cross one ankle over the other knee and lean forward from your hips.",
+   "howTo": "Sit tall on a sturdy chair with both feet flat and cross your right ankle over your left knee. Keep your back long and lean forward from your hips until you feel a stretch in your right hip, then switch sides.",
+   "tip": "Rounding your back hides the stretch; lead with your chest and lean only as far as your back stays long."
+  },
+  {
+   "id": "seated-twist",
+   "exercise": "seated-twist",
+   "name": "Seated twist",
+   "kind": "stretch",
+   "floor": false,
+   "place": "chair",
+   "muscle": "spine",
+   "measure": "seconds",
+   "perSide": true,
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "a seated twist, {n} seconds a side",
+   "noun": "seated twists",
+   "cue": "Sit tall, breathe in, then turn your chest to one side as you breathe out.",
+   "howTo": "Sit tall on a sturdy chair with both feet flat and hip-width apart. Breathe in to grow tall, then breathe out as you turn your chest to the right, holding the chair back with your right hand, and switch sides.",
+   "tip": "Twisting from your neck alone misses your back; turn your belly button first and let your head follow."
+  },
+  {
+   "id": "wrist-forearm-stretch",
+   "exercise": "wrist-forearm-stretch",
+   "name": "Wrist and forearm stretch",
+   "kind": "stretch",
+   "floor": false,
+   "place": "desk",
+   "muscle": "wrists",
+   "measure": "seconds",
+   "perSide": true,
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "a wrist stretch, {n} seconds a side",
+   "noun": "wrist stretches",
+   "cue": "Arm out, palm up, ease your fingers down and back with your other hand.",
+   "howTo": "Hold your right arm straight out in front at shoulder height with the palm turned up. Use your left hand to ease your right fingers down and back until you feel a stretch along your forearm, then switch arms.",
+   "tip": "Pulling hard on your fingers strains the wrist; ease them back only until you feel a gentle stretch."
+  },
+  {
+   "id": "ankle-circles",
+   "exercise": "ankle-circles",
+   "name": "Ankle circles",
+   "kind": "stretch",
+   "floor": false,
+   "place": "standing",
+   "muscle": "ankles",
+   "measure": "seconds",
+   "perSide": true,
+   "effort": 1,
+   "levels": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+   },
+   "dose": "{n} seconds of ankle circles a side",
+   "noun": "ankle circles",
+   "cue": "Hold a wall, lift one foot and draw slow circles with your toes, both ways.",
+   "howTo": "Stand tall with one hand on a wall or a chair back and lift your right foot just off the floor. Draw slow circles with your toes, ten one way and ten the other, then switch feet.",
+   "tip": "Moving your whole leg turns it into a hip circle; keep your knee still and let only your ankle turn."
+  },
+  {
+   "id": "desk-reset",
+   "exercise": "overhead-side-bend",
+   "name": "Desk reset",
+   "kind": "mini",
+   "floor": false,
+   "place": "standing",
+   "muscle": "shoulders",
+   "measure": "session",
+   "effort": 1,
+   "levels": {
+    "easy": 3,
+    "medium": 3,
+    "hard": 3
+   },
+   "dose": "a {n}-minute desk reset",
+   "noun": "desk resets",
+   "cue": "Stand up from your desk and follow along, one easy stretch at a time.",
+   "routine": "desk_reset_3",
+   "howTo": "Stand with your feet hip-width apart and reach your right arm straight up beside your ear. Lean your upper body to the left in a long curve, keeping both feet planted, then come back up and switch sides.",
+   "tip": "Tipping forward shortens the stretch; keep your chest square, as if standing between two panes of glass."
+  },
+  {
+   "id": "full-body-stretch",
+   "exercise": "standing-forward-fold",
+   "name": "Full-body stretch",
+   "kind": "mini",
+   "floor": false,
+   "place": "standing",
+   "muscle": "full_body",
+   "measure": "session",
+   "effort": 1,
+   "levels": {
+    "easy": 5,
+    "medium": 5,
+    "hard": 5
+   },
+   "dose": "a {n}-minute full-body stretch",
+   "noun": "stretch sessions",
+   "cue": "Follow along from top to toe, one slow stretch at a time.",
+   "routine": "full_body_stretch_5",
+   "howTo": "Stand with your feet hip-width apart and your knees softly bent. Hinge at your hips and let your upper body hang toward the floor, arms and head heavy, then roll up slowly one segment at a time.",
+   "tip": "Forcing straight legs pulls on your lower back; bend your knees as much as you need."
+  },
+  {
+   "id": "eight-brocades-short",
+   "exercise": "brocade-hold-up-the-sky",
+   "name": "Eight Brocades short",
+   "kind": "mini",
+   "floor": false,
+   "place": "standing",
+   "muscle": "spine",
+   "measure": "session",
+   "effort": 1,
+   "levels": {
+    "easy": 5,
+    "medium": 5,
+    "hard": 5
+   },
+   "dose": "{n} minutes of the Eight Brocades",
+   "noun": "brocades",
+   "cue": "Follow eight slow, flowing moves, three breaths each.",
+   "routine": "eight_brocades_short",
+   "howTo": "Stand with your feet hip-width apart and lace your fingers in front of your belly, palms up. Breathe in as you lift your hands up the front of your body, turn your palms to the sky and press them overhead, then breathe out as you float them down.",
+   "tip": "Leaning back to reach higher loads your lower back; keep your ribs down and reach straight up."
+  },
+  {
+   "id": "morning-bounce",
+   "exercise": "morning-bounce",
+   "name": "Morning bounce",
+   "kind": "mini",
+   "floor": false,
+   "place": "standing",
+   "jumping": true,
+   "muscle": "calves",
+   "measure": "session",
+   "effort": 2,
+   "levels": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 2
+   },
+   "dose": "a {n}-minute morning bounce",
+   "noun": "bounces",
+   "cue": "Bounce lightly on the balls of your feet and let your arms hang loose.",
+   "routine": "morning_bounce_2",
+   "howTo": "Stand with your feet hip-width apart, your knees soft and your arms loose. Bounce lightly on the balls of your feet, heels just brushing the floor, and let your arms and shoulders shake loose as you go.",
+   "tip": "This is a bounce, not a jump; keep your feet close to the floor and your landings quiet."
+  }
+ ],
+ "routines": [
+  {
+   "id": "wake_up_5",
+   "title": "Wake-up 5",
+   "minutes": 5,
+   "group": "morning",
+   "position": "bed",
+   "needs": "Nothing needed; fine in bed",
+   "line": "The gentlest start: stretch where you wake, then stand and reach.",
+   "cover": "stand-and-reach",
+   "about": {
+    "origin": "Clara's own gentle sequence of familiar stretches, built to start where you wake up: lying down.",
+    "suits": "Anyone who wants the easiest start, stiff mornings included.",
+    "needs": "Nothing. Start in bed or on the floor and finish standing."
+   },
+   "met": {
+    "code": "02101",
+    "description": "Stretching, mild",
+    "met": 2.3
+   },
+   "steps": [
+    {
+     "exercise": "full-body-reach",
+     "name": "Full-body reach",
+     "cue": "Lie on your back and stretch long, fingertips one way and toes the other.",
+     "breath": "Breathe in as you reach, out as you let go.",
+     "reps": 5,
+     "repSeconds": 8
+    },
+    {
+     "exercise": "knees-to-chest",
+     "name": "Knees to chest",
+     "cue": "Hug both knees in and rock gently from side to side.",
+     "breath": "Slow breaths into your lower back.",
+     "seconds": 45
+    },
+    {
+     "exercise": "lying-twist",
+     "name": "Lying twist",
+     "cue": "Let both knees fall to one side and keep both shoulders down.",
+     "breath": "Breathe out and let your knees sink lower.",
+     "seconds": 30,
+     "perSide": true
+    },
+    {
+     "exercise": "cat-cow",
+     "name": "Cat-cow",
+     "cue": "On all fours, dip your back, then round it up toward the ceiling.",
+     "breath": "In as you dip, out as you round.",
+     "reps": 6,
+     "repSeconds": 8
+    },
+    {
+     "exercise": "childs-pose",
+     "name": "Child's pose",
+     "cue": "Sit your hips back toward your heels and rest your forehead down.",
+     "breath": "Long, slow breaths into your back.",
+     "seconds": 50
+    },
+    {
+     "exercise": "stand-and-reach",
+     "name": "Stand and reach",
+     "cue": "Stand up, sweep your arms overhead and rise onto your toes.",
+     "breath": "In as you reach up, out as you lower.",
+     "reps": 6,
+     "repSeconds": 8
+    }
+   ]
+  },
+  {
+   "id": "eight_brocades",
+   "title": "Eight Brocades",
+   "minutes": 10,
+   "group": "morning",
+   "position": "standing",
+   "needs": "Room to stand with your arms out",
+   "line": "Eight slow standing moves from a Chinese tradition, six breaths each.",
+   "cover": "brocade-hold-up-the-sky",
+   "about": {
+    "origin": "Baduanjin, the Eight Brocades, is a traditional Chinese standing routine of eight slow moves, a form of qigong with a history of more than 1,000 years.",
+    "suits": "Anyone who likes slow, steady movement; it's all standing and at your own pace.",
+    "needs": "Room to stand with your arms out. Nothing else.",
+    "credit": "The moves and their traditional names belong to the Baduanjin tradition; the plain names, cues and pictures are Clara's.",
+    "sources": [
+     {
+      "name": "Zou et al., Evid Based Complement Alternat Med, 2017",
+      "url": "https://doi.org/10.1155/2017/4548706",
+      "supports": "Its introduction describes Baduanjin (the Eight-Section Brocades) as a traditional Chinese qigong exercise with a history of more than 1,000 years."
+     }
+    ],
+    "benefit": {
+     "text": "Trials suggest it can help flexibility, balance and sleep quality; the evidence is modest.",
+     "sources": [
+      {
+       "name": "Zou et al., Evid Based Complement Alternat Med, 2017",
+       "url": "https://doi.org/10.1155/2017/4548706",
+       "supports": "A systematic review and meta-analysis of 19 randomized controlled trials (1,535 people, aged 19 to 75, healthy and with a range of conditions) found Baduanjin practice improved sleep quality, balance and trunk flexibility, among other outcomes; the authors note few studies for any one age group or condition."
+      }
+     ]
+    }
+   },
+   "met": {
+    "code": "15670",
+    "description": "Tai chi, qi gong, general",
+    "met": 3.3
+   },
+   "steps": [
+    {
+     "exercise": "brocade-hold-up-the-sky",
+     "name": "Overhead palm press",
+     "traditional": "Hold up the sky",
+     "cue": "Lace your fingers, lift them up the front of you and press your palms to the sky.",
+     "breath": "In as you press up, out as you float down.",
+     "reps": 6,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-draw-the-bow",
+     "name": "Archer stretch",
+     "traditional": "Draw the bow",
+     "cue": "Sink into a wide stance and draw an imaginary bow, one side, then the other.",
+     "breath": "In as you draw the bow, out as you return.",
+     "reps": 6,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-separate-heaven-earth",
+     "name": "One arm up, one arm down",
+     "traditional": "Separate heaven and earth",
+     "cue": "Press one palm up overhead and the other down by your hip, then switch.",
+     "breath": "In as you press apart, out as you return.",
+     "reps": 6,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-look-back",
+     "name": "Look over your shoulder",
+     "traditional": "The wise owl looks back",
+     "cue": "Turn your head and chest slowly to look behind you, one side, then the other.",
+     "breath": "In as you turn, out as you come back.",
+     "reps": 6,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-sway-head-tail",
+     "name": "Wide-stance sway",
+     "traditional": "Sway the head and tail",
+     "cue": "In a wide stance, lean over one knee and sweep low across to the other side.",
+     "breath": "Out as you sway down, in as you rise.",
+     "reps": 6,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-hold-the-feet",
+     "name": "Fold to your feet",
+     "traditional": "Two hands hold the feet",
+     "cue": "Reach up, fold forward and slide your hands down your legs toward your feet.",
+     "breath": "Out as you fold, in as you rise.",
+     "reps": 6,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-punch",
+     "name": "Slow punches",
+     "traditional": "Punch with a fierce gaze",
+     "cue": "In a wide stance, punch slowly forward, one fist, then the other, eyes along your fist.",
+     "breath": "Out as you punch, in as you pull back.",
+     "reps": 6,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-heel-bounce",
+     "name": "Heel drop",
+     "traditional": "Bounce on the toes",
+     "cue": "Rise onto your toes, then drop your heels lightly and let your body shake loose.",
+     "breath": "In as you rise, out as you drop.",
+     "reps": 6,
+     "repSeconds": 12
+    }
+   ]
+  },
+  {
+   "id": "eight_brocades_short",
+   "title": "Eight Brocades short",
+   "minutes": 5,
+   "group": "morning",
+   "shortOf": "eight_brocades",
+   "position": "standing",
+   "needs": "Room to stand with your arms out",
+   "line": "The same eight moves, three breaths each.",
+   "cover": "brocade-hold-up-the-sky",
+   "about": {
+    "origin": "Baduanjin, the Eight Brocades, is a traditional Chinese standing routine of eight slow moves, a form of qigong with a history of more than 1,000 years.",
+    "suits": "Anyone who likes slow, steady movement; it's all standing and at your own pace.",
+    "needs": "Room to stand with your arms out. Nothing else.",
+    "credit": "The moves and their traditional names belong to the Baduanjin tradition; the plain names, cues and pictures are Clara's.",
+    "sources": [
+     {
+      "name": "Zou et al., Evid Based Complement Alternat Med, 2017",
+      "url": "https://doi.org/10.1155/2017/4548706",
+      "supports": "Its introduction describes Baduanjin (the Eight-Section Brocades) as a traditional Chinese qigong exercise with a history of more than 1,000 years."
+     }
+    ],
+    "benefit": {
+     "text": "Trials suggest it can help flexibility, balance and sleep quality; the evidence is modest.",
+     "sources": [
+      {
+       "name": "Zou et al., Evid Based Complement Alternat Med, 2017",
+       "url": "https://doi.org/10.1155/2017/4548706",
+       "supports": "A systematic review and meta-analysis of 19 randomized controlled trials (1,535 people, aged 19 to 75, healthy and with a range of conditions) found Baduanjin practice improved sleep quality, balance and trunk flexibility, among other outcomes; the authors note few studies for any one age group or condition."
+      }
+     ]
+    }
+   },
+   "met": {
+    "code": "15670",
+    "description": "Tai chi, qi gong, general",
+    "met": 3.3
+   },
+   "steps": [
+    {
+     "exercise": "brocade-hold-up-the-sky",
+     "name": "Overhead palm press",
+     "traditional": "Hold up the sky",
+     "cue": "Lace your fingers, lift them up the front of you and press your palms to the sky.",
+     "breath": "In as you press up, out as you float down.",
+     "reps": 3,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-draw-the-bow",
+     "name": "Archer stretch",
+     "traditional": "Draw the bow",
+     "cue": "Sink into a wide stance and draw an imaginary bow, one side, then the other.",
+     "breath": "In as you draw the bow, out as you return.",
+     "reps": 3,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-separate-heaven-earth",
+     "name": "One arm up, one arm down",
+     "traditional": "Separate heaven and earth",
+     "cue": "Press one palm up overhead and the other down by your hip, then switch.",
+     "breath": "In as you press apart, out as you return.",
+     "reps": 3,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-look-back",
+     "name": "Look over your shoulder",
+     "traditional": "The wise owl looks back",
+     "cue": "Turn your head and chest slowly to look behind you, one side, then the other.",
+     "breath": "In as you turn, out as you come back.",
+     "reps": 3,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-sway-head-tail",
+     "name": "Wide-stance sway",
+     "traditional": "Sway the head and tail",
+     "cue": "In a wide stance, lean over one knee and sweep low across to the other side.",
+     "breath": "Out as you sway down, in as you rise.",
+     "reps": 3,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-hold-the-feet",
+     "name": "Fold to your feet",
+     "traditional": "Two hands hold the feet",
+     "cue": "Reach up, fold forward and slide your hands down your legs toward your feet.",
+     "breath": "Out as you fold, in as you rise.",
+     "reps": 3,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-punch",
+     "name": "Slow punches",
+     "traditional": "Punch with a fierce gaze",
+     "cue": "In a wide stance, punch slowly forward, one fist, then the other, eyes along your fist.",
+     "breath": "Out as you punch, in as you pull back.",
+     "reps": 3,
+     "repSeconds": 12
+    },
+    {
+     "exercise": "brocade-heel-bounce",
+     "name": "Heel drop",
+     "traditional": "Bounce on the toes",
+     "cue": "Rise onto your toes, then drop your heels lightly and let your body shake loose.",
+     "breath": "In as you rise, out as you drop.",
+     "reps": 3,
+     "repSeconds": 12
+    }
+   ]
+  },
+  {
+   "id": "radio_warmup",
+   "title": "Radio warm-up",
+   "minutes": 4,
+   "group": "morning",
+   "position": "standing",
+   "needs": "Room to swing your arms",
+   "line": "A brisk dozen standing moves to get you going.",
+   "cover": "arm-swing-knee-bend",
+   "about": {
+    "origin": "A brisk standing warm-up in the style of Japan's radio calisthenics (rajio taisō), first broadcast in 1928 and still on the radio every morning.",
+    "suits": "Anyone who wants a quick, brisk start; easy to follow, and nothing on the floor.",
+    "needs": "Room to swing your arms. Nothing else.",
+    "credit": "The words, the order and the pictures here are Clara's own; it isn't the broadcast program, and there's no music.",
+    "sources": [
+     {
+      "name": "Nippon.com — Japan's Radio Calisthenics",
+      "url": "https://www.nippon.com/en/articles/-/19505",
+      "supports": "Radio calisthenics first went on air in Japan in 1928 and, apart from a few breaks, has kept its morning slot on NHK radio (6:30 am)."
+     },
+     {
+      "name": "Japan Post Insurance — the history of radio calisthenics (in Japanese)",
+      "url": "https://www.jp-life.japanpost.jp/radio/abt_csr_rdo_history.html",
+      "supports": "The broadcasts began on November 1, 1928, at 7 am from Tokyo; they stopped in 1947 and the current version began in 1951."
+     }
+    ]
+   },
+   "met": {
+    "code": "02022",
+    "description": "Calisthenics (e.g., pushups, sit ups, pull-ups, lunges), moderate effort",
+    "met": 3.8
+   },
+   "steps": [
+    {
+     "exercise": "stand-and-reach",
+     "name": "Reach up",
+     "cue": "Sweep your arms up overhead and rise onto your toes, then lower.",
+     "breath": "In as you reach, out as you lower.",
+     "reps": 4,
+     "repSeconds": 5
+    },
+    {
+     "exercise": "arm-swing-knee-bend",
+     "name": "Swing and bend",
+     "cue": "Swing your arms down and back as your knees dip, then forward and up.",
+     "breath": "Easy breaths in rhythm with the swing.",
+     "reps": 10,
+     "repSeconds": 2
+    },
+    {
+     "exercise": "arm-circles",
+     "name": "Arm circles",
+     "cue": "Arms out at shoulder height, draw circles forward, then backward.",
+     "breath": "Steady breaths; keep your shoulders low.",
+     "seconds": 24
+    },
+    {
+     "exercise": "standing-chest-opener",
+     "name": "Chest opener",
+     "cue": "Arms out in front, then open them wide and lift your chest.",
+     "breath": "In as you open, out as you close.",
+     "reps": 6,
+     "repSeconds": 3
+    },
+    {
+     "exercise": "overhead-side-bend",
+     "name": "Side bends",
+     "cue": "Reach one arm overhead and lean the other way, then switch.",
+     "breath": "Out as you lean, in as you come up.",
+     "reps": 3,
+     "repSeconds": 4,
+     "perSide": true
+    },
+    {
+     "exercise": "standing-twist",
+     "name": "Twists",
+     "cue": "Let your arms swing loose as you turn from side to side.",
+     "breath": "Breathe out on each turn.",
+     "seconds": 24
+    },
+    {
+     "exercise": "forward-back-bend",
+     "name": "Forward and back",
+     "cue": "Fold forward and swing your hands down, then hands on your back and lean back.",
+     "breath": "Out as you fold, in as you lean back.",
+     "reps": 4,
+     "repSeconds": 5
+    },
+    {
+     "exercise": "diagonal-reach",
+     "name": "Diagonal reach",
+     "cue": "Bend and reach one hand to the opposite foot, then rise and reach wide.",
+     "breath": "Out as you reach down, in as you rise.",
+     "reps": 6,
+     "repSeconds": 3
+    },
+    {
+     "exercise": "stand-and-reach",
+     "name": "Reach and rise",
+     "cue": "Arms overhead again, up onto your toes, and down.",
+     "breath": "In as you rise, out as you lower.",
+     "reps": 4,
+     "repSeconds": 5
+    },
+    {
+     "exercise": "small-jumps",
+     "name": "Small jumps",
+     "cue": "Hop lightly in place, a few inches up, landing soft.",
+     "breath": "Quick, easy breaths.",
+     "seconds": 24
+    },
+    {
+     "exercise": "arm-swing-knee-bend",
+     "name": "Swing and bend",
+     "cue": "Back to the easy swing: arms down and back, forward and up.",
+     "breath": "Let your breath settle.",
+     "reps": 8,
+     "repSeconds": 2
+    },
+    {
+     "exercise": "deep-breath",
+     "name": "Deep breaths",
+     "cue": "Raise your arms out and up as you breathe in, and lower them as you breathe out.",
+     "breath": "In through your nose, out through your mouth.",
+     "reps": 3,
+     "repSeconds": 8
+    }
+   ]
+  },
+  {
+   "id": "morning_energizer_7",
+   "title": "Morning energizer 7",
+   "minutes": 7,
+   "group": "morning",
+   "position": "standing",
+   "needs": "A patch of floor for the plank",
+   "line": "Seven brisk minutes to get your pulse up.",
+   "cover": "lunge-with-reach",
+   "about": {
+    "origin": "Clara's own short sequence for mornings when you want your pulse up: a bounce, squats, lunges and a plank.",
+    "suits": "Anyone who likes to feel warm and awake fast; the most work of the four.",
+    "needs": "Room to lunge, and a patch of floor for the plank."
+   },
+   "met": {
+    "code": "02022",
+    "description": "Calisthenics (e.g., pushups, sit ups, pull-ups, lunges), moderate effort",
+    "met": 3.8
+   },
+   "steps": [
+    {
+     "exercise": "morning-bounce",
+     "name": "Morning bounce",
+     "cue": "Bounce lightly on the balls of your feet and let your arms hang loose.",
+     "breath": "Easy breaths; stay light.",
+     "seconds": 90
+    },
+    {
+     "exercise": "bodyweight-squat",
+     "name": "Squats",
+     "cue": "Sit your hips back and down with your chest up, then stand tall.",
+     "breath": "Breathe in on the way down, out as you stand.",
+     "reps": 20,
+     "repSeconds": 3
+    },
+    {
+     "exercise": "arm-circles",
+     "name": "Arm circles",
+     "cue": "Arms out at shoulder height, circle forward, then backward.",
+     "breath": "Steady breaths; shoulders low.",
+     "seconds": 60
+    },
+    {
+     "exercise": "lunge-with-reach",
+     "name": "Lunge with reach",
+     "cue": "Step back into a lunge as both arms reach overhead, then stand.",
+     "breath": "In as you reach, out as you stand.",
+     "reps": 8,
+     "repSeconds": 5,
+     "perSide": true
+    },
+    {
+     "exercise": "plank",
+     "name": "Plank",
+     "cue": "Forearms down and your body long from head to heels, then hold.",
+     "breath": "Slow breaths; don't hold your breath.",
+     "seconds": 45
+    },
+    {
+     "exercise": "standing-forward-fold",
+     "name": "Forward fold",
+     "cue": "Soft knees, hinge forward and hang heavy, then roll up slowly.",
+     "breath": "Long breaths out as you hang.",
+     "seconds": 60
+    }
+   ]
+  },
+  {
+   "id": "desk_reset_3",
+   "title": "Desk reset 3",
+   "minutes": 3,
+   "group": "mini",
+   "position": "standing",
+   "needs": "Nothing; stand up beside your desk",
+   "line": "Six standing stretches for desk days, nothing on the floor.",
+   "cover": "overhead-side-bend",
+   "about": {
+    "origin": "Clara's own three-minute reset for long days at a desk, all of it standing.",
+    "suits": "Desk days, calls and screens; nothing touches the floor.",
+    "needs": "Nothing. Stand up beside your desk."
+   },
+   "met": {
+    "code": "02101",
+    "description": "Stretching, mild",
+    "met": 2.3
+   },
+   "steps": [
+    {
+     "exercise": "neck-stretch",
+     "name": "Neck stretch",
+     "cue": "Tip one ear toward its shoulder and let the other shoulder sink.",
+     "breath": "Slow breaths out to soften.",
+     "seconds": 15,
+     "perSide": true
+    },
+    {
+     "exercise": "shoulder-rolls",
+     "name": "Shoulder rolls",
+     "cue": "Roll your shoulders up, back and down in big, slow circles.",
+     "breath": "In as they lift, out as they drop.",
+     "seconds": 30
+    },
+    {
+     "exercise": "standing-chest-opener",
+     "name": "Chest opener",
+     "cue": "Arms out in front, then open them wide and lift your chest.",
+     "breath": "In as you open, out as you close.",
+     "seconds": 25
+    },
+    {
+     "exercise": "overhead-side-bend",
+     "name": "Side bend",
+     "cue": "Reach one arm overhead and lean the other way in a long curve.",
+     "breath": "Breathe into the long side.",
+     "seconds": 15,
+     "perSide": true
+    },
+    {
+     "exercise": "wrist-forearm-stretch",
+     "name": "Wrist and forearm",
+     "cue": "Arm out, palm up, and ease your fingers down and back with the other hand.",
+     "breath": "Easy breaths.",
+     "seconds": 15,
+     "perSide": true
+    },
+    {
+     "exercise": "standing-twist",
+     "name": "Standing twist",
+     "cue": "Turn side to side and let your arms swing loose around you.",
+     "breath": "Breathe out on each turn.",
+     "seconds": 25
+    }
+   ]
+  },
+  {
+   "id": "full_body_stretch_5",
+   "title": "Full-body stretch 5",
+   "minutes": 5,
+   "group": "mini",
+   "position": "standing",
+   "needs": "A sturdy chair",
+   "line": "Neck to ankles in five minutes, standing and seated.",
+   "cover": "standing-forward-fold",
+   "about": {
+    "origin": "Clara's own five-minute stretch from your neck to your ankles, standing and on a chair.",
+    "suits": "Any time you feel stiff; no floor needed, so it works anywhere there's a chair.",
+    "needs": "A sturdy chair. Nothing else."
+   },
+   "met": {
+    "code": "02101",
+    "description": "Stretching, mild",
+    "met": 2.3
+   },
+   "steps": [
+    {
+     "exercise": "neck-stretch",
+     "name": "Neck stretch",
+     "cue": "Tip one ear toward its shoulder and let the other shoulder sink.",
+     "breath": "Slow breaths out to soften.",
+     "seconds": 20,
+     "perSide": true
+    },
+    {
+     "exercise": "shoulder-rolls",
+     "name": "Shoulder rolls",
+     "cue": "Roll your shoulders up, back and down in big, slow circles.",
+     "breath": "In as they lift, out as they drop.",
+     "seconds": 30
+    },
+    {
+     "exercise": "overhead-side-bend",
+     "name": "Side bend",
+     "cue": "Reach one arm overhead and lean the other way in a long curve.",
+     "breath": "Breathe into the long side.",
+     "seconds": 20,
+     "perSide": true
+    },
+    {
+     "exercise": "standing-forward-fold",
+     "name": "Forward fold",
+     "cue": "Soft knees, hinge forward and hang heavy, then roll up slowly.",
+     "breath": "Long breaths out as you hang.",
+     "seconds": 40
+    },
+    {
+     "exercise": "seated-figure-four",
+     "name": "Seated figure-four",
+     "cue": "Sit down, cross one ankle over the other knee and lean forward with a long back.",
+     "breath": "Breathe out to lean in.",
+     "seconds": 30,
+     "perSide": true
+    },
+    {
+     "exercise": "seated-twist",
+     "name": "Seated twist",
+     "cue": "Sit tall and turn your chest to one side, holding the chair back.",
+     "breath": "Grow tall breathing in, turn breathing out.",
+     "seconds": 25,
+     "perSide": true
+    },
+    {
+     "exercise": "ankle-circles",
+     "name": "Ankle circles",
+     "cue": "Stand holding the chair, lift one foot and draw slow circles with your toes.",
+     "breath": "Easy breaths.",
+     "seconds": 15,
+     "perSide": true
+    }
+   ]
+  },
+  {
+   "id": "morning_bounce_2",
+   "title": "Morning bounce 2",
+   "minutes": 2,
+   "group": "mini",
+   "position": "standing",
+   "needs": "Nothing; a steady floor",
+   "line": "Two minutes of light bouncing to shake off the sleep.",
+   "cover": "morning-bounce",
+   "about": {
+    "origin": "Clara's own two-minute pick-me-up: light bouncing on the balls of your feet, a shake-out and a few deep breaths.",
+    "suits": "Anyone who wants to feel awake fast without anything hard.",
+    "needs": "Nothing. A steady floor, in shoes or bare feet."
+   },
+   "met": {
+    "code": "02024",
+    "description": "Calisthenics (e.g., curl ups, abdominal crunches, plank), light effort",
+    "met": 2.8
+   },
+   "steps": [
+    {
+     "exercise": "morning-bounce",
+     "name": "Morning bounce",
+     "cue": "Bounce lightly on the balls of your feet, heels just brushing the floor.",
+     "breath": "Easy breaths; stay light.",
+     "seconds": 40
+    },
+    {
+     "exercise": "shake-out",
+     "name": "Shake-out",
+     "cue": "Shake out your hands, arms, shoulders and each leg in turn.",
+     "breath": "Breathe out through your mouth.",
+     "seconds": 20
+    },
+    {
+     "exercise": "morning-bounce",
+     "name": "Bounce again",
+     "cue": "Back to the light bounce, arms loose and shoulders soft.",
+     "breath": "Easy breaths; stay light.",
+     "seconds": 40
+    },
+    {
+     "exercise": "deep-breath",
+     "name": "Deep breaths",
+     "cue": "Raise your arms out and up as you breathe in, and lower them as you breathe out.",
+     "breath": "In through your nose, out through your mouth.",
+     "reps": 3,
+     "repSeconds": 7
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "owner-sit-ups",
+   "text": "I challenge you to {n} sit-ups!",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "sit-ups"
+   ]
+  },
+  {
+   "id": "owner-stretch-session",
+   "text": "Let's do a 5-minute stretch session.",
+   "kinds": [
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "full-body-stretch"
+   ]
+  },
+  {
+   "id": "owner-blood-flowing",
+   "text": "Let's stretch and get your blood flowing.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "owner-squats",
+   "text": "Don't sit your day away — time for {n} squats.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "squats"
+   ]
+  },
+  {
+   "id": "tiny-job",
+   "text": "I have a tiny job for you: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "quick-one",
+   "text": "Quick one from me: {dose}, then back to your day.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "ready",
+   "text": "Ready when you are: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "picked",
+   "text": "I picked this one just for you: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "small-win",
+   "text": "Small break, big win: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "time-to-move",
+   "text": "Time to move! I've got {dose} for you.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "surprise",
+   "text": "Here's your surprise: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "tap-done",
+   "text": "I'll keep it short: {dose}, then tap Done.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "your-turn",
+   "text": "Your turn. I've lined up {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "bet",
+   "text": "I bet you can do {dose} right now.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "stand-up",
+   "text": "Up you get. I'd like {dose}, please.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "pop-quiz",
+   "text": "Pop quiz: can you do {dose}? I think you can.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "promise",
+   "text": "This one's quick, I promise: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "cheering",
+   "text": "I'm cheering already. Go on: {dose}.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "count-reps",
+   "text": "Can you do {n} {move}? I'll count with you.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "measure": "reps"
+  },
+  {
+   "id": "hold-it",
+   "text": "Hold {dose} and I'll be impressed.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "plank",
+    "wall-sit"
+   ]
+  },
+  {
+   "id": "stretch-break",
+   "text": "Stretch break! I'd love {dose} from you.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "unfold",
+   "text": "Unfold yourself with me: {dose}.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "long-slow",
+   "text": "Long and slow, please: {dose}.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "settle",
+   "text": "Breathe out and settle into {dose}.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "stretchy",
+   "text": "I'm in a stretchy mood. Join me for {dose}?",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "few-minutes",
+   "text": "Got a few minutes? I made you {dose}.",
+   "kinds": [
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "press-play",
+   "text": "Press play on {dose}. I'll walk you through it.",
+   "kinds": [
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "start-to-finish",
+   "text": "Mini session time: {dose}, start to finish with me.",
+   "kinds": [
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "follow-along",
+   "text": "I've queued up {dose}. Just follow along.",
+   "kinds": [
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ]
+  },
+  {
+   "id": "small-session",
+   "text": "Small session, big stretch: {dose}.",
+   "kinds": [
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "desk-reset",
+    "full-body-stretch",
+    "eight-brocades-short"
+   ]
+  },
+  {
+   "id": "good-morning",
+   "text": "Good morning! I'd like to start with {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning"
+   ]
+  },
+  {
+   "id": "morning-wiggle",
+   "text": "Morning wiggle time: I've got {dose} for you.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning"
+   ]
+  },
+  {
+   "id": "coffee",
+   "text": "Coffee brewing? Squeeze in {dose} while you wait.",
+   "kinds": [
+    "strength",
+    "stretch"
+   ],
+   "parts": [
+    "morning"
+   ]
+  },
+  {
+   "id": "first-thing",
+   "text": "First thing on my list for you this morning: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning"
+   ]
+  },
+  {
+   "id": "rise-shine",
+   "text": "Rise and shine: {dose}, and you're officially awake.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "morning"
+   ]
+  },
+  {
+   "id": "lunch-bonus",
+   "text": "Lunch break bonus round: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "midday"
+   ]
+  },
+  {
+   "id": "before-lunch",
+   "text": "Before lunch, I've got one for you: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "midday"
+   ]
+  },
+  {
+   "id": "midday-check",
+   "text": "Midday check-in from me: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "midday"
+   ]
+  },
+  {
+   "id": "halfway",
+   "text": "Halfway through the day! I'd mark it with {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "midday"
+   ]
+  },
+  {
+   "id": "slump-fix",
+   "text": "Afternoon slump? I've got just the thing: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "afternoon"
+   ]
+  },
+  {
+   "id": "beat-slump",
+   "text": "Let's shake off the slump with {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "afternoon"
+   ]
+  },
+  {
+   "id": "afternoon-perfect",
+   "text": "It's the afternoon, my favorite time for {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "afternoon"
+   ]
+  },
+  {
+   "id": "stretch-oclock",
+   "text": "Afternoon stretch o'clock: {dose}.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "afternoon"
+   ]
+  },
+  {
+   "id": "afternoon-stand",
+   "text": "This afternoon's surprise from me: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "afternoon"
+   ]
+  },
+  {
+   "id": "evening-you",
+   "text": "Evening, you! One more before dinner: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "evening"
+   ]
+  },
+  {
+   "id": "end-of-day",
+   "text": "End of the day? I saved a good one: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "evening"
+   ]
+  },
+  {
+   "id": "wind-down",
+   "text": "Wind down with me tonight: {dose}.",
+   "kinds": [
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "evening"
+   ]
+  },
+  {
+   "id": "before-dinner",
+   "text": "Before dinner, I'd love {dose} from you.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "evening"
+   ]
+  },
+  {
+   "id": "last-call",
+   "text": "My last idea this evening: {dose}.",
+   "kinds": [
+    "strength",
+    "stretch",
+    "mini"
+   ],
+   "parts": [
+    "evening"
+   ]
+  },
+  {
+   "id": "squats-stop",
+   "text": "{n} squats, and I'll stop bugging you. For now.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "squats"
+   ]
+  },
+  {
+   "id": "up-down",
+   "text": "Up, down, repeat: {dose}.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "squats",
+    "chair-squats"
+   ]
+  },
+  {
+   "id": "chair-gym",
+   "text": "Your chair is now gym equipment: {dose}.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "chair-squats"
+   ]
+  },
+  {
+   "id": "drop-give",
+   "text": "Drop and give me {n} push-ups. Nicely, of course.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "push-ups"
+   ]
+  },
+  {
+   "id": "push-floor",
+   "text": "Push the floor away {n} times. I'm counting.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "push-ups"
+   ]
+  },
+  {
+   "id": "desk-bar",
+   "text": "Your desk makes a great push-up bar: {dose}.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "desk-push-ups"
+   ]
+  },
+  {
+   "id": "plank-count",
+   "text": "Hold a {n}-second plank with me. I'll count, you breathe.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "plank"
+   ]
+  },
+  {
+   "id": "wall-fancy",
+   "text": "Find a wall and sit on nothing for {n} seconds. Very fancy.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "wall-sit"
+   ]
+  },
+  {
+   "id": "star",
+   "text": "Be a star for a minute: {dose}.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "jumping-jacks"
+   ]
+  },
+  {
+   "id": "tiptoes",
+   "text": "Up on your toes: {dose}, nice and slow.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "calf-raises"
+   ]
+  },
+  {
+   "id": "step-back",
+   "text": "Step back, sink, stand: {dose}.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "lunges"
+   ]
+  },
+  {
+   "id": "lying-counts",
+   "text": "Lie back and lift: {dose}. Yes, lying down counts.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "glute-bridges"
+   ]
+  },
+  {
+   "id": "knees-up",
+   "text": "Knees up! {dose}, as quick as feels good.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "high-knees"
+   ]
+  },
+  {
+   "id": "parade",
+   "text": "I'd like you to march in place for {n} seconds. A parade of one.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "standing-march"
+   ]
+  },
+  {
+   "id": "reach-balance",
+   "text": "Reach and balance: {dose}. Slow is the trick.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "bird-dogs"
+   ]
+  },
+  {
+   "id": "superhero",
+   "text": "Fly like a superhero for a moment: {dose}.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "supermans"
+   ]
+  },
+  {
+   "id": "curl-up",
+   "text": "Curl up, roll down: {dose}. I'll wait.",
+   "kinds": [
+    "strength"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "sit-ups"
+   ]
+  },
+  {
+   "id": "neck-all-day",
+   "text": "Your neck holds your head up all day. Give it {dose}.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "neck-stretch"
+   ]
+  },
+  {
+   "id": "typing-hands",
+   "text": "Typing hands deserve a break: {dose}.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "wrist-forearm-stretch"
+   ]
+  },
+  {
+   "id": "ankles-moment",
+   "text": "Ankles, this is your moment: {dose}.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "ankle-circles"
+   ]
+  },
+  {
+   "id": "doorway",
+   "text": "Find a doorway. I've got {dose} waiting in it.",
+   "kinds": [
+    "stretch"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "doorway-chest-opener"
+   ]
+  },
+  {
+   "id": "brocades",
+   "text": "Slow and steady, with me: {dose}.",
+   "kinds": [
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "eight-brocades-short"
+   ]
+  },
+  {
+   "id": "bounce",
+   "text": "Light feet, loose arms: {dose}.",
+   "kinds": [
+    "mini"
+   ],
+   "parts": [
+    "morning",
+    "midday",
+    "afternoon",
+    "evening"
+   ],
+   "moves": [
+    "morning-bounce"
+   ]
+  }
+ ]
+}
