@@ -1,6 +1,6 @@
 {
-  "version": 11,
-  "builtAt": "2026-11-13T20:02:59.220Z",
+  "version": 18,
+  "builtAt": "2026-11-25T00:44:16.606Z",
   "minAppBuild": 9,
   "schemaVersion": 1,
   "cards": {
@@ -43,6 +43,34 @@
     "workout.sports": {
       "file": "workout-sports.jpg",
       "sha256": "a6d40ee5b78f58c0567bdca029300250a151d9f06fea478eaae4fd5965c67f0a"
+    },
+    "training.challenges": {
+      "file": "training-challenges.jpg",
+      "sha256": "13dc95c07c3e8c78791e1ba2b7d17f1c5777f5e14bb3251e471985d47dc051fc"
+    },
+    "training.morning": {
+      "file": "training-morning.jpg",
+      "sha256": "db6e4db76d781d1dc718c79644544a111891a12e207679287bf950fd32652296"
+    },
+    "training.start.build": {
+      "file": "training-start-build.jpg",
+      "sha256": "e54094ef617a79775f7dc9722e8a3bee499095f7d0f7aaaf05e33fa99d0b0aa3"
+    },
+    "training.start.clara": {
+      "file": "training-start-clara.jpg",
+      "sha256": "58a3e63be7444181a61b7677fddb2e1b7ee29f281b71c22055af904302948c49"
+    },
+    "training.start.mine": {
+      "file": "training-start-mine.jpg",
+      "sha256": "69273d5eac0b3d80a23e01644bdb8d3b2a33cacc5a9ecb729bd8de4c07b9fff8"
+    },
+    "training.build.gym": {
+      "file": "training-build-gym.jpg",
+      "sha256": "5ddcc807dc0cffe9877f5a82873b1191b941f461fba81b88fa90cc2f964eeca5"
+    },
+    "training.build.home": {
+      "file": "training-build-home.jpg",
+      "sha256": "7a473a18f505274f32d1b4265a6dc7ea5091fcaa0df18d557b3b1df165196f2a"
     }
   }
 }
