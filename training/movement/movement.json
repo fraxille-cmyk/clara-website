@@ -1,7 +1,7 @@
 {
  "format": 1,
  "schemaVersion": 1,
- "version": 3,
+ "version": 4,
  "safety": "Move gently and stop if anything hurts. If you're pregnant, injured or managing a condition, ask your doctor first.",
  "moves": [
   {
@@ -703,14 +703,16 @@
      "cue": "Lie on your back and stretch long, fingertips one way and toes the other.",
      "breath": "Breathe in as you reach, out as you let go.",
      "reps": 5,
-     "repSeconds": 8
+     "repSeconds": 8,
+     "place": "floor"
     },
     {
      "exercise": "knees-to-chest",
      "name": "Knees to chest",
      "cue": "Hug both knees in and rock gently from side to side.",
      "breath": "Slow breaths into your lower back.",
-     "seconds": 45
+     "seconds": 45,
+     "place": "floor"
     },
     {
      "exercise": "lying-twist",
@@ -718,7 +720,8 @@
      "cue": "Let both knees fall to one side and keep both shoulders down.",
      "breath": "Breathe out and let your knees sink lower.",
      "seconds": 30,
-     "perSide": true
+     "perSide": true,
+     "place": "floor"
     },
     {
      "exercise": "cat-cow",
@@ -726,14 +729,16 @@
      "cue": "On all fours, dip your back, then round it up toward the ceiling.",
      "breath": "In as you dip, out as you round.",
      "reps": 6,
-     "repSeconds": 8
+     "repSeconds": 8,
+     "place": "floor"
     },
     {
      "exercise": "childs-pose",
      "name": "Child's pose",
      "cue": "Sit your hips back toward your heels and rest your forehead down.",
      "breath": "Long, slow breaths into your back.",
-     "seconds": 50
+     "seconds": 50,
+     "place": "floor"
     },
     {
      "exercise": "stand-and-reach",
@@ -741,7 +746,8 @@
      "cue": "Stand up, sweep your arms overhead and rise onto your toes.",
      "breath": "In as you reach up, out as you lower.",
      "reps": 6,
-     "repSeconds": 8
+     "repSeconds": 8,
+     "place": "standing"
     }
    ]
   },
@@ -790,7 +796,8 @@
      "cue": "Lace your fingers, lift them up the front of you and press your palms to the sky.",
      "breath": "In as you press up, out as you float down.",
      "reps": 6,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-draw-the-bow",
@@ -799,7 +806,8 @@
      "cue": "Sink into a wide stance and draw an imaginary bow, one side, then the other.",
      "breath": "In as you draw the bow, out as you return.",
      "reps": 6,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-separate-heaven-earth",
@@ -808,7 +816,8 @@
      "cue": "Press one palm up overhead and the other down by your hip, then switch.",
      "breath": "In as you press apart, out as you return.",
      "reps": 6,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-look-back",
@@ -817,7 +826,8 @@
      "cue": "Turn your head and chest slowly to look behind you, one side, then the other.",
      "breath": "In as you turn, out as you come back.",
      "reps": 6,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-sway-head-tail",
@@ -826,7 +836,8 @@
      "cue": "In a wide stance, lean over one knee and sweep low across to the other side.",
      "breath": "Out as you sway down, in as you rise.",
      "reps": 6,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-hold-the-feet",
@@ -835,7 +846,8 @@
      "cue": "Reach up, fold forward and slide your hands down your legs toward your feet.",
      "breath": "Out as you fold, in as you rise.",
      "reps": 6,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-punch",
@@ -844,7 +856,8 @@
      "cue": "In a wide stance, punch slowly forward, one fist, then the other, eyes along your fist.",
      "breath": "Out as you punch, in as you pull back.",
      "reps": 6,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-heel-bounce",
@@ -853,7 +866,8 @@
      "cue": "Rise onto your toes, then drop your heels lightly and let your body shake loose.",
      "breath": "In as you rise, out as you drop.",
      "reps": 6,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     }
    ]
   },
@@ -903,7 +917,8 @@
      "cue": "Lace your fingers, lift them up the front of you and press your palms to the sky.",
      "breath": "In as you press up, out as you float down.",
      "reps": 3,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-draw-the-bow",
@@ -912,7 +927,8 @@
      "cue": "Sink into a wide stance and draw an imaginary bow, one side, then the other.",
      "breath": "In as you draw the bow, out as you return.",
      "reps": 3,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-separate-heaven-earth",
@@ -921,7 +937,8 @@
      "cue": "Press one palm up overhead and the other down by your hip, then switch.",
      "breath": "In as you press apart, out as you return.",
      "reps": 3,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-look-back",
@@ -930,7 +947,8 @@
      "cue": "Turn your head and chest slowly to look behind you, one side, then the other.",
      "breath": "In as you turn, out as you come back.",
      "reps": 3,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-sway-head-tail",
@@ -939,7 +957,8 @@
      "cue": "In a wide stance, lean over one knee and sweep low across to the other side.",
      "breath": "Out as you sway down, in as you rise.",
      "reps": 3,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-hold-the-feet",
@@ -948,7 +967,8 @@
      "cue": "Reach up, fold forward and slide your hands down your legs toward your feet.",
      "breath": "Out as you fold, in as you rise.",
      "reps": 3,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-punch",
@@ -957,7 +977,8 @@
      "cue": "In a wide stance, punch slowly forward, one fist, then the other, eyes along your fist.",
      "breath": "Out as you punch, in as you pull back.",
      "reps": 3,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     },
     {
      "exercise": "brocade-heel-bounce",
@@ -966,7 +987,8 @@
      "cue": "Rise onto your toes, then drop your heels lightly and let your body shake loose.",
      "breath": "In as you rise, out as you drop.",
      "reps": 3,
-     "repSeconds": 12
+     "repSeconds": 12,
+     "place": "standing"
     }
    ]
   },
@@ -1009,7 +1031,8 @@
      "cue": "Sweep your arms up overhead and rise onto your toes, then lower.",
      "breath": "In as you reach, out as you lower.",
      "reps": 4,
-     "repSeconds": 5
+     "repSeconds": 5,
+     "place": "standing"
     },
     {
      "exercise": "arm-swing-knee-bend",
@@ -1017,14 +1040,16 @@
      "cue": "Swing your arms down and back as your knees dip, then forward and up.",
      "breath": "Easy breaths in rhythm with the swing.",
      "reps": 10,
-     "repSeconds": 2
+     "repSeconds": 2,
+     "place": "standing"
     },
     {
      "exercise": "arm-circles",
      "name": "Arm circles",
      "cue": "Arms out at shoulder height, draw circles forward, then backward.",
      "breath": "Steady breaths; keep your shoulders low.",
-     "seconds": 24
+     "seconds": 24,
+     "place": "standing"
     },
     {
      "exercise": "standing-chest-opener",
@@ -1032,7 +1057,8 @@
      "cue": "Arms out in front, then open them wide and lift your chest.",
      "breath": "In as you open, out as you close.",
      "reps": 6,
-     "repSeconds": 3
+     "repSeconds": 3,
+     "place": "standing"
     },
     {
      "exercise": "overhead-side-bend",
@@ -1041,14 +1067,16 @@
      "breath": "Out as you lean, in as you come up.",
      "reps": 3,
      "repSeconds": 4,
-     "perSide": true
+     "perSide": true,
+     "place": "standing"
     },
     {
      "exercise": "standing-twist",
      "name": "Twists",
      "cue": "Let your arms swing loose as you turn from side to side.",
      "breath": "Breathe out on each turn.",
-     "seconds": 24
+     "seconds": 24,
+     "place": "standing"
     },
     {
      "exercise": "forward-back-bend",
@@ -1056,7 +1084,8 @@
      "cue": "Fold forward and swing your hands down, then hands on your back and lean back.",
      "breath": "Out as you fold, in as you lean back.",
      "reps": 4,
-     "repSeconds": 5
+     "repSeconds": 5,
+     "place": "standing"
     },
     {
      "exercise": "diagonal-reach",
@@ -1064,7 +1093,8 @@
      "cue": "Bend and reach one hand to the opposite foot, then rise and reach wide.",
      "breath": "Out as you reach down, in as you rise.",
      "reps": 6,
-     "repSeconds": 3
+     "repSeconds": 3,
+     "place": "standing"
     },
     {
      "exercise": "stand-and-reach",
@@ -1072,14 +1102,16 @@
      "cue": "Arms overhead again, up onto your toes, and down.",
      "breath": "In as you rise, out as you lower.",
      "reps": 4,
-     "repSeconds": 5
+     "repSeconds": 5,
+     "place": "standing"
     },
     {
      "exercise": "small-jumps",
      "name": "Small jumps",
      "cue": "Hop lightly in place, a few inches up, landing soft.",
      "breath": "Quick, easy breaths.",
-     "seconds": 24
+     "seconds": 24,
+     "place": "standing"
     },
     {
      "exercise": "arm-swing-knee-bend",
@@ -1087,7 +1119,8 @@
      "cue": "Back to the easy swing: arms down and back, forward and up.",
      "breath": "Let your breath settle.",
      "reps": 8,
-     "repSeconds": 2
+     "repSeconds": 2,
+     "place": "standing"
     },
     {
      "exercise": "deep-breath",
@@ -1095,7 +1128,8 @@
      "cue": "Raise your arms out and up as you breathe in, and lower them as you breathe out.",
      "breath": "In through your nose, out through your mouth.",
      "reps": 3,
-     "repSeconds": 8
+     "repSeconds": 8,
+     "place": "standing"
     }
    ]
   },
@@ -1124,7 +1158,8 @@
      "name": "Morning bounce",
      "cue": "Bounce lightly on the balls of your feet and let your arms hang loose.",
      "breath": "Easy breaths; stay light.",
-     "seconds": 90
+     "seconds": 90,
+     "place": "standing"
     },
     {
      "exercise": "bodyweight-squat",
@@ -1132,14 +1167,16 @@
      "cue": "Sit your hips back and down with your chest up, then stand tall.",
      "breath": "Breathe in on the way down, out as you stand.",
      "reps": 20,
-     "repSeconds": 3
+     "repSeconds": 3,
+     "place": "standing"
     },
     {
      "exercise": "arm-circles",
      "name": "Arm circles",
      "cue": "Arms out at shoulder height, circle forward, then backward.",
      "breath": "Steady breaths; shoulders low.",
-     "seconds": 60
+     "seconds": 60,
+     "place": "standing"
     },
     {
      "exercise": "lunge-with-reach",
@@ -1148,21 +1185,24 @@
      "breath": "In as you reach, out as you stand.",
      "reps": 8,
      "repSeconds": 5,
-     "perSide": true
+     "perSide": true,
+     "place": "standing"
     },
     {
      "exercise": "plank",
      "name": "Plank",
      "cue": "Forearms down and your body long from head to heels, then hold.",
      "breath": "Slow breaths; don't hold your breath.",
-     "seconds": 45
+     "seconds": 45,
+     "place": "floor"
     },
     {
      "exercise": "standing-forward-fold",
      "name": "Forward fold",
      "cue": "Soft knees, hinge forward and hang heavy, then roll up slowly.",
      "breath": "Long breaths out as you hang.",
-     "seconds": 60
+     "seconds": 60,
+     "place": "standing"
     }
    ]
   },
@@ -1192,21 +1232,24 @@
      "cue": "Tip one ear toward its shoulder and let the other shoulder sink.",
      "breath": "Slow breaths out to soften.",
      "seconds": 15,
-     "perSide": true
+     "perSide": true,
+     "place": "sit-or-stand"
     },
     {
      "exercise": "shoulder-rolls",
      "name": "Shoulder rolls",
      "cue": "Roll your shoulders up, back and down in big, slow circles.",
      "breath": "In as they lift, out as they drop.",
-     "seconds": 30
+     "seconds": 30,
+     "place": "sit-or-stand"
     },
     {
      "exercise": "standing-chest-opener",
      "name": "Chest opener",
      "cue": "Arms out in front, then open them wide and lift your chest.",
      "breath": "In as you open, out as you close.",
-     "seconds": 25
+     "seconds": 25,
+     "place": "sit-or-stand"
     },
     {
      "exercise": "overhead-side-bend",
@@ -1214,7 +1257,8 @@
      "cue": "Reach one arm overhead and lean the other way in a long curve.",
      "breath": "Breathe into the long side.",
      "seconds": 15,
-     "perSide": true
+     "perSide": true,
+     "place": "standing"
     },
     {
      "exercise": "wrist-forearm-stretch",
@@ -1222,14 +1266,16 @@
      "cue": "Arm out, palm up, and ease your fingers down and back with the other hand.",
      "breath": "Easy breaths.",
      "seconds": 15,
-     "perSide": true
+     "perSide": true,
+     "place": "sit-or-stand"
     },
     {
      "exercise": "standing-twist",
      "name": "Standing twist",
      "cue": "Turn side to side and let your arms swing loose around you.",
      "breath": "Breathe out on each turn.",
-     "seconds": 25
+     "seconds": 25,
+     "place": "standing"
     }
    ]
   },
@@ -1259,14 +1305,16 @@
      "cue": "Tip one ear toward its shoulder and let the other shoulder sink.",
      "breath": "Slow breaths out to soften.",
      "seconds": 20,
-     "perSide": true
+     "perSide": true,
+     "place": "sit-or-stand"
     },
     {
      "exercise": "shoulder-rolls",
      "name": "Shoulder rolls",
      "cue": "Roll your shoulders up, back and down in big, slow circles.",
      "breath": "In as they lift, out as they drop.",
-     "seconds": 30
+     "seconds": 30,
+     "place": "sit-or-stand"
     },
     {
      "exercise": "overhead-side-bend",
@@ -1274,14 +1322,16 @@
      "cue": "Reach one arm overhead and lean the other way in a long curve.",
      "breath": "Breathe into the long side.",
      "seconds": 20,
-     "perSide": true
+     "perSide": true,
+     "place": "standing"
     },
     {
      "exercise": "standing-forward-fold",
      "name": "Forward fold",
      "cue": "Soft knees, hinge forward and hang heavy, then roll up slowly.",
      "breath": "Long breaths out as you hang.",
-     "seconds": 40
+     "seconds": 40,
+     "place": "standing"
     },
     {
      "exercise": "seated-figure-four",
@@ -1289,7 +1339,8 @@
      "cue": "Sit down, cross one ankle over the other knee and lean forward with a long back.",
      "breath": "Breathe out to lean in.",
      "seconds": 30,
-     "perSide": true
+     "perSide": true,
+     "place": "chair"
     },
     {
      "exercise": "seated-twist",
@@ -1297,7 +1348,8 @@
      "cue": "Sit tall and turn your chest to one side, holding the chair back.",
      "breath": "Grow tall breathing in, turn breathing out.",
      "seconds": 25,
-     "perSide": true
+     "perSide": true,
+     "place": "chair"
     },
     {
      "exercise": "ankle-circles",
@@ -1305,7 +1357,8 @@
      "cue": "Stand holding the chair, lift one foot and draw slow circles with your toes.",
      "breath": "Easy breaths.",
      "seconds": 15,
-     "perSide": true
+     "perSide": true,
+     "place": "standing"
     }
    ]
   },
@@ -1334,21 +1387,24 @@
      "name": "Morning bounce",
      "cue": "Bounce lightly on the balls of your feet, heels just brushing the floor.",
      "breath": "Easy breaths; stay light.",
-     "seconds": 40
+     "seconds": 40,
+     "place": "standing"
     },
     {
      "exercise": "shake-out",
      "name": "Shake-out",
      "cue": "Shake out your hands, arms, shoulders and each leg in turn.",
      "breath": "Breathe out through your mouth.",
-     "seconds": 20
+     "seconds": 20,
+     "place": "standing"
     },
     {
      "exercise": "morning-bounce",
      "name": "Bounce again",
      "cue": "Back to the light bounce, arms loose and shoulders soft.",
      "breath": "Easy breaths; stay light.",
-     "seconds": 40
+     "seconds": 40,
+     "place": "standing"
     },
     {
      "exercise": "deep-breath",
@@ -1356,7 +1412,8 @@
      "cue": "Raise your arms out and up as you breathe in, and lower them as you breathe out.",
      "breath": "In through your nose, out through your mouth.",
      "reps": 3,
-     "repSeconds": 7
+     "repSeconds": 7,
+     "place": "standing"
     }
    ]
   }
